@@ -1,18 +1,9 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-
-export default function Menu({menuitems}) {
-   
-  return (
-    <div>
-    <ul>
-    {menuitems.map((menu)=>{
-        return <li key={menu.Name}>{menu.Name}</li>
-    })}
+{/* <li className="dropend">
+<a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#" >New menu</a>
+    <ul className="dropdown-menu">
+           <li><a href="" className="dropdown-item">item1</a></li>
+           <li><a href="" className="dropdown-item">item2</a></li>
+           <li><a href="" className="dropdown-item">item3</a></li>
+           <li><a href="" className="dropdown-item">item4</a></li>
     </ul>
-    </div>
-  )
-}
+</li> */}
