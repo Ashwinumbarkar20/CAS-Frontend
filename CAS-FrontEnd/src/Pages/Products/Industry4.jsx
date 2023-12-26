@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Productsupport() {
+export default function Industry4() {
   return (
     <div>
-      <p>Hello</p>
+      in Industry4
     </div>
   )
 }

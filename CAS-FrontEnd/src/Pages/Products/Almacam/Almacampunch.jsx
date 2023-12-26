@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Productsupport() {
+export default function Almacampunch() {
   return (
     <div>
-      <p>Hello</p>
+      Almacampunch
     </div>
   )
 }

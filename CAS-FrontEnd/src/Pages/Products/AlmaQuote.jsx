@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Productsupport() {
+export default function AlmaQuote() {
   return (
     <div>
-      <p>Hello</p>
+     <p>in Almaquote</p>
     </div>
   )
 }
