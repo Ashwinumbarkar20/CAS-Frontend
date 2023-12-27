@@ -6,7 +6,7 @@ import Logo from "../Logo/Logo";
 
 export default function Nav() {
   return (
-    <Navmaindiv className="container-fluid m-0 p-0">
+    <Navmaindiv className="container-fluid m-0 p-0 fixed-top">
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid  ">
           <NavLink className="  navbar-brand" to="/">
