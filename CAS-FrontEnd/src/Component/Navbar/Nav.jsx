@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import products from "../../Data/Products.json";
 import Logo from "../Logo/Logo";
 
 export default function Nav() {
   return (
-    <Navmaindiv className="container-fluid p-0 fixed-top">
+    <Navmaindiv className="container-fluid p-0 Position-sticky">
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
-        <div className="container-fluid  ">
-          <NavLink className="  navbar-brand" to="/">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
            <Logo/>
-          </NavLink>
+          </Link>
           <button 
             className="navbar-toggler  "
             type="button"
@@ -26,17 +26,16 @@ export default function Nav() {
 
           <div className="collapse navbar-collapse " id="navbarSupportedContent">
           
-            <ul className="  mainmenu navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="mainmenu navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item"><NavLink className="nav-link  " to="/">Home</NavLink></li>
 
               <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle" 
-              to="#"
+              <a className="nav-link dropdown-toggle" 
               role="button"
               data-bs-auto-close="outside"
               data-bs-toggle="dropdown"
               aria-expanded="false">
-              Products</NavLink>
+              Products</a>
               <ul className="dropdown-menu">
                 <li><NavLink className="dropdown-item" to="/AlmaQuote">AlmaQuote</NavLink></li>
                 <li><NavLink className="dropdown-item" to="/Almacamtube">Almacam Tube</NavLink></li>
@@ -66,8 +65,8 @@ export default function Nav() {
               <li className="dropend">
               <NavLink className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" to="//Technology">Tubes and profile cutting</NavLink>
               <ul className="dropdown-menu">
-                               <li><NavLink to="" className="dropdown-item">3D cutting</NavLink></li>
-                               <li><NavLink to="" className="dropdown-item">Robotic welding </NavLink></li>
+                               <li><NavLink to="#" className="dropdown-item">3D cutting</NavLink></li>
+                               <li><NavLink to="#" className="dropdown-item">Robotic welding </NavLink></li>
                               
                         </ul></li>
               <li className="dropend"><a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sheetmetal working</a>
@@ -123,14 +122,36 @@ export default function Nav() {
   );
 }
 const Navmaindiv = styled.div`
-
 nav{
-  margin:0px;
   padding:0px;
-}
-*{
   background-color:var(--primary);
-  color:var(--text-color);
+  .container-fluid{
+    background-color:var(--primary);
+    .navbar-brand{
+      background-color:var(--primary);
+    }
+    .collapse{
+      background-color:var(--primary);
+      .mainmenu{
+li{
+  background-color:var(--primary);
+  .active{
+    border:1px solid var(--text-color);
+    border-radius:35px;
+      
+      
+    }
+  .nav-link{
+    color:var(--text-color);
+    
+  }
   
 }
+      }
+    }
+  }
+}
+
+
+
 `;

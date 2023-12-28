@@ -3,6 +3,7 @@ import'./App.css'
 import { Routes,Route } from 'react-router-dom'
 import Nav from './Component/Navbar/Nav'
 import Home from './Pages/Home'
+import Products from './Pages/Products'
 import AmlaQuote from './Pages/Products/AlmaQuote'
 import Services from './Pages/Services'
 import Technology from './Pages/Technology'
@@ -17,9 +18,6 @@ import Almacampunch from './Pages/Products/Almacam/Almacampunch'
 import Almacamcombi from './Pages/Products/Almacam/Almacamcombi'
 import Almacamrouting from './Pages/Products/Almacam/Almacamrouting'
 import Footer from './Component/Footer'
-
-
-
 function App() {
   return (
     <>
@@ -38,6 +36,7 @@ function App() {
       <Route path="/Almacamcut" element={<Almacamcut/>}></Route>
       <Route path="/Almacampunch" element={<Almacampunch/>}></Route>
       <Route path="/Almacamcombi" element={<Almacamcombi/>}></Route>
+      <Route path='/Products' element={<Products/>}></Route>
       <Route path="/Almacamrouting" element={<Almacamrouting/>}></Route>
     </Routes>
      <Footer/>
