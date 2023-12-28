@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { NavLink,Link } from "react-router-dom";
 import products from "../../Data/Products.json";
 import Logo from "../Logo/Logo";
+import ProductMenu from "./ProductMenu";
 
 export default function Nav() {
   return (
@@ -26,33 +27,39 @@ export default function Nav() {
 
           <div className="collapse navbar-collapse " id="navbarSupportedContent">
           
-            <ul className="mainmenu navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="mainmenu navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item"><NavLink className="nav-link  " to="/">Home</NavLink></li>
+            
+               <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <div className="dropdown-menu">
+          <ul > 
+          <li>Almacam</li>
+          <li>Almacam cut</li>
+          <li>Almacam Punch</li>
+          <li>Almacam Combi</li>
+          <li>Almacam Routing</li>
+      </ul>
 
-              <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" 
-              role="button"
-              data-bs-auto-close="outside"
-              data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Products</a>
-              <ul className="dropdown-menu">
-                <li><NavLink className="dropdown-item" to="/AlmaQuote">AlmaQuote</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/Almacamtube">Almacam Tube</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/Almacamspacecut">Almacam space cut</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/Almacamweld">Almacam weld</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/industry4">Almacam for industry 4.0</NavLink></li>
-                <li className="dropend">
-                        <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Almacam</a>
-                        <ul className="dropdown-menu">
-                               <li><NavLink to="/Almacamcut" className="dropdown-item">Almacam cut</NavLink></li>
-                               <li><NavLink to="/Almacampunch" className="dropdown-item">Almacam punch</NavLink></li>
-                               <li><NavLink to="/Almacamcombi" className="dropdown-item">Almacam combi</NavLink></li>
-                               <li><NavLink to="/Almacamrouting" className="dropdown-item">Almacam routing</NavLink></li>
-                        </ul>
-                </li>
-                </ul>
-              </li>
+    <ul>
+    <li>Others</li>
+        <li>AlmaQuote</li>
+        <li>Almacam Tube</li>
+        <li>Almacam space cut</li>
+        <li>Almacam weld</li>
+    </ul>
+
+    <ul>
+        <li>Almacam for industry 4.0</li>
+        <li>Workshop and plnner module</li>
+        <li>ERP or production management system integration</li>
+    </ul>
+
+          </div>
+        </li>
+              
 
               <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" 
@@ -132,26 +139,30 @@ nav{
     }
     .collapse{
       background-color:var(--primary);
-      .mainmenu{
-li{
-  background-color:var(--primary);
-  .active{
-    border:1px solid var(--text-color);
-    border-radius:35px;
-      
-      
-    }
-  .nav-link{
-    color:var(--text-color);
-    
+          }
   }
+}
+.dropdown-menu ul{
+  width:auto;
+  list-style:none;
+  padding:2px;
+   
+}
+.dropdown-menu ul li{
+  background-color:#fff;
+}
+.dropdown-menu.show{
+  display:flex;
+  gap:18px;
+  width:700px;
   
 }
-      }
-    }
-  }
+.dropdown-menu li:first-child {
+ font-weight:bold;
+ font-size:20px;
+ padding:5px;
+ width:auto;
+ border-bottom: 4px double black ;
+ margin-bottom: 5px;
 }
-
-
-
 `;
