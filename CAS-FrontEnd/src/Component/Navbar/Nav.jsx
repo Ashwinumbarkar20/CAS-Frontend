@@ -6,7 +6,7 @@ import Logo from "../Logo/Logo";
 
 export default function Nav() {
   return (
-    <Navmaindiv className="container-fluid m-0 p-0 fixed-top">
+    <Navmaindiv className="container-fluid p-0 fixed-top">
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid  ">
           <NavLink className="  navbar-brand" to="/">
@@ -124,4 +124,13 @@ export default function Nav() {
 }
 const Navmaindiv = styled.div`
 
+nav{
+  margin:0px;
+  padding:0px;
+}
+*{
+  background-color:var(--primary);
+  color:var(--text-color);
+  
+}
 `;

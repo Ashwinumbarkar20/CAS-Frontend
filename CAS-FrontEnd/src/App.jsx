@@ -16,6 +16,7 @@ import Almacamcut from './Pages/Products/Almacam/Almacamcut'
 import Almacampunch from './Pages/Products/Almacam/Almacampunch'
 import Almacamcombi from './Pages/Products/Almacam/Almacamcombi'
 import Almacamrouting from './Pages/Products/Almacam/Almacamrouting'
+import Footer from './Component/Footer'
 
 
 
@@ -39,7 +40,7 @@ function App() {
       <Route path="/Almacamcombi" element={<Almacamcombi/>}></Route>
       <Route path="/Almacamrouting" element={<Almacamrouting/>}></Route>
     </Routes>
-     
+     <Footer/>
     </>
   )
 }
