@@ -1,0 +1,38 @@
+[
+    {"Name":"Sheet metal cutting",
+    "Desc":"Cutting by fluid jet, punching, routing, etc. Programming of sheet metal working machines is our core business when it comes to CAD/CAM software.",
+    "imgurl":"urltext"
+    },
+    {
+    "Name":"costing and estimation",
+    "Desc":"Swiftly respond to quotation requests with our automated solution, generating accurate price calculations for basic to complex scenarios, optimizing efficiency",
+    "imgurl":"urltext"
+    },
+    
+    {
+    "Name":"Nesting solution on Cloud",
+    "Desc":"We are fully invested in Cloud based solutions such as our optimization software components for software vendors and our on-line applications for industry.",
+    "imgurl":"urltext"
+    },
+    
+    {
+    "Name":"3D tube cutting",
+    "Desc":"5-Axis cutting, cutting of tubes and profiles, robotized cutting: our software control all the 3D cutting machines and all cutting robots, with no limit to the number of axes.",
+    "imgurl":"urltext"
+    },
+    
+    {
+    "Name":"Nesting Algo",
+    "Desc":"Our unequaled expertise in cutting optimization enables us to provide industry and software vendors with the nesting solutions they need for every technology and material.",
+    "imgurl":"urltext"
+    },
+    
+    {
+    "Name":"Welding solution",
+    "Desc":"We were pioneers in robotic CAD/CAM 25 years ago, and have accumulated unparalleled experience in developing off-line programming software for welding robots.",
+    "imgurl":"urltext"
+    }
+
+    
+
+]
