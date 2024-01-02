@@ -2,6 +2,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Heroimg from '../assets/Hero.png'
+import Cardimg from '../assets/Cardimg.png'
 
 export default function Card({data}) {
   return (
@@ -15,10 +16,11 @@ export default function Card({data}) {
   )
 }
 const ExpertiseCard=styled.div`
+background-image: url(${Cardimg});
 width:300px;
 height:400px;
 box-shadow:0 0 10px rgba(0,0,0,0.8);
-
+z
 /* border:2px solid black;
 border-radius:25px; */
 
@@ -27,14 +29,16 @@ border-radius:25px; */
     object-fit: cover;
    
 }
-.card-text{
+.card-text,.card-title{
 background-color:transparent;
-    
+
 }
 .card{
     /* border:2px solid black; */
 
 border:none;
 background-color:transparent;
+
+
 }
 `

@@ -1,8 +1,317 @@
+
+
 [
-    {"Name":"Almacam"},
-    {"Name":"AlmaQuote"},
-    {"Name":"Almacam Tube"},
-    {"Name":"Almacam space cut"},
-    {"Name":"Almacam weld"},
-    {"Name":"Almacam for industry 4.0"}
-]
+    {
+      "Product_Name": "Almacam cut",
+      "Product_Hero_Image": "",
+      "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+      "Product_Description": [
+        "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+        "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+      ],
+      "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+      "About_Product": [
+        "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+        "Powerful nesting algorithms and optimized tool path research.",
+        "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+        "Easy to use, secure management of the programming process and complete data traceability.",
+        "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+        "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+      ],
+      "Technology_Used": [
+        "Laser Machine",
+        "Plasma machine",
+        "Waterjet machine",
+        "Oxycutting machine"
+      ],
+      "Video_links": [
+          {
+            "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+            "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+            "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+          }
+        ]
+    },
+    {
+        "Product_Name": "Almacam Combi",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      },
+      {
+        "Product_Name": "Almacam Set",
+        "Product_Hero_Image": "",
+        "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
+        "Product_Description": [
+          "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
+          "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
+        ],
+        "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+        "About_Product": [
+          "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
+          "Powerful nesting algorithms and optimized tool path research.",
+          "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
+          "Easy to use, secure management of the programming process and complete data traceability.",
+          "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
+          "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
+        ],
+        "Technology_Used": [
+          "Laser Machine",
+          "Plasma machine",
+          "Waterjet machine",
+          "Oxycutting machine"
+        ],
+        "Video_links": [
+            {
+              "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
+              "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
+              "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+            }
+          ]
+      }
+      
+    
+ ]
+  
