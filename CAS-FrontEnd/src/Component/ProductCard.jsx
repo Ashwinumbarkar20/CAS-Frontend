@@ -15,7 +15,9 @@ export default function ProductCard({ Product }) {
         </div>
         <h2 className="Product-Heading">{Product.Product_Name}</h2>
         <p className="Product-Desc text-center lh-5">{Product.Heading}</p>
+        <button className="btn bg-inherit">Explore More</button>
       </div>
+  
     </Productcard>
   );
 }
