@@ -10,7 +10,11 @@ export default function DownloadModel({handleModel}) {
 
 
         <div className='internalmodel'>
-        <h3 className='text-center'>Please Fill the Details for download</h3>
+       
+        <div className='d-flex flex-row justify-content-center align-items-center'>
+        <h4 className='text-center width-80'>Please Fill the Details for download</h4>
+        </div>
+        
         <div className='form d-flex flex-column justify-content-center align-items-center g-2'>
             <input className="p-2 m-2 rounded " type="text" placeholder='Enter your Email Address' required/>
             <input className="p-2 m-2 rounded " type="text" placeholder='Enter your Company Name' required/>
@@ -40,6 +44,8 @@ display:flex;
     flex-direction:column;
     justify-content:center;
     background-color:#F7F7F7;
+    border:2px solid whitesmoke;
+    border-radius: 10px;
     
 }
 `

@@ -17,4 +17,5 @@ border:5px double var(--primary);
 color:var(--primary);
 justify-content:center;
 align-items:center;
+font-weight:bolder;
 `
