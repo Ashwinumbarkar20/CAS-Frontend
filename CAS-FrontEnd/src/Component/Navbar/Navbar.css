@@ -1,0 +1,117 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: var(--primary); /* Changed color to black */
+    padding: 10px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .navbar-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .navbar-menu li {
+    position: relative;
+    
+  }
+  
+  .navbar-menu a {
+    color: var(--primary); /* Changed color to black */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: block;
+    
+  }
+  
+  .navbar-menu a:hover {
+   color:red;
+   transition: all 0.3s ease;
+  }
+  
+  .mega-menu {
+    display: none;
+    position: absolute;
+  padding: 5px;
+ 
+    z-index: 999;
+    box-sizing: border-box;
+   
+  }
+  h4{
+    text-align: center;
+    color: red;;
+   } 
+  .navbar-menu li:hover .mega-menu {
+    display: flex; 
+    width: 600px; 
+    gap:32px;
+    /* Display mega menu when hovering over parent menu item */
+  }
+  
+  .mega-menu-column {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+  }
+  
+  
+  
+  .mega-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+   
+  }
+  
+  .mega-menu ul li {
+   text-align: center;
+  
+  }
+  
+  .mega-menu ul li a {
+    color: var(--primary); /* Changed color to black */
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: inherit;
+    transition: all 0.3s ease;
+  }
+  .mega-menu ul li a:hover{
+    color: red;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar-menu ul {
+      flex-direction: column;
+    }
+  
+    .navbar-menu li {
+      position: static;
+    }
+  
+    .mega-menu {
+      position: static;
+      width: 100%;
+      display: block;
+      padding: 10px;
+    }
+  
+    .mega-menu-column {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

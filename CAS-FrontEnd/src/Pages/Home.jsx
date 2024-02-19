@@ -24,7 +24,7 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 <div className="contianer d-flex flex-column justify-content-center align-items-center">
   <h1>Discover Almacam in video</h1>
   <div className='m-3'>
-    <ReactPlayer controls width="100%" height="auto" url="https://www.youtube.com/watch?v=3A40GtWEMEA"></ReactPlayer>
+    <ReactPlayer controls  url="https://www.youtube.com/watch?v=3A40GtWEMEA"></ReactPlayer>
   </div>
 </div>
 
@@ -81,6 +81,26 @@ const Subheading=styled.section`
 `
 const AlmacamVideo=styled.section`
 
+
+display:flex;
+justify-content:center;
+align-items:center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.react-player {
+  width: 100%;
+  height: auto;
+  max-width: 800px; /* Set max-width to prevent video from becoming too large */
+}
 `
 const Expertise=styled.section`
 display:flex;
