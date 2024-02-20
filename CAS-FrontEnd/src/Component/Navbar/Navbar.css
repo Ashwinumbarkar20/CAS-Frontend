@@ -1,117 +1,58 @@
-.navbar {
+.dropdown-menu{
+  padding: 10px;
+  background-color: inherit;
+  max-width: 450px;;
+  
+}
+
+.dropdown-menu ul{
+list-style: none;
+width: 100%;
+padding: 0px;
+}
+
+.dropdown-menu.show{
+  display: flex;
+  gap:15px;
+  justify-content: space-between;
+  width: 500px;
+  gap:18px;
+
+}
+.dropdown-menu ul li:first-child {
+  font-weight: bold;
+  text-wrap: nowrap; 
+  text-decoration: underline;
+  text-shadow:0 0 2px rgba(0,0,0,0.3)  ;
+}
+.dropdown-menu ul li a{
+  font-size: 12px;;
+  text-decoration: none;
+  color: inherit;
+  margin:3px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.dropdown-menu ul li a:hover{
+color: var(--primary);
+font-weight: bold;
+}
+.Nested-list li{
+  font-weight: 0px;
+  text-wrap: nowrap; 
+  
+  text-shadow:0  ;
+}
+@media screen and (max-width:920px) {
+  .dropdown-menu.show{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    color: var(--primary); /* Changed color to black */
-    padding: 10px;
-  }
-  
-  .navbar-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    
-  }
-  
-  .navbar-menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    
-  }
-  
-  .navbar-menu li {
-    position: relative;
-    
-  }
-  
-  .navbar-menu a {
-    color: var(--primary); /* Changed color to black */
-    text-decoration: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    display: block;
-    
-  }
-  
-  .navbar-menu a:hover {
-   color:red;
-   transition: all 0.3s ease;
-  }
-  
-  .mega-menu {
-    display: none;
-    position: absolute;
-  padding: 5px;
- 
-    z-index: 999;
-    box-sizing: border-box;
-   
-  }
-  h4{
-    text-align: center;
-    color: red;;
-   } 
-  .navbar-menu li:hover .mega-menu {
-    display: flex; 
-    width: 600px; 
-    gap:32px;
-    /* Display mega menu when hovering over parent menu item */
-  }
-  
-  .mega-menu-column {
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   flex-direction: column;
-  }
-  
-  
-  
-  .mega-menu ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
+    width: 350px;
+    gap:15px;
     flex-direction: column;
-    gap:5px;
-   
-  }
-  
-  .mega-menu ul li {
-   text-align: center;
-  
-  }
-  
-  .mega-menu ul li a {
-    color: var(--primary); /* Changed color to black */
-    text-decoration: none;
-    font-size: 1rem;
-    background-color: inherit;
-    transition: all 0.3s ease;
-  }
-  .mega-menu ul li a:hover{
-    color: red;
-  }
-  @media screen and (max-width: 768px) {
-    .navbar-menu ul {
-      flex-direction: column;
+    justify-content: space-between;
+    max-height: 200px;
+    height: auto;
+    overflow-y:auto ;
+    gap:18px;
     }
-  
-    .navbar-menu li {
-      position: static;
-    }
-  
-    .mega-menu {
-      position: static;
-      width: 100%;
-      display: block;
-      padding: 10px;
-    }
-  
-    .mega-menu-column {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-  }
-  
+}
