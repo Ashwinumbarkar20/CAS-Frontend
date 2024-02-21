@@ -1,10 +1,15 @@
+
 .dropdown-menu{
   padding: 10px;
   background-color: inherit;
   max-width: 450px;;
+  border-radius: 10px;
+  border: 0.5ps solid grey;
   
 }
-
+.navbar li{
+  cursor: pointer;
+}
 .dropdown-menu ul{
 list-style: none;
 width: 100%;
@@ -13,7 +18,7 @@ padding: 0px;
 
 .dropdown-menu.show{
   display: flex;
-  gap:15px;
+
   justify-content: space-between;
   width: 500px;
   gap:18px;
@@ -23,7 +28,7 @@ padding: 0px;
   font-weight: bold;
   text-wrap: nowrap; 
   text-decoration: underline;
-  text-shadow:0 0 2px rgba(0,0,0,0.3)  ;
+  ;
 }
 .dropdown-menu ul li a{
   font-size: 12px;;

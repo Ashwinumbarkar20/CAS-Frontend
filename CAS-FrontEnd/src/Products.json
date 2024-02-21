@@ -1,6 +1,6 @@
 [
     {
-      "Product_Name": "Almacam cut",
+      "Product_Name": "Almacam Cut",
       "Product_Hero_Image": "",
       "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
       "Product_Description": [
@@ -16,18 +16,21 @@
         "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
         "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
       ],
-      "Technology_Used": [
+
+      "machine_brands": [
         "Laser Machine",
         "Plasma machine",
         "Waterjet machine",
         "Oxycutting machine"
       ],
+      "get":"Almacam Cut provides completely secure and traceable data management in a collaborative environment. Adopting the “Industry 4.0” approach, Almacam interfaces seamlessly with the company’s information system and can easily be connected to Production Management and ERP software amongst others. Almacam provides workshop management tools, and a production statistics module, for complete integration into the “ERP/Production Management/Workshop” digital sequence.",
+      
+      "Documents":["Download Almacam Cut’s product flyer for laser cutting","Download Almacam Cut’s product flyer for oxy-cutting and plasma cutting","Download Almacam Cut’s product flyer for waterjet cutting"], 
+      
       "Video_links": [
-        {
-          "Almacam nesting optimization": "https://www.youtube.com/watch?v=xRMTBYFR1LU",
-          "Importing a multi-DXF file with Almacam": "https://www.youtube.com/watch?v=yK39kbotYnU",
-          "Chamfer/Bevel programming with Almacam": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
-        }
+         {"title":"Almacam nesting optimization", "url":"https://www.youtube.com/watch?v=xRMTBYFR1LU"},
+          {"title":"Importing a multi-DXF file with Almacam","url": "https://www.youtube.com/watch?v=yK39kbotYnU"},
+          {"title":"Chamfer/Bevel programming with Almacam","url": "https://www.youtube.com/watch?v=rbsrwTjXLMA"}
       ]
     },
   
