@@ -3,9 +3,11 @@
     "Technology_name": "Laser cutting",
     "Heading": "Programming of flat laser cutting machines using the Almacam Cut software",
     "Technology_Description": "Alma has always supported the development of laser cutting technology. Laser cutting has taken on an important role in the sheet metal sector thanks to improvements in increasingly powerful and multi-purpose machines. Today, more than half of Alma’s customers in the world have at least one laser cutting machine.",
-    "Technology_Process": {
-    "Description": "Laser cutting is a thermal machining and cutting process, which concentrates the energy of a powerful laser beam on very small surface areas (0.1 to 0.5 mm). This method is quick to implement and execute. It significantly reduces production cycles, and is both reliable and flexible. Laser cutting is mainly used for thin metal sheets, to quickly produce simple or complex shapes from different types of materials in thicknesses up to 25 mm, delivering a high level of precision. In addition, as a result of the high precision laser beam and the lack of contact with material surfaces, laser cutting does not cause deformation or material loss, and is therefore extremely efficient. This process is perfect for prototyping, and is also suitable for medium or large series manufacturing. There are three mains types of laser cutting process: CO2, Yag and fiber. CO2 lasers are suitable for large thicknesses, while fiber laser cutting generates gains in performance and cost price for small and medium thicknesses. Nowadays this process attracts most of the investment in 2D laser cutting machines."
-    },
+    "Technology_Process": [
+     "Laser cutting is a thermal machining and cutting process, which concentrates the energy of a powerful laser beam on very small surface areas (0.1 to 0.5 mm). This method is quick to implement and execute. It significantly reduces production cycles, and is both reliable and flexible",
+     "Laser cutting is mainly used for thin metal sheets, to quickly produce simple or complex shapes from different types of materials in thicknesses up to 25 mm, delivering a high level of precision. In addition, as a result of the high precision laser beam and the lack of contact with material surfaces, laser cutting does not cause deformation or material loss, and is therefore extremely efficient. This process is perfect for prototyping, and is also suitable for medium or large series manufacturing.", 
+     "There are three mains types of laser cutting process: CO2, Yag and fiber. CO2 lasers are suitable for large thicknesses, while fiber laser cutting generates gains in performance and cost price for small and medium thicknesses. Nowadays this process attracts most of the investment in 2D laser cutting machines."
+    ],
     "Technology_Advantages": {
     "Description": "Nesting efficiency, support for every type of laser cutting, management of the technological parameters and the automation of the software make Almacam Cut the most productive system to program your laser cutting machines.",
     "Significant_material_savings": [
@@ -569,19 +571,8 @@
   "Advantages_of_Alma_OLP_Solution": {
     "Description": "Alma’s Almacam Weld off-line programming is estimated to be 2 to 10 times faster than programming by learning, and this is without taking account of the time saved by not immobilizing the robot. The Alma solution eliminates adjustments on the robot by means of precise software calibration, automates the programming process, gains programming time through an ergonomic interface and advanced automation functions, and can be adapted to any brand of robot and any configuration for robotized arc welding."
   },
-  "Supported_Robots": [
-    "ABB",
-    "IGM",
-    "Panasonic",
-    "Cloos",
-    "Kawasaki",
-    "Reis",
-    "Fanuc",
-    "Kuka",
-    "Staubli",
-    "Hyundai",
-    "OTC Daihen",
-    "Yaskawa/Motoman"
+  "Supported_Robots": [    "ABB",    "IGM",    "Panasonic",    "Cloos",    "Kawasaki",
+    "Reis",    "Fanuc",    "Kuka",    "Staubli",    "Hyundai",    "OTC Daihen",    "Yaskawa/Motoman"
   ]
 }
 

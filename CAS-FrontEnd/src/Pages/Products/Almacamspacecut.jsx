@@ -1,15 +1,29 @@
-import React from 'react'
-import ProductsData from '../../Products.json'
+import React,{useEffect,useState} from 'react'
 import styled from 'styled-components';
+import ProductsData from "../../Products.json";
+import ProductTemplate from "../../Component/ProductTemplate/ProductTemplate";
 export default function Almacamspacecut() {
   
-  const getdata=ProductsData.find((p)=>p["Product_Name"]==="Almacam SPACECUT");
+  const [product, setProduct] = useState([]);
+
+  const getProduct = (Product) => {
+    const Almacamcutproduct = ProductsData.find(
+      (p) => p["Product_Name"] === Product
+    );
+    setProduct(Almacamcutproduct);
+  };
+
+  useEffect(() => {
+    getProduct("Almacam SPACECUT");
+  }, []);
   
   return (
-    <Maindiv>
-    <img src="" alt="" />
-    </Maindiv>
-  )
+    <Almacam_SpaceCut>
+    <ProductTemplate product={product}/>
+     
+    </Almacam_SpaceCut>
+  );
 }
-const Maindiv=styled.section`
-`
+const Almacam_SpaceCut = styled.section`
+ 
+`;

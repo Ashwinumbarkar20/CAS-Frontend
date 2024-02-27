@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./Navbar.css"; // Import your CSS file for styling
@@ -15,6 +15,7 @@ import Almacamspacecut from "../../Pages/Products/Almacamspacecut";
 import Industry4 from "../../Pages/Products/Industry4";
 import products from "../../Pages/Products";
 import Contactus from "../../Pages/Contactus";
+import Lasercutting from "../../Pages/TechnologyPages/Lasercutting";
 const Navbar = () => {
   return (
     <>
@@ -113,7 +114,7 @@ const Navbar = () => {
                   <ul>
                     <li>2D Sheetmetal Working</li>
                     <li>
-                      <Link to="#">Laser cutting</Link>
+                      <Link to="Lasercutting">Laser cutting</Link>
                     </li>
                     <li>
                       <Link to="#">Plasma cutting</Link>

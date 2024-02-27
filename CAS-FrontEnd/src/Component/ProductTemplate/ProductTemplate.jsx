@@ -48,7 +48,7 @@ export default function ProductTemplate({ product }) {
 
       </div>
 
-      <div className="Machine-Brand">
+      {product.machine_brands && (<div className="Machine-Brand">
         <h2>Machine brands we drive</h2>
         <div className="listofbrands">
           {product.machine_brands
@@ -61,7 +61,7 @@ export default function ProductTemplate({ product }) {
               })
             : "None"}
         </div>
-      </div>
+      </div>)}
 
       {product.get && (<div className="Get-Product">
         <h2>{`Get ${product.Product_Name}`}</h2>
@@ -140,6 +140,7 @@ const ProductSection = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
     flex-direction: column;
     h2 {
       text-align: center;
@@ -148,6 +149,11 @@ const ProductSection = styled.section`
     }
     .listofbrands {
       margin: 20px;
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
       .brand {
         padding: 10px;
         background-color: var(--primary);
@@ -232,7 +238,7 @@ const ProductSection = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
 
     .Product-Charcterstic {

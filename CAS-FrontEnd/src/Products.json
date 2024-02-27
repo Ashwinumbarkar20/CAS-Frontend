@@ -177,7 +177,7 @@
         "Extension to other technological processes such as laser welding and polishing."
       ],
       "VideoUrl": "https://youtu.be/upOd-Qi0DJM",
-      "3D cutting machine brands we drive": [
+      "machine_brands": [
         "Adige", "Cyberstep", "Koike", "LT-Free", "Lyonstek",
         "Mazak", "Mecanumeric", "Microstep", "Nippei", "NTC",
         "Penta-Chutian", "Prima", "Tamari Industry", "TCI",
@@ -217,7 +217,12 @@
         "For customers using the Almacam software, acceptance of a quote will make it possible to immediately start production.",
         "In addition, Almaquote users benefit from access to Webquote, a new web service that automatically feeds data into Almaquote. Webquote centralizes and facilitates communication between ordering customers and subcontractors, while automating quote preparation and processing."  
     ],
-      "VideoUrl": "https://youtu.be/LzDUBC6Wq_4"            
+      "VideoUrl": "https://youtu.be/LzDUBC6Wq_4",
+      "get":"Almaquote software is sold as a perpetual license installable on your computers, or as a no commitment subscription with Almacam Pass.",
+      "Documents":["Download Almaquote’s product flyer"],  
+      "Video_links": [
+        {"title":"Importing a CAD assembly in a quote", "url":"https://www.youtube.com/watch?v=ycBkdZCqv4Q"}
+           ]
     },
   
     {
@@ -244,8 +249,22 @@
       "Product overview": [
         "Through a graphic interface, Almacam Weld allows you to program a robot from a virtual scene and simulate its movements. The assemblies to weld, together with the tooling, are imported from a 3D CAD system.",
         "Almacam Weld combines welder know-how together with programming and simulation functionalities to provide a robust, reliable and user-friendly solution."
-      ]
-    },
+      ],
+      "machine_brands": ["ABB",      "IGM",      "Panasonic",      "Cloos",      "Kawasaki",      "Reis",      "Fanuc",      "Kuka",      "Staubli",      "Hyundai",
+      "OTC Daihen",      "Yaskawa/Motoman"],
+      "Documents":["Download Almacam Weld’s product flyer"],
+      "Video_links": [
+        {"title":"Overview of Almacam Weld", "url":"https://www.youtube.com/watch?v=YmGKq02jiRo"},
+         {"title":"Automatic toolpath and robot programming with Almacam Weld","url": "https://www.youtube.com/watch?v=uYCwTHJjEXQ"},
+         {"title":"Intelligent program cloning with Almacam Weld","url": "https://www.youtube.com/watch?v=QujnhLl8maw"},
+         {"title":"Automatic program duplication","url": "https://www.youtube.com/watch?v=TKZEIY0me74"},
+         {"title":"Offline programming software for arc welding robots","url": "https://www.youtube.com/watch?v=CQlrHnOAuzs"},
+         {"title":"Why is off-line programming vital in a robotic welding project?","url": "https://almacam.com/why-is-offline-programming-vital-in-a-robotized-welding-project/"},
+         {"title":"How to successfully program your welding robots off-line","url": "https://almacam.com/how-to-successfully-program-your-welding-robots-off-line/"}
+     ]
+
+         },
+         
   
     {
       "Product_Name": "AlmaCAM LASER",
@@ -271,32 +290,8 @@
         "Almacam Laser is a solution developed by Alma, a recognized player in the field of software for sheet metal working and industrial welding. This solution is the result of the know-how acquired over the years by Alma thanks to numerous installations of laser cutting machines.",
         "Almacam Laser is a CAD/CAM solution for the programming of all 2D or 3D laser cutting machines. The software allows the programming of all the operations necessary for the cutting of 2D and 3D parts: import of 2D or 3D geometries, automatic or manual nesting, definition of cutting conditions (cutting sequence, optimization of cutting paths, etc.), definition of piercing points, lead-ins/lead-outs, simulation of the cutting process, and generation of the NC program."
       ]
-    },
-  
-    {
-      "Product_Name": "Almacam BEND",
-      "Product_Hero_Image": "https://i.postimg.cc/J4VxqLGs/logo-almacam-bend.png",
-      "Heading": "The offline programming software for sheet metal bending machines.",
-      "Product_Description": [
-        "Almacam Bend is dedicated to the offline programming of sheet metal bending machines. This CAD/CAM solution allows the optimal programming of your bending machines, resulting in increased productivity and better machine utilization."
-      ],
-      "About_Product": [
-        "Much faster than programming by teaching.",
-        "Improved productivity thanks to offline programming (reduction of machine idle periods and reduction of programming costs).",
-        "Full simulation of the bending process, including all the features of the machine (punch, die, backgauge, etc.)",
-        "Automatic calculation of the bending sequence and generation of the bending program.",
-        "Automatic management of the collision between the part and the machine.",
-        "Automatic detection of bending defects such as collision between the part and the backgauge.",
-        "Complete management of multi-axis and/or multi-tool machines.",
-        "Integration of bending standards.",
-        "Generation of the NC program in the format required by the machine manufacturer.",
-        "Perfect integration with the company’s information system and software environment (Production Management System, ERP, CAD/CAM, etc.)"
-      ],
-      "VideoUrl": "https://youtu.be/XijXTlpgLFU",
-      "Product Overview": [
-        "Almacam Bend is a solution developed by Alma, a recognized player in the field of software for sheet metal working and industrial welding. This solution is the result of the know-how acquired over the years by Alma thanks to numerous installations of bending machines.",
-        "Almacam Bend is a CAD/CAM solution for the programming of all types of sheet metal bending machines. The software allows the programming of all the operations necessary for the bending of sheet metal parts: import of 2D geometries, definition of bending sequences, simulation of the bending process, and generation of the NC program."
-      ]
     }
+  
+    
   ]
   

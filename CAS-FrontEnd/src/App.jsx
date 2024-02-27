@@ -17,6 +17,7 @@ import Almacamcut from './Pages/Products/Almacam/Almacamcut'
 import Almacampunch from './Pages/Products/Almacam/Almacampunch'
 import Almacamcombi from './Pages/Products/Almacam/Almacamcombi'
 import Almacamrouting from './Pages/Products/Almacam/Almacamrouting'
+import Lasercutting from './Pages/TechnologyPages/Lasercutting'
 import Footer from './Component/Footer'
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <Route path="/Almacamcombi" element={<Almacamcombi/>}></Route>
       <Route path='/Products' element={<Products/>}></Route>
       <Route path="/Almacamrouting" element={<Almacamrouting/>}></Route>
+      <Route path="/Lasercutting" element={<Lasercutting/>}></Route>
     </Routes>
      <Footer/>
     </>
