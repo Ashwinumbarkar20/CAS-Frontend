@@ -8,58 +8,82 @@
      "Laser cutting is mainly used for thin metal sheets, to quickly produce simple or complex shapes from different types of materials in thicknesses up to 25 mm, delivering a high level of precision. In addition, as a result of the high precision laser beam and the lack of contact with material surfaces, laser cutting does not cause deformation or material loss, and is therefore extremely efficient. This process is perfect for prototyping, and is also suitable for medium or large series manufacturing.", 
      "There are three mains types of laser cutting process: CO2, Yag and fiber. CO2 lasers are suitable for large thicknesses, while fiber laser cutting generates gains in performance and cost price for small and medium thicknesses. Nowadays this process attracts most of the investment in 2D laser cutting machines."
     ],
-    "Technology_Advantages": {
     "Description": "Nesting efficiency, support for every type of laser cutting, management of the technological parameters and the automation of the software make Almacam Cut the most productive system to program your laser cutting machines.",
-    "Significant_material_savings": [
-    "Reduced loss rate thanks to the high performance of automatic nesting (possible to choose from multiple strategies).",
-    "Optimized nesting in common cut.",
-    "Optimized management of multiple nestings layouts for production of large series."
+    "Technology_Advantages": [
+      {
+        "Advantage_Name": "Significant_material_savings",
+        "Advantage_list": [
+          "Reduced loss rate thanks to the high performance of automatic nesting (possible to choose from multiple strategies).",
+          "Optimized nesting in common cut.",
+          "Optimized management of multiple nestings layouts for production of large series."
+        ]
+      },
+      {
+        "Advantage_Name": "Minimized_programming_times",
+        "Advantage_list": [
+          "Automatic assignment of cutting characteristics, including lead-ins/outs, reconfiguration loops, etc.",
+          "Automatic nesting functions with no or limited user intervention required.",
+          "Possibility to operate in full automatic mode."
+        ]
+      },
+      {
+        "Advantage_Name": "Optimized_time_cycles",
+        "Advantage_list": [
+          "Optimized computation of the tool paths.",
+          "Automatic computation of the tool paths with common cut according to various strategies (common cut in rectangular grid or with precut of the neighboring parts).",
+          "Automatic detection of collisions and generation of fast trajectories in “head-up” or “head-down” modes.",
+          "Faster cutting of hole matrices thanks to the quick grid function: positioning of lead-ins/outs, profile splits, sequence in strips to optimized cutting of hole grids by reducing laser power between each cut instead of stopping and restarting."
+        ]
+      },
+      {
+        "Advantage_Name": "Complete_mastering_of_the_technological_process_and_complex_machines",
+        "Advantage_list": [
+          "Automatic parameter management according to cutting conditions (gas, lens) and the size of the profiles.",
+          "Management of the different laser drilling modes.",
+          "Intelligent management when cutting sheets covered with plastic film (burning or vaporization).",
+          "Support of all laser cutting machines and all related process (cutting conditions, drilling, engraving, tack welding, micro-welds, etc.)",
+          "Support of a wide range of machine and manufacturer specific features, e.g. management of work areas for repositioning machines.",
+          "Ability to control programmable beveling heads while automatically preparing the program: pass sequence and offsets calculation, automatic generation of the reconfiguration loops or lead-ins/outs, generation of the overall profile to take into account the maximum bulk of the part in the nesting, allocation of cutting conditions according to the angle.",
+          "Interaction with combined machines (laser and punching)."
+        ]
+      },
+      {
+        "Advantage_Name": "Full_integration_to_sheet_metal_CAD/CAM",
+        "Advantage_list": [
+          "3D import of sheet metal folded parts.",
+          "Combination with the sheet metal Unfold module (import and geometric modification or machining of folded parts).",
+          "Combination with alma CAM Bend module (modification of dimensions of unfolded parts according to the tools used)."
+        ]
+      },
+      {
+        "Advantage_Name": "Approach_to_improving_quality_of_manufactured_parts",
+        "Advantage_list": [
+          "Automatic parameter management according to cutting conditions (gas, lens) and the size of the profiles.",
+          "Automatic lead-ins/outs (position, type, length and angle) according to the material and thickness, and automatic correction of false lead-ins/outs.",
+          "Availability of various reconfiguration loops to ensure the best cutting results on corners.",
+          "Heat distribution over the sheet with specific cutting sequence.",
+          "Skeleton cutting management with various possible parameter settings to remove obstacles or flatten the sheet before cutting.",
+          "Possibility to re-launch a program in order to cut a single part."
+        ]
+      },
+      {
+        "Advantage_Name": "Safety_programming",
+        "Advantage_list": [
+          "Availability of several strategies to prevent collisions between the laser head and cut parts that may have toppled over: lifting the head, parabolic trajectory, cut part by-pass, or use of specific sequences minimizing risky passing over cut parts.",
+          "Height control to allow cutting near the sheet edge.",
+          "Ability to secure small parts using micro-junctions to prevent them falling under the table."
+        ]
+      },
+      {
+        "Advantage_Name": "Facilitation_of_handling_in_workshop",
+        "Advantage_list": [
+          "Skeleton cutting management with various possible parameter settings to facilitate cut-off removal.",
+          "Evacuation of inner profiles by subdividing them into small pieces to avoid evacuation manually or via trapdoor.",
+          "Management of system to evacuate (trapdoor, lift) and sort parts (palletization).",
+          "Hierarchical nesting using priority groups to easily sort the parts during evacuation."
+        ]
+      }
     ],
-    "Minimized_programming_times": [
-    "Automatic assignment of cutting characteristics, including lead-ins/outs, reconfiguration loops, etc.",
-    "Automatic nesting functions with no or limited user intervention required.",
-    "Possibility to operate in full automatic mode."
-    ],
-    "Optimized_time_cycles": [
-    "Optimized computation of the tool paths.",
-    "Automatic computation of the tool paths with common cut according to various strategies (common cut in rectangular grid or with precut of the neighboring parts).",
-    "Automatic detection of collisions and generation of fast trajectories in “head-up” or “head-down” modes.",
-    "Faster cutting of hole matrices thanks to the quick grid function: positioning of lead-ins/outs, profile splits, sequence in strips to optimized cutting of hole grids by reducing laser power between each cut instead of stopping and restarting."
-    ],
-    "Complete_mastering_of_the_technological_process_and_complex_machines": [
-    "Automatic parameter management according to cutting conditions (gas, lens) and the size of the profiles.",
-    "Management of the different laser drilling modes.",
-    "Intelligent management when cutting sheets covered with plastic film (burning or vaporization).",
-    "Support of all laser cutting machines and all related process (cutting conditions, drilling, engraving, tack welding, micro-welds, etc.)",
-    "Support of a wide range of machine and manufacturer specific features, e.g. management of work areas for repositioning machines.",
-    "Ability to control programmable beveling heads while automatically preparing the program: pass sequence and offsets calculation, automatic generation of the reconfiguration loops or lead-ins/outs, generation of the overall profile to take into account the maximum bulk of the part in the nesting, allocation of cutting conditions according to the angle.",
-    "Interaction with combined machines (laser and punching)."
-    ],
-    "Full_integration_to_sheet_metal_CAD/CAM": [
-    "3D import of sheet metal folded parts.",
-    "Combination with the sheet metal Unfold module (import and geometric modification or machining of folded parts).",
-    "Combination with alma CAM Bend module (modification of dimensions of unfolded parts according to the tools used)."
-    ],
-    "Approach_to_improving_quality_of_manufactured_parts": [
-    "Automatic parameter management according to cutting conditions (gas, lens) and the size of the profiles.",
-    "Automatic lead-ins/outs (position, type, length and angle) according to the material and thickness, and automatic correction of false lead-ins/outs.",
-    "Availability of various reconfiguration loops to ensure the best cutting results on corners.",
-    "Heat distribution over the sheet with specific cutting sequence.",
-    "Skeleton cutting management with various possible parameter settings to remove obstacles or flatten the sheet before cutting.",
-    "Possibility to re-launch a program in order to cut a single part."
-    ],
-    "Safety_programming": [
-    "Availability of several strategies to prevent collisions between the laser head and cut parts that may have toppled over: lifting the head, parabolic trajectory, cut part by-pass, or use of specific sequences minimizing risky passing over cut parts.",
-    "Height control to allow cutting near the sheet edge.",
-    "Ability to secure small parts using micro-junctions to prevent them falling under the table."
-    ],
-    "Facilitation_of_handling_in_workshop": [
-    "Skeleton cutting management with various possible parameter settings to facilitate cut-off removal.",
-    "Evacuation of inner profiles by subdividing them into small pieces to avoid evacuation manually or via trapdoor.",
-    "Management of system to evacuate (trapdoor, lift) and sort parts (palletization).",
-    "Hierarchical nesting using priority groups to easily sort the parts during evacuation."
-    ]
-    },
     "Machine_brands": [
     "Adige",    "Adira",    "Advance Tech",    "Air Liquide",    "Alfa Laser",    "Amada",    "Balliu",    "Baykal",   "Bodor",
     "Bystronic",    "Cincinnati",    "Cori",    "CR Electronic",    "CY Laser",    "Debao",    "Dalcos",    "Dimeco",    "DNE Laser",
