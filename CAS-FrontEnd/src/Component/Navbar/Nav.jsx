@@ -16,6 +16,12 @@ import Industry4 from "../../Pages/Products/Industry4";
 import products from "../../Pages/Products";
 import Contactus from "../../Pages/Contactus";
 import Lasercutting from "../../Pages/TechnologyPages/Lasercutting";
+import Plasmacutting from "../../Pages/TechnologyPages/Plasmacutting";
+import Oxycutting from "../../Pages/TechnologyPages/Oxycutting";
+import Waterjetcutting from "../../Pages/TechnologyPages/Waterjetcutting";
+import Punchingnibbling from "../../Pages/TechnologyPages/Punchingnibbling";
+import RoutingMilling from "../../Pages/TechnologyPages/RoutingMilling";
+import Tubesprofiles from "../../Pages/TechnologyPages/Tubesprofiles";
 const Navbar = () => {
   return (
     <>
@@ -114,35 +120,35 @@ const Navbar = () => {
                   <ul>
                     <li>2D Sheetmetal Working</li>
                     <li>
-                      <Link to="Lasercutting">Laser cutting</Link>
+                      <Link to="/Lasercutting">Laser cutting</Link>
                     </li>
                     <li>
-                      <Link to="#">Plasma cutting</Link>
+                      <Link to="/Plasmacuting">Plasma cutting</Link>
                     </li>
                     <li>
-                      <Link to="#">Oxy cutting</Link>
+                      <Link to="/Oxycuting">Oxy cutting</Link>
                     </li>
                     <li>
-                      <Link to="#">Waterjet cutting</Link>
+                      <Link to="/Waterjetcuting">Waterjet cutting</Link>
                     </li>
                     <li>
-                      <Link to="#">Punching nibbling</Link>
+                      <Link to="/Punchingnibbling">Punching nibbling</Link>
                     </li>
                     <li>
-                      <Link to="#">Routing/milling of metal</Link>
+                      <Link to="/RoutingMilling">Routing/milling of metal</Link>
                     </li>
                   </ul>
 
                   <ul>
                     <li>3D Sheetmetal Profiling</li>
                     <li>
-                      <Link to="#"> Tube & Profile cutting</Link>
+                      <Link to="/Tubesprofiles"> Tube & Profile cutting</Link>
                     </li>
                     <li>
-                      <Link to="#"> 3D 5-Axis Profile cutting</Link>
+                      <Link to="/Threecutting"> 3D 5-Axis Profile cutting</Link>
                     </li>
                     <li>
-                      <Link to="#">Robotic welding</Link>
+                      <Link to="/Robotic">Robotic welding</Link>
                     </li>
                   </ul>
                 </div>

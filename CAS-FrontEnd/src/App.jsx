@@ -19,6 +19,14 @@ import Almacamcombi from './Pages/Products/Almacam/Almacamcombi'
 import Almacamrouting from './Pages/Products/Almacam/Almacamrouting'
 import Lasercutting from './Pages/TechnologyPages/Lasercutting'
 import Footer from './Component/Footer'
+import Plasmacutting from './Pages/TechnologyPages/Plasmacutting'
+import Oxycutting from './Pages/TechnologyPages/Oxycutting'
+import Waterjetcutting from './Pages/TechnologyPages/Waterjetcutting'
+import Punchingnibbling from './Pages/TechnologyPages/Punchingnibbling'
+import RoutingMilling from './Pages/TechnologyPages/RoutingMilling'
+import Tubesprofiles from './Pages/TechnologyPages/Tubesprofiles'
+import Threecutting from './Pages/TechnologyPages/ThreeDcutting'
+import Robotic from './Pages/TechnologyPages/Robotic'
 function App() {
   return (
     <>
@@ -41,6 +49,15 @@ function App() {
       <Route path='/Products' element={<Products/>}></Route>
       <Route path="/Almacamrouting" element={<Almacamrouting/>}></Route>
       <Route path="/Lasercutting" element={<Lasercutting/>}></Route>
+      <Route path='/Plasmacuting' element={<Plasmacutting/>}></Route>
+      <Route path='/Oxycuting' element={<Oxycutting/>}></Route>
+      <Route path='/Waterjetcuting' element={<Waterjetcutting/>}></Route>
+      <Route path='/RoutingMilling' element={<RoutingMilling/>}></Route>
+      <Route path='/Tubesprofiles' element={<Tubesprofiles/>}></Route>
+      <Route path='/Tubesprofiles' element={<Tubesprofiles/>}></Route>
+      <Route path='/Threecutting' element={<Threecutting/>}></Route>
+      <Route path='/Robotic' element={<Robotic/>}></Route>
+
     </Routes>
      <Footer/>
     </>
