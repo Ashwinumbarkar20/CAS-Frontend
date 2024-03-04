@@ -50,6 +50,7 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
   )
 }
 const HeroSection =styled.section`
+
 .container-fluid{
   position:relative;
 }
@@ -59,7 +60,6 @@ const HeroSection =styled.section`
   object-fit:cover;
   height:70vh;
   filter: brightness(40%) blur(6px);
- 
   
   
 }

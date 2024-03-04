@@ -1,8 +1,11 @@
 :root{
-    --primary:#0802A3;
+    --primary:#009fe3;
     --secondary:#708090;
     --action:#ffc107;
     --text-color:#F7F7F7;
+    --Dark-bg:#000028;
+    --TextOnDark:#FFF;
+    --HoverOnDarkText:#00cccc;
   
   }
   *{

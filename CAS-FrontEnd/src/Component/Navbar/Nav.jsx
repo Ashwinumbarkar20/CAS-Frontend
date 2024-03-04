@@ -1,35 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import "./Navbar.css"; // Import your CSS file for styling
-import AlmaQuote from "../../Pages/Products/AlmaQuote";
-// eslint-disable-next-line no-unused-vars
-import Almacamcombi from "../../Pages/Products/Almacam/Almacamcombi";
-import Almacamcut from "../../Pages/Products/Almacam/Almacamcut";
-import Almacampunch from "../../Pages/Products/Almacam/Almacampunch";
-import Almacamrouting from "../../Pages/Products/Almacam/Almacamrouting";
-import Almacamweld from "../../Pages/Products/Almacamweld";
-import Almacamtube from "../../Pages/Products/Almacamtube";
-import Almacamspacecut from "../../Pages/Products/Almacamspacecut";
-import Industry4 from "../../Pages/Products/Industry4";
-import products from "../../Pages/Products";
-import Contactus from "../../Pages/Contactus";
-import Lasercutting from "../../Pages/TechnologyPages/Lasercutting";
-import Plasmacutting from "../../Pages/TechnologyPages/Plasmacutting";
-import Oxycutting from "../../Pages/TechnologyPages/Oxycutting";
-import Waterjetcutting from "../../Pages/TechnologyPages/Waterjetcutting";
-import Punchingnibbling from "../../Pages/TechnologyPages/Punchingnibbling";
-import RoutingMilling from "../../Pages/TechnologyPages/RoutingMilling";
-import Tubesprofiles from "../../Pages/TechnologyPages/Tubesprofiles";
+import "./Navbar.css"; 
+
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg ">
+
+        <div className="container-fluid internal">
+        
           <Link className="navbar-brand" to="/">
             LOGO
           </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -41,6 +27,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -49,147 +36,42 @@ const Navbar = () => {
                 </NavLink>
               </li>
 
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <NavLink className="nav-link" aria-current="page" to="/Products">
                   Products
-                </a>
-                <div className="dropdown-menu">
-                  <ul>
-                    <li>Almacam</li>
-                    <li>
-                      <Link to="/Almacamcut">Almacam cut</Link>
-                    </li>
-                    <li>
-                      <Link to="/Almacampunch">Almacam punch</Link>
-                    </li>
-                    <li>
-                      <Link to="/Almacamcombi">Almacam combi</Link>
-                    </li>
-                    <li>
-                      <Link to="/Almacamrouting">Almacam routing</Link>
-                    </li>
-                  </ul>
-
-                  <ul>
-                    <li>Other</li>
-                    <li>
-                      <Link to="/AlmaQuote">AlmaQuote</Link>
-                    </li>
-                    <li>
-                      <Link to="/Almacamweld">Almacam weld</Link>
-                    </li>
-                    <li>
-                      <Link to="/Almacamtube">Almacam Tube</Link>
-                    </li>
-                    <li>
-                      <Link to="/Almacamspacecut">Almacam space cut</Link>
-                    </li>
-                  </ul>
-
-                  <ul>
-                    <li>Almacam for industry 4.0</li>
-                    <li>
-                      <Link to="/Industry4">Workshop and planner module</Link>
-                    </li>
-                    <li>
-                      <Link to="/Industry4">
-                        ERP or production management system integration
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                </NavLink>
+               
               </li>
 
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link" aria-current="page" to="/Technology">
                   Technology
-                </a>
-                <div className="dropdown-menu">
-                  <ul>
-                    <li>2D Sheetmetal Working</li>
-                    <li>
-                      <Link to="/Lasercutting">Laser cutting</Link>
-                    </li>
-                    <li>
-                      <Link to="/Plasmacuting">Plasma cutting</Link>
-                    </li>
-                    <li>
-                      <Link to="/Oxycuting">Oxy cutting</Link>
-                    </li>
-                    <li>
-                      <Link to="/Waterjetcuting">Waterjet cutting</Link>
-                    </li>
-                    <li>
-                      <Link to="/Punchingnibbling">Punching nibbling</Link>
-                    </li>
-                    <li>
-                      <Link to="/RoutingMilling">Routing/milling of metal</Link>
-                    </li>
-                  </ul>
-
-                  <ul>
-                    <li>3D Sheetmetal Profiling</li>
-                    <li>
-                      <Link to="/Tubesprofiles"> Tube & Profile cutting</Link>
-                    </li>
-                    <li>
-                      <Link to="/Threecutting"> 3D 5-Axis Profile cutting</Link>
-                    </li>
-                    <li>
-                      <Link to="/Robotic">Robotic welding</Link>
-                    </li>
-                  </ul>
-                </div>
+                </NavLink>
+               
               </li>
 
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <NavLink
+                    className="nav-link" aria-current="page" to="/Services">
+                
                   Services
-                </a>
-                <div className="dropdown-menu">
-                  <ul>
-                    <li>All Services</li>
-                    <li>
-                      <Link to="#">
-                        Software consultancy for Manufacturing industries’
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#">Custom development services</Link>
-                    </li>
-                  </ul>
-                </div>
+                </NavLink>
+                
               </li>
 
               <li className="nav-item">
-                <a className="nav-link">Product support and training</a>
+                <NavLink className="nav-link" aria-current="page" to="/Support">Support</NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Contactus">
+                <NavLink className="nav-link" aria-current="page"  to="/Contactus">
                   Contact Us
                 </NavLink>
               </li>
             </ul>
           </div>
+
         </div>
       </nav>
     </>
