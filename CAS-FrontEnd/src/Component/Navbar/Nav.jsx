@@ -3,12 +3,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./Navbar.css"; 
-
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar fixed-top  navbar-expand-lg ">
 
         <div className="container-fluid internal">
         
@@ -25,7 +25,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <RxHamburgerMenu className="hamburger"/>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

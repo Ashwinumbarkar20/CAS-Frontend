@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Heroimg from '../assets/Hero.png'
 import ReactPlayer from 'react-player'
 import ExpertiseData from '../Data/Expertise.json'
 import Card from '../Component/Card'
+
+
 export default function Home() {
+
   return (
     <>
     <HeroSection>

@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore recusandae magn
         <div className='Products col-xs-12 col-sm-12 col-md-6 col-lg-4   '>
         <h5 className='footer-header'>Products</h5>
         <ul>
-        <li><NavLink to="" className="product-link-item">Almacam</NavLink></li>
+        <li><NavLink to="/almacam" className="product-link-item">Almacam</NavLink></li>
         <li><NavLink to="" className="product-link-item">AlmaQuote</NavLink></li>
         <li><NavLink to="" className="product-link-item">Almacam Tube</NavLink></li>
         <li><NavLink to="" className="product-link-item">Almacam Space cut</NavLink></li>
@@ -35,7 +35,7 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore recusandae magn
         </div>
 
         <div className='ContactInfo col-lg-4 col-md-6 col-sm-12 col-xs-12'>
-        <h5 className='footer-header' >Contact</h5>
+        <h5 className='footer-header' >Contact Us</h5>
         <ul>
             <li>Pune ravet kiwale</li>
             <li>Email:- email@email.com</li>
@@ -48,69 +48,76 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore recusandae magn
        
     </Footerdiv>
 
-    <div className='p-2 bg-transparant $blue-400 lastfooter '>
-        <p className='bg-transparant text-center'>@2024 copyright</p>
+    <div className='p-2 lastfooter 'style={{color:"#FFF",background:"#000028"}}>
+        <p className=' text-center' style={{color:"#FFF",background:"#000028"}}>@2024 copyright</p>
       </div>
       </>
   )
 }
 const Footerdiv=styled.section`
-background-image:url(${svg});
-background-size: cover;
-background-repeat:no-repeat;
+*{    background-color: var(--Dark-bg);  }
+background-color: var(--Dark-bg);
 margin-top:20px;
 padding:10px 10px;
 display:flex;
 justify-content:space-around;
 flex-direction: row;
 align-items:center;
-/* background-color:var(--primary); */
-.companyName,.Products,.ContactInfo,.Technology{
 
+.companyName,.Products,.ContactInfo,.Technology{
 width:230px;
 display:flex;
 flex-direction:column;
 align-items:center;
-justify-content:center;
-
+justify-content:space-between;
+flex-wrap: nowrap;
 .footer-header{
-    border-bottom:5px double #F78DA7;
-    padding:10px;
-    margin-bottom:20px;
-    
+color:var(--TextOnDark);
+text-align:center;
+line-height: 50px;
+border-bottom:2px solid var(--HoverOnDarkText);
+margin-bottom: 20px;
 }
 .companytext{
     
     height:200px;
     line-height:20px;
-       
+    color:var(--TextOnDark);
+    text-align:justify;
+    font-size:12px;
 }
 }
-*{
-    
-background-color:transparent;
-
+.lastfooter{
+  background-color:var(--Dark-bg);
+ p{
+  background-color:var(--Dark-bg);
+  color:var(--HoverOnDarkText);
+ }
 }
 ul{
     width:auto;
     height:200px;
     display:flex;
     flex-direction:column;
-    justify-content:flex-start;
+    justify-content:fle;
     align-items:flex-start;
     gap:10px;
     list-style: none;
     
 li,.product-link-item{
-    font-size:18px;
+    font-size:12px;
+    text-decoration:none;
+    color:var(--TextOnDark);
     line-height:20px;
-    color:inherit;
+    padding:none;
     cursor: pointer;
     &:hover{
-       font-weight:bold;
+       color:var(--HoverOnDarkText);
     }
 }
+
 }
+
 @media (max-width: 460px) {
     /* Styles for small screens (e.g., mobile devices) */
 

@@ -2,7 +2,19 @@
 
 .internal,.navbar-nav,.nav-item{
   background-color: var(--Dark-bg);
+  
+
 }
+.hamburger{
+background-color: var(--Dark-bg);
+color: var(--HoverOnDarkText);
+  
+}
+.navbar-toggler{
+  border: 2px solid var(--HoverOnDarkText);
+}
+
+
 .navbar-collapse{
   margin:2px;
   background-color: var(--Dark-bg);
@@ -27,11 +39,11 @@ transition: all 0.3s ease-in;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
   color: var(--HoverOnDarkText);
-  background-color: #001414;
+  background-color: #19193D;
 border-bottom:2px solid var(--HoverOnDarkText) ;
 }
-.navbar-nav .nav-item .nav-link.active{ 
- background-color: #001414;
+.navbar-nav .nav-item .nav-link .active{ 
+ background-color: #19193D;
  color: var(--HoverOnDarkText);
  border-bottom:2px solid var(--HoverOnDarkText)
   }

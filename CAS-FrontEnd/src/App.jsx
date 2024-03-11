@@ -3,7 +3,7 @@ import'./App.css'
 import { Routes,Route } from 'react-router-dom'
 import Nav from './Component/Navbar/Nav'
 import Home from './Pages/Home'
-import Products from './Pages/Products'
+import AllProducts from './Pages/AllProducts'
 import AmlaQuote from './Pages/Products/AlmaQuote'
 import Services from './Pages/Services'
 import Technology from './Pages/Technology'
@@ -34,7 +34,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="AlmaQuote" element={<AmlaQuote/>}/>
-      <Route path="/Products" element={<Products/>}></Route>
+      
       <Route path="/Productsupport" element={<Productsupport/>}></Route>
       <Route path="/Services" element={<Services/>}></Route>
       <Route path="/Technology" element={<Technology/>}></Route>
@@ -46,7 +46,7 @@ function App() {
       <Route path="/Almacamcut" element={<Almacamcut/>}></Route>
       <Route path="/Almacampunch" element={<Almacampunch/>}></Route>
       <Route path="/Almacamcombi" element={<Almacamcombi/>}></Route>
-      <Route path='/Products' element={<Products/>}></Route>
+      <Route path="/Products" element={<AllProducts/>}></Route>
       <Route path="/Almacamrouting" element={<Almacamrouting/>}></Route>
       <Route path="/Lasercutting" element={<Lasercutting/>}></Route>
       <Route path='/Plasmacuting' element={<Plasmacutting/>}></Route>
