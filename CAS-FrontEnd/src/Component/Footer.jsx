@@ -73,7 +73,6 @@ justify-content:space-between;
 flex-wrap: nowrap;
 .footer-header{
 color:var(--TextOnDark);
-text-align:center;
 line-height: 50px;
 border-bottom:2px solid var(--HoverOnDarkText);
 margin-bottom: 20px;
@@ -99,7 +98,7 @@ ul{
     height:200px;
     display:flex;
     flex-direction:column;
-    justify-content:fle;
+    justify-content:flex-start;
     align-items:flex-start;
     gap:10px;
     list-style: none;

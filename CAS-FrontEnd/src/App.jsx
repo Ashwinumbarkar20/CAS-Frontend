@@ -1,6 +1,8 @@
 
 import'./App.css'
 import { Routes,Route } from 'react-router-dom'
+import { lazy } from 'react'
+
 import Nav from './Component/Navbar/Nav'
 import Home from './Pages/Home'
 import AllProducts from './Pages/AllProducts'
@@ -27,6 +29,7 @@ import RoutingMilling from './Pages/TechnologyPages/RoutingMilling'
 import Tubesprofiles from './Pages/TechnologyPages/Tubesprofiles'
 import Threecutting from './Pages/TechnologyPages/ThreeDcutting'
 import Robotic from './Pages/TechnologyPages/Robotic'
+
 function App() {
   return (
     <>
@@ -34,7 +37,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="AlmaQuote" element={<AmlaQuote/>}/>
-      
       <Route path="/Productsupport" element={<Productsupport/>}></Route>
       <Route path="/Services" element={<Services/>}></Route>
       <Route path="/Technology" element={<Technology/>}></Route>

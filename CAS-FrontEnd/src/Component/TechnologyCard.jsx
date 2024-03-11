@@ -5,24 +5,24 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export default function ProductCard({ Product_Name,Product_image,Product_Heading }) {
+export default function TechnologyCard({ Technology_name,Heading }) {
   return (
-    <Productcard className="d-flex align-items-center jsutify-content-center">
+    <TechnologyCards className="d-flex align-items-center jsutify-content-center">
       <div className="Product-Card d-flex gap-3 p-3 flex-column align-items-center jsutify-content-center">
         
         <div className="Product-image">
-          <img src={Product_image} alt="Almacam img" />
+          <img src={""} alt="Alamcam Technology" />
         </div>
-        <h2 className="Product-Heading">{Product_Name}</h2>
-        <p className="Product-Desc text-center lh-5">{Product_Heading}</p>
-        <button className="btn bg-inherit"><Link to="/almacut">Explore More</Link></button>
+        <h2 className="Tech-Heading">{Technology_name}</h2>
+        <p className="Tech-Desc text-center lh-5">{Heading}</p>
+        <button className="btn bg-inherit"><Link to="/">Explore More</Link></button>
       </div>
   
-    </Productcard>
+    </TechnologyCards>
   );
 }
 
-const Productcard = styled.section`
+const TechnologyCards = styled.section`
 width:350px;
 margin:10px;
 padding:10px;
@@ -32,17 +32,18 @@ transition:all 0.4s ease;
 .Product-Card,.Product-Heading,.Product-Desc,.Product-image{
   background-color:transparent;
 }
-.Product-Heading{
+.Tech-Heading{
+    text-align:center;
   color:var(--Dark-bg);
 }
-.Product-image
+.Tech-image
 {
   width:100%;
   img{
     width:100%;
   }
 }
-.Product-Desc{
+.Tech-Desc{
   font-weight:700;
 }
 .btn 

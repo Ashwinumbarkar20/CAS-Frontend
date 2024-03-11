@@ -11,10 +11,12 @@ export default function Contactus() {
       <h1 className='text-center'>Contact Us!</h1>
       
         <form className="Contact d-flex flex-column justify-content-center align-items-center gap-2">
-        <div> <label htmlFor="">Name</label> <input type="text" /></div>
-        <div> <label htmlFor="">Phone Number</label> <input type="text" /></div>
-        <div> <label htmlFor="">Message</label> <textarea cols="10" rows="5" /></div>
-        <div><button className="mt-3"type="submit">Send Message</button></div>
+        <div> <label htmlFor="">Name</label> <input type="text" required/></div>
+        <div> <label htmlFor="">Phone Number</label> <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/></div>
+        <div> <label htmlFor="">Company</label> <input type="text" required/></div>
+        <div> <label htmlFor="">Email id</label> <input type="email" required/></div>
+        <div> <label htmlFor="">Message</label> <textarea cols="10" rows="5" required/></div>
+        <div><button className="mt-3" type="submit">Send Message</button></div>
         
         </form>
       </div>
@@ -33,7 +35,7 @@ const Contactusdiv=styled.section`
     height: 50vh;
 }
 .Contact-Form{
-
+margin-top:45px;
   .Contact{
     width:100%;
     div{
@@ -55,17 +57,18 @@ label{
   font-weight:bolder;
 }
 button{
-padding:5px 10px;
+padding:10px 15px;
 border-radius: 10px;
-background-color:var(--primary);
+background-color:var(--Dark-bg);
 color:var(--text-color);
 font-weight:bold;
 box-shadow:2px 2px 6px rgba(0,0,0,0.4);
 border: none;
+transition:all 0.3s ease;
 &:hover{
-  color:var(--primary);
+  color:var(--Dark-bg);
   background-color:var(--text-color);
-  border:2px solid var(--primary);
+  border:2px solid var(--Dark-bg);
 }
 }
   }

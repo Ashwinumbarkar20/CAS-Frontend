@@ -42,10 +42,10 @@ transition: all 0.3s ease-in;
   background-color: #19193D;
 border-bottom:2px solid var(--HoverOnDarkText) ;
 }
-.navbar-nav .nav-item .nav-link .active{ 
+.active{ 
  background-color: #19193D;
  color: var(--HoverOnDarkText);
- border-bottom:2px solid var(--HoverOnDarkText)
+ border-bottom:2px solid var(--HoverOnDarkText);
   }
 
 
