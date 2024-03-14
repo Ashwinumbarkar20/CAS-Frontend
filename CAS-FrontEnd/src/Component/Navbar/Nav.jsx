@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from '../../assets/Logo.png'
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./Navbar.css"; 
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="container-fluid internal">
         
           <Link className="navbar-brand" to="/">
-            LOGO
+            <div className="brand"><img className ="logoimg" src={logo} alt="Logo" /></div>
           </Link>
 
           <button

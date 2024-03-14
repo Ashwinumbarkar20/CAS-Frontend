@@ -17,7 +17,9 @@ export default function AllProducts() {
      
     Product_Name={Product.Product_Name} 
     Product_image={Product.Product_Hero_Image}
-    Product_Heading={Product.Heading} />
+    Product_Heading={Product.Heading} 
+    page_url={Product.page_url}
+    />
     </div>
   )
   }

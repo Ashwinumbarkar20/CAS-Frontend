@@ -1,11 +1,8 @@
 :root{
-    --primary:#009fe3;
-    --secondary:#708090;
-    --action:#ffc107;
-    --text-color:#F7F7F7;
-    --Dark-bg:#000028;
-    --TextOnDark:#FFF;
-    --HoverOnDarkText:#00cccc;
+    --primary:#0D4469 ;
+    --Secondary:#f7f7f7;
+    --accent:#00BBB9;
+
   
   }
   *{

@@ -13,7 +13,7 @@ export default function Home() {
     <HeroSection>
       <div className='container-fluid justify-content-center'>
 <img src={Heroimg} className='Hero-image img-fluid' alt="Heroimage"/>
-<h1 className="Hero-heading">Lorem ipsum dolor  amet consectetur, adipisicing elit. Aliquam eligendi quam eum quo nihil, quos, dolor sit amet commodi consectetur,commodi maiores fuga, rem  .</h1>
+<h1 className="Hero-heading">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
       </div>
      </HeroSection>
 
@@ -53,7 +53,7 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
   )
 }
 const HeroSection =styled.section`
-
+margin-top:90px;
 .container-fluid{
   position:relative;
 }
@@ -68,7 +68,10 @@ const HeroSection =styled.section`
 }
 .Hero-heading{
   width:90%;
-  position:absolute;
+  font-size:70px;
+  font-family: "Roboto Slab", serif;
+  font-weight:700;
+  font-stretch: semi-expanded;
   position: absolute;
     top: 50%; 
     right: 50%;
@@ -116,5 +119,10 @@ align-items:center;
   justify-content:center;
   align-items:center;
   
+}
+@media only screen and (max-width: 768px) {
+  .Hero-heading {
+    font-size: 40px;
+  }
 }
 `

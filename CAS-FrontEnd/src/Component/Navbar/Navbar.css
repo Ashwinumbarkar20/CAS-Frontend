@@ -1,13 +1,29 @@
 
 
 .internal,.navbar-nav,.nav-item{
-  background-color: var(--Dark-bg);
+  background-color: var(--Secondary);
   
 
 }
+.navbar-brand{
+  height: 90px;
+  width: 150px;
+  
+}
+.brand{
+  height: 90px;
+  width: 150px;
+}
+.logoimg{
+  height: 90px;
+  width: 150px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
 .hamburger{
-background-color: var(--Dark-bg);
-color: var(--HoverOnDarkText);
+background-color: var(--primary);
+color: var(--Secondary);
   
 }
 .navbar-toggler{
@@ -17,35 +33,36 @@ color: var(--HoverOnDarkText);
 
 .navbar-collapse{
   margin:2px;
-  background-color: var(--Dark-bg);
-  
-  margin-bottom: 2px;;
+  background-color: var(--Secondary);
+  margin-bottom: 2px;
 }
 .navbar.navbar-expand-lg {
   padding: 0px;
-  background-color: var(--Dark-bg);
+  background-color: var(--Secondary);
+  height: 90px;
  
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{ 
-color:var(--TextOnDark);
+color:var(--primary);
 font-weight: 600;
-background-color: var(--Dark-bg);
+align-items: center;
+background-color: inherit;
 letter-spacing: 0.3px;
-height: inherit;
+
 margin: 2px;
 
 transition: all 0.3s ease-in;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
-  color: var(--HoverOnDarkText);
-  background-color: #19193D;
-border-bottom:2px solid var(--HoverOnDarkText) ;
+  color: var(--Secondary);
+  background-color: var(--primary);
+border-bottom:2px solid var(--accent) ;
 }
 .active{ 
- background-color: #19193D;
- color: var(--HoverOnDarkText);
- border-bottom:2px solid var(--HoverOnDarkText);
+ background-color: var(--accent);
+ color: var(--accent);
+ border-bottom:4px solid var(--accent);
   }
 
 

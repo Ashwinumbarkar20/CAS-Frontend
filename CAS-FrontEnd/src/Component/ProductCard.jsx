@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export default function ProductCard({ Product_Name,Product_image,Product_Heading }) {
+export default function ProductCard({ Product_Name,Product_image,Product_Heading,page_url }) {
   return (
     <Productcard className="d-flex align-items-center jsutify-content-center">
       <div className="Product-Card d-flex gap-3 p-3 flex-column align-items-center jsutify-content-center">
@@ -15,7 +15,7 @@ export default function ProductCard({ Product_Name,Product_image,Product_Heading
         </div>
         <h2 className="Product-Heading">{Product_Name}</h2>
         <p className="Product-Desc text-center lh-5">{Product_Heading}</p>
-        <button className="btn bg-inherit"><Link to="/almacut">Explore More</Link></button>
+        <button className="btn bg-inherit"><Link to={page_url}>Explore More</Link></button>
       </div>
   
     </Productcard>

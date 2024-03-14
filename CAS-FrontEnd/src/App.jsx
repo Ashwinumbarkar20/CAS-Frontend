@@ -29,6 +29,7 @@ import RoutingMilling from './Pages/TechnologyPages/RoutingMilling'
 import Tubesprofiles from './Pages/TechnologyPages/Tubesprofiles'
 import Threecutting from './Pages/TechnologyPages/ThreeDcutting'
 import Robotic from './Pages/TechnologyPages/Robotic'
+import NestandCut from './Pages/Products/NestandCut'
 
 function App() {
   return (
@@ -36,12 +37,13 @@ function App() {
     <Nav/>
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="AlmaQuote" element={<AmlaQuote/>}/>
+      <Route path="/AlmaQuote" element={<AmlaQuote/>}/>
       <Route path="/Productsupport" element={<Productsupport/>}></Route>
       <Route path="/Services" element={<Services/>}></Route>
       <Route path="/Technology" element={<Technology/>}></Route>
       <Route path="/Contactus" element={<Contactus/>}></Route>
       <Route path="/Almacamtube" element={<Almacamtube/>}></Route>
+      <Route path="/Nest&cut" element={<NestandCut/>}></Route>
       <Route path="/Almacamspacecut" element={<Almacamspacecut/>}></Route>
       <Route path="/Almacamweld" element={<Almacamweld/>}></Route>
       <Route path="/Industry4" element={<Industry4/>}></Route>
