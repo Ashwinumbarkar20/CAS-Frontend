@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import styled from "styled-components";
-
+import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export default function TechnologyCard({ Technology_name,Heading }) {
+export default function TechnologyCard({ Technology_name,Heading,pageurl }) {
   return (
     <TechnologyCards className="d-flex align-items-center jsutify-content-center">
       <div className="Product-Card d-flex gap-3 p-3 flex-column align-items-center jsutify-content-center">
@@ -15,7 +15,7 @@ export default function TechnologyCard({ Technology_name,Heading }) {
         </div>
         <h2 className="Tech-Heading">{Technology_name}</h2>
         <p className="Tech-Desc text-center lh-5">{Heading}</p>
-        <button className="btn bg-inherit"><Link to="/">Explore More</Link></button>
+        <button className="btn bg-inherit" title="Explore More"><Link to={pageurl}><FaArrowRight style={{fontSize:"24px"}}/></Link></button>
       </div>
   
     </TechnologyCards>
@@ -26,7 +26,8 @@ const TechnologyCards = styled.section`
 width:350px;
 margin:10px;
 padding:10px;
-border-radius:15px;
+background-color:var(--shade);
+border-radius:5px;
 box-shadow:2px 6px 10px rgba(0,0,0,0.8);
 transition:all 0.4s ease;
 .Product-Card,.Product-Heading,.Product-Desc,.Product-image{
@@ -49,23 +50,25 @@ transition:all 0.4s ease;
 .btn 
 {
  border:1px solid black;
-  background-color:#fff;;
+ height:80px;;width:80px;
+ border-radius:100%;
+ 
+ background-color:var(--primary);
+ color:#FFF;
 a{
 
   background-color:inherit;
    text-decoration:none;
    padding: 5px 10px;
    font-weight:800;
-    
-   color:var(--HoverOnDarkText);
+   color:#FFF;
 }
 &:hover{
-  background-color:var(--Dark-bg);
-  color:var(--HoverOnDarkText);
-
+  background-color:var(--accent);
+  color:var(--accent);
 }
 }
 &:hover{
-  transform: scale(1.1);
+  transform: scale(1.025);
 }
 `;

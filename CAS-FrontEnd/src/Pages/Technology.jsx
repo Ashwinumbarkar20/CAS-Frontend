@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Alltechs from '../Data/Technology.json'
 import TechnologyCard from '../Component/TechnologyCard'
-console.log(Alltechs)
+
 export default function Technology() {
   return (
    <AllTechnologies>
@@ -12,19 +12,17 @@ export default function Technology() {
 {
     Alltechs.map((Tech)=>
       <div key={Tech.Technology_name} className='d-flex justify-content-center align-items-center col-12 col-sm-6 col-md-6 col-lg-4'>
-      <TechnologyCard Technology_name={Tech.Technology_name} Heading={Tech.Heading}/>
+      <TechnologyCard Technology_name={Tech.Technology_name} Heading={Tech.Heading} pageurl={Tech.pageurl}/>
       </div>
     )
-  
-}
-
+  }
   </div>
 </div>
    </AllTechnologies>
   )
 }
 const AllTechnologies=styled.main`
-margin-top:40px;
+margin-top:90px;
 .Technology-Heading{
   text-align:center;
   .row{

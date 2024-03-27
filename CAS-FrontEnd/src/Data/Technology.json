@@ -1,7 +1,8 @@
 [
   {
-    "Technology_name": "Laser cutting",
+    "Technology_name": "Laser Cutting",
     "Technology_used":"2D",
+    "pageurl":"/Lasercutting",
     "Heading": "Programming of flat laser cutting machines using the Almacam Cut software",
     "Technology_Description": "Alma has always supported the development of laser cutting technology. Laser cutting has taken on an important role in the sheet metal sector thanks to improvements in increasingly powerful and multi-purpose machines. Today, more than half of Alma’s customers in the world have at least one laser cutting machine.",
     "Technology_Process": [
@@ -12,7 +13,7 @@
     "Description": "Nesting efficiency, support for every type of laser cutting, management of the technological parameters and the automation of the software make Almacam Cut the most productive system to program your laser cutting machines.",
     "Technology_Advantages": [
       {
-        "Advantage_Name": "Significant_material_savings",
+        "Advantage_Name": "Significant material savings",
         "Advantage_list": [
           "Reduced loss rate thanks to the high performance of automatic nesting (possible to choose from multiple strategies).",
           "Optimized nesting in common cut.",
@@ -20,7 +21,7 @@
         ]
       },
       {
-        "Advantage_Name": "Minimized_programming_times",
+        "Advantage_Name": "Minimized programming times",
         "Advantage_list": [
           "Automatic assignment of cutting characteristics, including lead-ins/outs, reconfiguration loops, etc.",
           "Automatic nesting functions with no or limited user intervention required.",
@@ -28,7 +29,7 @@
         ]
       },
       {
-        "Advantage_Name": "Optimized_time_cycles",
+        "Advantage_Name": "Optimized time cycles",
         "Advantage_list": [
           "Optimized computation of the tool paths.",
           "Automatic computation of the tool paths with common cut according to various strategies (common cut in rectangular grid or with precut of the neighboring parts).",
@@ -37,7 +38,7 @@
         ]
       },
       {
-        "Advantage_Name": "Complete_mastering_of_the_technological_process_and_complex_machines",
+        "Advantage_Name": "Complete mastering of the technological process and complex machines",
         "Advantage_list": [
           "Automatic parameter management according to cutting conditions (gas, lens) and the size of the profiles.",
           "Management of the different laser drilling modes.",
@@ -49,7 +50,7 @@
         ]
       },
       {
-        "Advantage_Name": "Full_integration_to_sheet_metal_CAD/CAM",
+        "Advantage_Name": "Full integration to sheet metal CAD/CAM",
         "Advantage_list": [
           "3D import of sheet metal folded parts.",
           "Combination with the sheet metal Unfold module (import and geometric modification or machining of folded parts).",
@@ -57,7 +58,7 @@
         ]
       },
       {
-        "Advantage_Name": "Approach_to_improving_quality_of_manufactured_parts",
+        "Advantage_Name": "Approach to improving quality of manufactured parts",
         "Advantage_list": [
           "Automatic parameter management according to cutting conditions (gas, lens) and the size of the profiles.",
           "Automatic lead-ins/outs (position, type, length and angle) according to the material and thickness, and automatic correction of false lead-ins/outs.",
@@ -68,7 +69,7 @@
         ]
       },
       {
-        "Advantage_Name": "Safety_programming",
+        "Advantage_Name": "Safety programming",
         "Advantage_list": [
           "Availability of several strategies to prevent collisions between the laser head and cut parts that may have toppled over: lifting the head, parabolic trajectory, cut part by-pass, or use of specific sequences minimizing risky passing over cut parts.",
           "Height control to allow cutting near the sheet edge.",
@@ -76,7 +77,7 @@
         ]
       },
       {
-        "Advantage_Name": "Facilitation_of_handling_in_workshop",
+        "Advantage_Name": "Facilitation of handling in workshop",
         "Advantage_list": [
           "Skeleton cutting management with various possible parameter settings to facilitate cut-off removal.",
           "Evacuation of inner profiles by subdividing them into small pieces to avoid evacuation manually or via trapdoor.",
@@ -97,6 +98,7 @@
     {
       "Technology_name": "Plasma cutting",
       "Technology_used":"2D",
+      "pageurl":"/Plasmacuting",
       "Heading": "Programming of plasma cutting machines using the Almacam Cut software",
       "Technology_Description": "Alma has many years of experience with plasma cutting, a technology that is particularly widespread in industries that use half-thickness sheet metal, especially ship-building. Plasma cutting was the starting point for several innovations in programming methods devised by Alma: continuous cutting without lead-ins/outs, bevel programming, etc. In addition to flat cutting, Alma software for 3D cutting or beveled cutting also comprise plasma cutting processes.",
       "Technology_Process": [
@@ -212,6 +214,8 @@
 {
   "Technology_name": "Oxy cutting",
   "Technology_used":"2D",
+  
+  "pageurl":"/Oxycuting",
   "Heading": "Programming of oxy-cutting machines using the Almacam Cut software",
   "Technology_Description": "Like plasma cutting, oxy-cutting is one of the first cutting technologies that Alma software was used for in the early 1980s. Alma has therefore a strong presence in industries that use thick sheet metal and with sub-contractors. Alma innovated very early on to optimize programming methods specific to oxy-cutting: multi-torch programming with smart nesting, bevel programming reduction of drilling on sheet metal, support of thermal requirements during cutting, etc.",
   "Technology_Process": [
@@ -303,6 +307,7 @@
   {
     "Technology_name": "Water jet",
     "Technology_used":"2D",
+    "pageurl":"/Waterjetcuting",
     "Heading": "Programming of water jet cutting machines for sheet metal with Almacam Cut",
     "Technology_Description": "Alma became interested in water jet cutting as soon as the first machines were produced at the end of the 1980s. Although the main advantage of this technology is its capacity to cut virtually any material, without heating it, there are many applications for sheet metal. One of the very first subcontractors to buy Alma for its water jet cutting machine used it to cut very thick shielding steel plates for military vehicles! Regardless of the type of use and the parts that are cut, the Almacam Cut software supports the specificities of water jet technology and is suitable for producing assemblies or cutting single parts.",
     "Technology_Process": [
@@ -405,6 +410,7 @@
 {
 "Technology_name": "Punching-nibbling",
 "Technology_used":"2D",
+"pageurl":"/Punchingnibbling",
 "Heading": "Programming punching-nibbling machines with Almacam Punch",
 "Technology_Description": "Despite the massive growth in laser cutting over the last thirty years, punching-nibbling remains a major sheet metal technology, all the more so since the machines have become considerably more complex to meet the productivity needs of the industry. The Almacam Punch software is a perfect fit for the specificities of punching-nibbling. It is a highly automated, very high performance CAD/CAM solution, producing numerous varied parts on demand. It interfaces with all types of punching-nibbling machines, combined machines and the associated loading/unloading machines.",
 "Technology_Process": [
@@ -532,6 +538,7 @@
 {
   "Technology_name": "Routing/Milling of metal",
   "Technology_used":"2D",
+  "pageurl":"/RoutingMilling",
   "Heading": "Programming of aluminum sheet routing machines using the Almacam Routing software",
   "Technology_Description": "For more than 25 years, Alma has specialized in routing of aluminum sheets, a technology specific to the aeronautics industry. With high nesting performance and the ability to meet all the technological requirements and constraints of the routing process (multi-layer machining, screwing, riveting, micro-junctions, etc.) Almacam Routing is the ideal system to program your aluminum routing machines.",
   "Technology_Process": [
@@ -539,13 +546,13 @@
   ],
   "Technology_Advantages": [
   {
-  "Advantage_Name": "Significant_material_savings",
+  "Advantage_Name": "Significant material savings",
   "Advantage_list": [
   "Significant reduction of loss rates thanks to automatic nesting performance, since there is a choice of several available strategies."
   ]
   },
   {
-  "Advantage_Name": "Minimized_programming_times",
+  "Advantage_Name": "Minimized programming times",
   "Advantage_list": [
   "Automatic nesting functions with no or limited user intervention required.",
   "Automatic assignment of tools (drill bits, taps, etc.) depending on the drilling diameter.",
@@ -554,7 +561,7 @@
   ]
   },
   {
-  "Advantage_Name": "Optimized_time_cycles",
+  "Advantage_Name": "Optimized time cycles",
   "Advantage_list": [
   "Multi-layer nesting to minimize machining time.",
   "Optimized computation of the tool paths.",
@@ -564,7 +571,7 @@
   ]
   },
   {
-  "Advantage_Name": "Complete_mastering_of_the_technological_process_and_complex_machines",
+  "Advantage_Name": "Complete mastering of the technological process and complex machines",
   "Advantage_list": [
   "Automatic or interactive management of pocketing (with or without islands).",
   "Constant depth management (spot facing, etc.)",
@@ -573,14 +580,14 @@
   ]
   },
   {
-  "Advantage_Name": "Savings_on_consumables_and_tools",
+  "Advantage_Name": "Savings on consumables and tools",
   "Advantage_list": [
   "Tool life increased by taking into account drill wear through the use of the tool correction feature.",
   "Increase in sacrificial plate life by optimizing stacking of sheets in nesting."
   ]
   },
   {
-  "Advantage_Name": "An_approach_that_contributes_to_improving_the_quality_of_manufactured_parts",
+  "Advantage_Name": "An approach that contributes to improving the quality of manufactured parts",
   "Advantage_list": [
   "Automatic drill re-machining to cut notches out.",
   "Automatic or interactive management of pocketing (with or without island) and finishing cuts.",
@@ -589,7 +596,7 @@
   ]
   },
   {
-  "Advantage_Name": "Programming_that_guarantees_safety_on_the_machine",
+  "Advantage_Name": "Programming that guarantees safety on the machine",
   "Advantage_list": [
   "Automated addition of micro-junctions on the part geometry for machines not equipped with the De-tagging feature.",
   "Automatic and interactive management of screwing on the part and skeleton.",
@@ -597,7 +604,7 @@
   ]
   },
   {
-  "Advantage_Name": "Methods_to_facilitate_handling_on_the_shop_floor",
+  "Advantage_Name": "Methods to facilitate handling on the shop floor",
   "Advantage_list": [
   "Support of automatic rivet removal to avoid manual operations.",
   "Reduced number of programs thanks to multi-layer nesting.",
@@ -626,6 +633,7 @@
   {
     "Technology_name": "Tubes & profiles cutting",
     "Technology_used":"3D",
+    "pageurl":"/Tubesprofiles",
     "Heading": "Programming of tubes and profiles cutting machines using the Almacam Tube software",
     "Technology_Description": "Alma has always supported the development of tube cutting technology, and the associated innovations. Today it is possible to automatically control increasingly complex machines to cut tubes with standard or special sections, as well as all types of profiles. The Almacam Tube software meets the specific needs of laser cutting, plasma cutting and oxy-cutting.",
     "Technology_Process": [
@@ -633,44 +641,44 @@
     ],
     "Technology_Advantages": [
       {
-        "Advantage_Name": "Modeling_and_Control",
+        "Advantage_Name": "Modeling and Control",
         "Advantage_list": [
           "Almacam Tube enables you to model and control all systems for cutting tubes and profiles, and their equipment."
         ]
       },
       {
-        "Advantage_Name": "Support_All_Steps",
+        "Advantage_Name": "Support All Steps",
         "Advantage_list": [
           "Almacam Tube supports all the steps in the process for cutting tubes and profiles."
         ]
       },
       {
-        "Advantage_Name": "Importing_and_Modifications",
+        "Advantage_Name": "Importing and Modifications",
         "Advantage_list": [
           "Importing and CAD/CAM modifications of single parts and assemblies."
         ]
       },
       {
-        "Advantage_Name": "Automatic_Nesting",
+        "Advantage_Name": "Automatic Nesting",
         "Advantage_list": [
           "Automatic nesting of tubes or sections to cut, with the possibility of common cutting."
         ]
       },
       {
-        "Advantage_Name": "Cutting_Trajectories",
+        "Advantage_Name": "Cutting Trajectories",
         "Advantage_list": [
           "Automatic creation and scheduling of cutting trajectories, supporting the constraints and specificities of each technology (laser, plasma, oxy-cutting)."
         ]
       },
       {
-        "Advantage_Name": "Generation_of_NC_Files",
+        "Advantage_Name": "Generation of NC Files",
         "Advantage_list": [
           "Automatic generation of the cutting program. Support for tube coupling and clamping rules.",
           "Generation of the NC files specific to the machine or robot."
         ]
       },
       {
-        "Advantage_Name": "Management_of_Systems",
+        "Advantage_Name": "Management of Systems",
         "Advantage_list": [
           "Automated management of systems for loading and unloading tubes and off-cuts."
         ]
@@ -704,6 +712,7 @@
 {
   "Technology_name": "3D 5-Axis cutting",
   "Technology_used":"3D",
+  "pageurl":"/Threecutting",
   "Heading": "Programming of 3D cutting machines and robots with the Almacam Space Cut software",
   "Technology_Description": "3D cutting is used in particular by sheet metal subcontractors. It enables them to cut folded, stamped or spun parts, profiles or even machine-welded parts, using 5-axis cutting machines or robots. The Almacam Space Cut software also meets the specific requirements of different 3D cutting technologies such as laser, plasma and water jet.",
   "Technology_Process": [
@@ -712,30 +721,16 @@
   "Description":  "Based on an accurate 3D representation of the machine (including kinematics or axis limit elements) and its environment, Almacam Space Cut, thanks to automatic geometry analysis functions, can automatically define the cutting contours for CAD-imported parts. Using a powerful algorithm that optimizes the paths while avoiding collisions, the software then generates the tool head trajectories taking account of the specificities of each cutting technology (laser, plasma, water jet). It also allows you to automatically model the tooling to support 3D parts, based on a 3D model of the part to cut. With Almacam Space Cut, you will easily create and validate NC programs thanks to realistic simulation and automatic control functions. Almacam Space Cut interacts with any brand of 3D cutting machines and robots."
   ,
   "Machine_brands": [
-    "Adige",
-    "Cyberstep",
-    "Koike",
-    "LT-Free",
-    "Lyonstek",
-    "Mazak",
-    "Mecanumeric",
-    "Microstep",
-    "Nippei",
-    "NTC",
-    "Penta-Chutian",
-    "Prima",
-    "Tamari Industry",
-    "TCI",
-    "Trumpf",
-    "Wardjet",
-    "Weihong",
-    "Yawei"
+    "Adige",    "Cyberstep",    "Koike",    "LT-Free",    "Lyonstek",    "Mazak",
+    "Mecanumeric",    "Microstep",    "Nippei",    "NTC",    "Penta-Chutian",    "Prima",
+    "Tamari Industry",    "TCI",    "Trumpf",    "Wardjet",    "Weihong",    "Yawei"
   ]
 },
 
 {
   "Technology_name": "Robotic welding",
   "Technology_used":"3D",
+  "pageurl":"/Robotic",
   "Heading": "Off-line programming of arc welding robots with Almacam Weld",
   "Technology_Description": "Off-line programming of welding robots is a useful alternative to programming by learning. With more than 20 years of experience in developing off-line programming software, Alma proposes a high added value technical solution and a proven deployment methodology, essential for your project to succeed.",
    "Description": "Arc welding is a process of assembling metal parts by melting and fusing a filler metal to the base material using an electric current. Robots equipped with arc welding tools are used increasingly to perform welding operations due to advantages like constant quality and precision, increased productivity, flexible production, and automation of difficult or dangerous tasks. Off-line programming involves programming welding robots without physically teaching or guiding them through the welding process.",
@@ -748,9 +743,6 @@
     "Reis",    "Fanuc",    "Kuka",    "Staubli",    "Hyundai",    "OTC Daihen",    "Yaskawa/Motoman"
   ]
 }
-
-
-
 
 ]
 

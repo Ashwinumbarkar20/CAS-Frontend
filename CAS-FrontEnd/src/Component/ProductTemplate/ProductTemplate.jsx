@@ -81,14 +81,13 @@ export default function ProductTemplate({ product }) {
             <ul>
               {product.Documents &&
                 product.Documents.map((doc, i) => {
-                  return <li key={i}>{doc}</li>;
+                  return  <li key={i}><a href={`../../PDF/${doc}.pdf`} download>{`${doc}.pdf`}</a></li>;
                 })}
             </ul>
           </div>
 
           <div className="media">
             <h3>Explore More</h3>
-
             <ul>
               {product.Video_links &&
                 product.Video_links.map((doc) => {
@@ -156,9 +155,11 @@ const ProductSection = styled.section`
       align-items:center;
       .brand {
         padding: 10px;
+        text-align:center;
+        height:auto;
         background-color: var(--primary);
         color: white;
-        border: 2px solid var(--primary);
+        border: 2px double var(--primary);
         margin: 10px;
         border-radius: 10px;
         letter-spacing: 1px;

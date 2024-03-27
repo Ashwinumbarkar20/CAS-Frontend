@@ -9,7 +9,7 @@ export default function Lasercutting() {
         const CurrentTech=Technology.find((t)=>t.Technology_name===Tech);
         setTechnologyData(CurrentTech);
     }
-    useEffect(()=>{getTechnology("Laser cutting")},[]);
+    useEffect(()=>{getTechnology("Laser Cutting")},[]);
   return (
     <Laser_Cutting>
      <TechnologyTemplate Technology={TechnologyData}/>
@@ -18,4 +18,5 @@ export default function Lasercutting() {
 }
 
 const Laser_Cutting=styled.main`
+margin-top:90px;
 `

@@ -20,4 +20,5 @@ export default function Waterjetcutting() {
 }
 
 const Waterjet_Cutting=styled.main`
+margin-top:90px;
 `

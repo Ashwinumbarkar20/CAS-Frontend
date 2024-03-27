@@ -29,7 +29,8 @@ export default function AllProducts() {
 }
 const Allproducts=styled.section`
 margin-top:40px;
-
+opacity: 1;
+transition: opacity 0.5s ease-in-out;
 .row{
 display:flex;
 justify-content:center;

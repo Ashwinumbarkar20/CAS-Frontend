@@ -21,4 +21,5 @@ export default function Punchingnibbling() {
 }
 
 const Punchingnibbling_cutting=styled.main`
+margin-top:90px;
 `

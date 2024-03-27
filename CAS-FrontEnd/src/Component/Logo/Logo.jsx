@@ -9,8 +9,8 @@ export default function Logo() {
   )
 }
 const Logodiv=styled.div`
-height:60px;
-width:60px;
+height:55px;
+width:55px;
 border-radius:100%;
 display:flex;
 border:5px double var(--primary);

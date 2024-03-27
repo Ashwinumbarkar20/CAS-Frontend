@@ -20,4 +20,5 @@ export default function Robotic() {
 }
 
 const Robotic_Cutting=styled.main`
+margin-top:90px;
 `

@@ -3,7 +3,6 @@
 .internal,.navbar-nav,.nav-item{
   background-color: var(--Secondary);
   
-
 }
 .navbar-brand{
   height: 90px;
@@ -29,8 +28,6 @@ color: var(--Secondary);
 .navbar-toggler{
   border: 2px solid var(--HoverOnDarkText);
 }
-
-
 .navbar-collapse{
   margin:2px;
   background-color: var(--Secondary);
@@ -40,9 +37,9 @@ color: var(--Secondary);
   padding: 0px;
   background-color: var(--Secondary);
   height: 90px;
- 
+ border-bottom: 3px solid black;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
-
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{ 
 color:var(--primary);
 font-weight: 600;

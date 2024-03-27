@@ -19,5 +19,6 @@ export default function Tubesprofiles() {
   )
 }
 const Tubes_profile_cutting=styled.main`
+margin-top:90px;
 `
 

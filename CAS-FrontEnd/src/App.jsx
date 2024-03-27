@@ -29,7 +29,7 @@ import RoutingMilling from './Pages/TechnologyPages/RoutingMilling'
 import Tubesprofiles from './Pages/TechnologyPages/Tubesprofiles'
 import Threecutting from './Pages/TechnologyPages/ThreeDcutting'
 import Robotic from './Pages/TechnologyPages/Robotic'
-import NestandCut from './Pages/Products/NestandCut'
+import Almanestncut from './Pages/Products/Almanestncut'
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
       <Route path="/Technology" element={<Technology/>}></Route>
       <Route path="/Contactus" element={<Contactus/>}></Route>
       <Route path="/Almacamtube" element={<Almacamtube/>}></Route>
-      <Route path="/Nest&cut" element={<NestandCut/>}></Route>
+      <Route path="/Nest&cut" element={<Almanestncut/>}></Route>
       <Route path="/Almacamspacecut" element={<Almacamspacecut/>}></Route>
       <Route path="/Almacamweld" element={<Almacamweld/>}></Route>
       <Route path="/Industry4" element={<Industry4/>}></Route>
@@ -58,10 +58,10 @@ function App() {
       <Route path='/Waterjetcuting' element={<Waterjetcutting/>}></Route>
       <Route path='/RoutingMilling' element={<RoutingMilling/>}></Route>
       <Route path='/Tubesprofiles' element={<Tubesprofiles/>}></Route>
-      <Route path='/Tubesprofiles' element={<Tubesprofiles/>}></Route>
+      <Route path='/Punchingnibbling' element={<Punchingnibbling/>}></Route>
       <Route path='/Threecutting' element={<Threecutting/>}></Route>
       <Route path='/Robotic' element={<Robotic/>}></Route>
-
+      <Route path='/Nestncut' element={<Almanestncut/>}></Route>
     </Routes>
      <Footer/>
     </>

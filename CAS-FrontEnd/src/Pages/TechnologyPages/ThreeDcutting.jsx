@@ -11,7 +11,7 @@ export default function Threecutting() {
         const CurrentTech=Technology.find((t)=>t.Technology_name===Tech);
         setTechnologyData(CurrentTech);
     }
-    useEffect(()=>{getTechnology("3D cutting of shaped parts")},[]);
+    useEffect(()=>{getTechnology("3D 5-Axis cutting")},[]);
   return (
     <ThreeD_Cutting>
      <TechnologyTemplate Technology={TechnologyData}/>
@@ -20,4 +20,5 @@ export default function Threecutting() {
 }
 
 const ThreeD_Cutting=styled.main`
+margin-top:90px;
 `
