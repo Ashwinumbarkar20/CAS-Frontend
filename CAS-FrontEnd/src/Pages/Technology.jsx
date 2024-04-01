@@ -12,7 +12,7 @@ export default function Technology() {
 {
     Alltechs.map((Tech)=>
       <div key={Tech.Technology_name} className='d-flex justify-content-center align-items-center col-12 col-sm-6 col-md-6 col-lg-4'>
-      <TechnologyCard Technology_name={Tech.Technology_name} Heading={Tech.Heading} pageurl={Tech.pageurl}/>
+      <TechnologyCard Technology_name={Tech.Technology_name} Heading={Tech.Heading} pageurl={Tech.pageurl} imgurl={Tech.imgurl}/>
       </div>
     )
   }

@@ -5,13 +5,13 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export default function TechnologyCard({ Technology_name,Heading,pageurl }) {
+export default function TechnologyCard({ Technology_name,Heading,pageurl,imgurl }) {
   return (
     <TechnologyCards className="d-flex align-items-center jsutify-content-center">
       <div className="Product-Card d-flex gap-3 p-3 flex-column align-items-center jsutify-content-center">
         
         <div className="Product-image">
-          <img src={""} alt="Alamcam Technology" />
+          <img src={imgurl} alt="Alamcam Technology" />
         </div>
         <h2 className="Tech-Heading">{Technology_name}</h2>
         <p className="Tech-Desc text-center lh-5">{Heading}</p>
@@ -37,11 +37,13 @@ transition:all 0.4s ease;
     text-align:center;
   color:var(--Dark-bg);
 }
-.Tech-image
+.Product-image
 {
   width:100%;
+  border-radius:10px;
   img{
     width:100%;
+    border-radius:10px;
   }
 }
 .Tech-Desc{
@@ -50,16 +52,16 @@ transition:all 0.4s ease;
 .btn 
 {
  border:1px solid black;
- height:80px;;width:80px;
+ height:60px;;width:60px;
  border-radius:100%;
  
  background-color:var(--primary);
  color:#FFF;
 a{
-
+  height:60px;;width:60px;
   background-color:inherit;
    text-decoration:none;
-   padding: 5px 10px;
+    
    font-weight:800;
    color:#FFF;
 }

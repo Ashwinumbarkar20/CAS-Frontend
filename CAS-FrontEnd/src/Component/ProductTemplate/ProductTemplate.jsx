@@ -2,19 +2,19 @@
 import React from "react";
 
 import styled from "styled-components";
-import hero from "../../assets/Almacam_Banner.jpg";
+
 
 
 import ReactPlayer from "react-player";
 export default function ProductTemplate({ product }) {
   return (
     <ProductSection>
-      <h1 className="Heading-Name">{product.Product_Name}</h1>
+      
 
       <div className="Hero-img">
-        <img className="heroimg" src="https://i.postimg.cc/Q8kR5FFB/Almacam-Banner.jpg" alt="Hero-Almacam" />
+        <img className="heroimg" src={product.imgurl} alt="Hero-Almacam" />
       </div>
-
+      <h1 className="Heading-Name">{product.Product_Name}</h1>
       <h3 className="Heading-Desc">{product.Heading}</h3>
 
       <ul className="Product_Description">
@@ -107,9 +107,8 @@ export default function ProductTemplate({ product }) {
   );
 }
 const ProductSection = styled.section`
-  max-width: 1440px;
-  margin: 2px auto;
-  width: 100wh;
+  margin-top:95px;
+    width: 100vw;
 
   .Document-Media {
     margin: 20px;
@@ -137,6 +136,7 @@ const ProductSection = styled.section`
   }
   .Machine-Brand {
     display: flex;
+    margin:10px 100px;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
@@ -199,7 +199,7 @@ const ProductSection = styled.section`
   }
   .Product-img {
     width: 30%;
-    margin: 20px;
+    margin: 10px 100px;
     img {
       width: 100%;
       object-fit: cover;
@@ -207,35 +207,36 @@ const ProductSection = styled.section`
   }
   .Product_Description {
     list-style: none;
-    margin: 5px auto;
+    margin: 10px 100px;
     width: 80%;
     padding: 0px;
     li {
       font-weight: 500;
-
       text-align: justify;
       line-height: 30px;
-      margin: 5px;
+     
     }
   }
   .Heading-Desc {
-    margin: 15px;
-    text-align: center;
+    margin: 10px 100px;
+    text-align: justify;
     font-weight: 500;
   }
   .Hero-img {
-    margin: 2px auto;
-    width: 100wh;
-
+    margin: 10px auto;
+    width: 100%;
+height:400px;
     .heroimg {
       margin: 2px auto;
+      height:100%;
       width: 100%;
-      object-fit: cover;
-      filter: brightness(0.4);
+      object-fit:cover;
+      filter: brightness(0.9);
     }
   }
   .Product-Details {
     width: 100%;
+    margin-top:50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,7 +258,11 @@ const ProductSection = styled.section`
     }
   }
   .Heading-Name {
-    margin: 10px;
-    text-align: center;
+    margin: 10px 100px;
+    color:var(--primary);
+  }
+  .Product-Charcterstic{
+    margin:10px 100px;
+    text-align:justify;
   }
 `;

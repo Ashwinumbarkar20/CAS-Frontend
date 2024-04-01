@@ -9,18 +9,17 @@ export default function TechnologyTemplate({ Technology }) {
     <Technology_Template>
       {Technology ? (
         <>
+        <div className="Tech-img"><img src={Technology.imgurl} alt="Tech img" /></div>
           <h1 className="Tech-Heading">{Technology.Technology_name}</h1>
-
           <h2 className="Tech-subHeading">{Technology.Heading}</h2>
-
-          <h5 className="Tech-Desc">{Technology.Technology_Description}</h5>
-
+          <p className="Tech-Desc">{Technology.Technology_Description}</p>
+<h2 className="Tech-subHeading">The Technological Process</h2>
           {Technology.Technology_Process &&
             Technology.Technology_Process.map((process, i) => (
               <p className="Tech-Process" key={i}>{process}</p>
             ))}
 
-          <h5 className="Tech-Desc">{Technology.Description}</h5>
+          <p className="Desc">{Technology.Description}</p>
 
           {Technology.Technology_Advantages && (
             <>
@@ -52,13 +51,27 @@ export default function TechnologyTemplate({ Technology }) {
   );
 }
 const Technology_Template = styled.main`
-margin:10px;
+font-weight:500;
+margin-top:90px;
+.Desc{
+  margin:10px 100px ;
+  text-align:justify;
+}
+.Tech-img{
+  margin:0px auto;
+  height:500px;
+  width:100%;
+  img{
+    margin:0px auto;
+  width:100%;
+  height:500px;
+  object-fit:cover;
+  }
+}
 .Tech-Heading{
-margin-top:120px;
-text-align:center;
+margin:10px 100px ;
 color:var(--primary);
 font-weight:900;
-border-bottom:2px solid var(--accent);
 
 }
 .Machine-Brand {
@@ -91,9 +104,31 @@ border-bottom:2px solid var(--accent);
         text-align:center;
         height:auto;
         letter-spacing: 1px;
-        font-weight: bolder;
+        font-weight: bold;
         cursor: pointer;
       }
     }
+  }
+  .Tech-subHeading{
+    text-align:justify;
+margin:20px 100px ;
+  }
+  .Tech-Desc{
+    text-align:justify;
+margin:20px 100px ;
+
+  }
+  .Tech-Process{
+    text-align:justify;
+    margin:20px 100px ;
+  }
+  .Tech-AdvName{
+    text-align:justify;
+    margin:20px 100px ;
+    color:var(--primary);
+  }
+  .Tech-list{
+    text-align:justify;
+    margin:20px 100px ;
   }
 `;

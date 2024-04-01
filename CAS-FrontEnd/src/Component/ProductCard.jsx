@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import styled from "styled-components";
-
+import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
@@ -15,7 +15,7 @@ export default function ProductCard({ Product_Name,Product_image,Product_Heading
         </div>
         <h2 className="Product-Heading">{Product_Name}</h2>
         <p className="Product-Desc text-center lh-5">{Product_Heading}</p>
-        <button className="btn bg-inherit"><Link to={page_url}>Explore More</Link></button>
+        <button className="btn bg-inherit"><Link to={page_url}><FaArrowRight style={{fontSize:"24px"}}/></Link></button>
       </div>
   
     </Productcard>
@@ -48,12 +48,18 @@ transition:all 0.4s ease;
 .btn 
 {
  border:1px solid black;
-  background-color:#fff;;
+  background-color:var(--primary);
+  color:var(--accent);
+  height:60px;
+  width:60px;
+  border-radius:100%;
 a{
-
+  height:60px;
+  width:60px;
+  border-radius:100%;
   background-color:inherit;
    text-decoration:none;
-   padding: 5px 10px;
+  
    font-weight:800;
     
    color:var(--HoverOnDarkText);

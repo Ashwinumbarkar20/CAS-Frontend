@@ -240,7 +240,7 @@
     ],
       "VideoUrl": "https://youtu.be/LzDUBC6Wq_4",
       "get":"Almaquote software is sold as a perpetual license installable on your computers, or as a no commitment subscription with Almacam Pass.",
-      "Documents":["Download Almaquote’s product flyer"],  
+      "Documents":[{"name":"Download Almaquote’s product flyer","pdflink":"https://drive.google.com/file/d/1n5vtc-aKnsW89xeN3Z07VmiH2Vvb7s3a/view?usp=drive_link"}],  
       "Video_links": [
         {"title":"Importing a CAD assembly in a quote", "url":"https://www.youtube.com/watch?v=ycBkdZCqv4Q"}
            ]
@@ -279,7 +279,7 @@
       "machine_brands": ["ABB",      "IGM",      "Panasonic",      "Cloos",      "Kawasaki",      "Reis",      "Fanuc",      "Kuka",      "Staubli",      "Hyundai",
       "OTC Daihen",      "Yaskawa/Motoman"],
 
-      "Documents":["Download Almacam Weld’s product flyer"],
+      "Documents":[{"name":"Download Almacam Weld’s product flyer","pdflink":"https://drive.google.com/file/d/1bSe0O8r12aAAmsfUB7InU6oKuw3NofJh/view?usp=drive_link"}],
       "Video_links": [
         {"title":"Overview of Almacam Weld", "url":"https://www.youtube.com/watch?v=YmGKq02jiRo"},
          {"title":"Automatic toolpath and robot programming with Almacam Weld","url": "https://www.youtube.com/watch?v=uYCwTHJjEXQ"},
