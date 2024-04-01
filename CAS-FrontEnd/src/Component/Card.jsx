@@ -10,7 +10,7 @@ export default function Card({data}) {
     <ExpertiseCard className='mb-3 '>
       <Link to={data.url}>
       <div className='card'>
-        <img className='image card-img-top' src={Heroimg} alt="cardimg" />
+        <img className='image card-img-top' src={data.imgurl} alt="cardimg" />
         <p className='card-title fw-bold text-center p-2'>{data.Name}</p>
         <p className='card-text text-justify p-2'>{data.Desc}</p>
         

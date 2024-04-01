@@ -2,6 +2,7 @@
   {
     "Technology_name": "Laser Cutting",
     "Technology_used":"2D",
+    "imgurl":"https://i.postimg.cc/xCTpJ3zL/Laser-Cutting.jpg",
     "pageurl":"/Lasercutting",
     "Heading": "Programming of flat laser cutting machines using the Almacam Cut software",
     "Technology_Description": "Alma has always supported the development of laser cutting technology. Laser cutting has taken on an important role in the sheet metal sector thanks to improvements in increasingly powerful and multi-purpose machines. Today, more than half of Alma’s customers in the world have at least one laser cutting machine.",
@@ -98,6 +99,7 @@
     {
       "Technology_name": "Plasma cutting",
       "Technology_used":"2D",
+      "imgurl":"https://i.postimg.cc/DZjjq4rH/Plasma-Cutting.png",
       "pageurl":"/Plasmacuting",
       "Heading": "Programming of plasma cutting machines using the Almacam Cut software",
       "Technology_Description": "Alma has many years of experience with plasma cutting, a technology that is particularly widespread in industries that use half-thickness sheet metal, especially ship-building. Plasma cutting was the starting point for several innovations in programming methods devised by Alma: continuous cutting without lead-ins/outs, bevel programming, etc. In addition to flat cutting, Alma software for 3D cutting or beveled cutting also comprise plasma cutting processes.",
@@ -214,7 +216,7 @@
 {
   "Technology_name": "Oxy cutting",
   "Technology_used":"2D",
-  
+  "imgurl":"https://i.postimg.cc/W4SXvqHz/Oxy-Cutting.jpg",
   "pageurl":"/Oxycuting",
   "Heading": "Programming of oxy-cutting machines using the Almacam Cut software",
   "Technology_Description": "Like plasma cutting, oxy-cutting is one of the first cutting technologies that Alma software was used for in the early 1980s. Alma has therefore a strong presence in industries that use thick sheet metal and with sub-contractors. Alma innovated very early on to optimize programming methods specific to oxy-cutting: multi-torch programming with smart nesting, bevel programming reduction of drilling on sheet metal, support of thermal requirements during cutting, etc.",
@@ -307,6 +309,7 @@
   {
     "Technology_name": "Water jet",
     "Technology_used":"2D",
+    "imgurl":"https://i.postimg.cc/hvQrTyPQ/Water-JET-Cutting.jpg",
     "pageurl":"/Waterjetcuting",
     "Heading": "Programming of water jet cutting machines for sheet metal with Almacam Cut",
     "Technology_Description": "Alma became interested in water jet cutting as soon as the first machines were produced at the end of the 1980s. Although the main advantage of this technology is its capacity to cut virtually any material, without heating it, there are many applications for sheet metal. One of the very first subcontractors to buy Alma for its water jet cutting machine used it to cut very thick shielding steel plates for military vehicles! Regardless of the type of use and the parts that are cut, the Almacam Cut software supports the specificities of water jet technology and is suitable for producing assemblies or cutting single parts.",
@@ -410,6 +413,7 @@
 {
 "Technology_name": "Punching-nibbling",
 "Technology_used":"2D",
+"imgurl":"https://i.postimg.cc/8CTt9mwx/Punching-Nibbling.jpg",
 "pageurl":"/Punchingnibbling",
 "Heading": "Programming punching-nibbling machines with Almacam Punch",
 "Technology_Description": "Despite the massive growth in laser cutting over the last thirty years, punching-nibbling remains a major sheet metal technology, all the more so since the machines have become considerably more complex to meet the productivity needs of the industry. The Almacam Punch software is a perfect fit for the specificities of punching-nibbling. It is a highly automated, very high performance CAD/CAM solution, producing numerous varied parts on demand. It interfaces with all types of punching-nibbling machines, combined machines and the associated loading/unloading machines.",
@@ -538,6 +542,7 @@
 {
   "Technology_name": "Routing/Milling of metal",
   "Technology_used":"2D",
+  "imgurl":"https://i.postimg.cc/C59c2y64/Routing.png",
   "pageurl":"/RoutingMilling",
   "Heading": "Programming of aluminum sheet routing machines using the Almacam Routing software",
   "Technology_Description": "For more than 25 years, Alma has specialized in routing of aluminum sheets, a technology specific to the aeronautics industry. With high nesting performance and the ability to meet all the technological requirements and constraints of the routing process (multi-layer machining, screwing, riveting, micro-junctions, etc.) Almacam Routing is the ideal system to program your aluminum routing machines.",
@@ -633,6 +638,7 @@
   {
     "Technology_name": "Tubes & profiles cutting",
     "Technology_used":"3D",
+    "imgurl":"https://i.postimg.cc/fRc88r7x/Tube-Cutting.jpg",
     "pageurl":"/Tubesprofiles",
     "Heading": "Programming of tubes and profiles cutting machines using the Almacam Tube software",
     "Technology_Description": "Alma has always supported the development of tube cutting technology, and the associated innovations. Today it is possible to automatically control increasingly complex machines to cut tubes with standard or special sections, as well as all types of profiles. The Almacam Tube software meets the specific needs of laser cutting, plasma cutting and oxy-cutting.",
@@ -712,6 +718,7 @@
 {
   "Technology_name": "3D 5-Axis cutting",
   "Technology_used":"3D",
+  "imgurl":"https://i.postimg.cc/Hs7ZyxVv/3-D-5-Axis-Cutting.jpg",
   "pageurl":"/Threecutting",
   "Heading": "Programming of 3D cutting machines and robots with the Almacam Space Cut software",
   "Technology_Description": "3D cutting is used in particular by sheet metal subcontractors. It enables them to cut folded, stamped or spun parts, profiles or even machine-welded parts, using 5-axis cutting machines or robots. The Almacam Space Cut software also meets the specific requirements of different 3D cutting technologies such as laser, plasma and water jet.",
@@ -730,6 +737,7 @@
 {
   "Technology_name": "Robotic welding",
   "Technology_used":"3D",
+  "imgurl":"https://i.postimg.cc/xC45kDYS/Robotic-Welding.jpg",
   "pageurl":"/Robotic",
   "Heading": "Off-line programming of arc welding robots with Almacam Weld",
   "Technology_Description": "Off-line programming of welding robots is a useful alternative to programming by learning. With more than 20 years of experience in developing off-line programming software, Alma proposes a high added value technical solution and a proven deployment methodology, essential for your project to succeed.",

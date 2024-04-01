@@ -12,7 +12,7 @@ export default function Home() {
     <>
     <HeroSection>
       <div className='container-fluid justify-content-center'>
-<img src={Heroimg} className='Hero-image img-fluid' alt="Heroimage"/>
+<img src="https://i.postimg.cc/xCB068Yp/Hero-Image.jpg" className='Hero-image img-fluid' alt="Heroimage"/>
 <h1 className="Hero-heading">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
       </div>
      </HeroSection>
@@ -62,7 +62,7 @@ margin-top:90px;
   width:100%;
   object-fit:cover;
   height:70vh;
-  filter: brightness(40%) blur(6px);
+  filter: brightness(60%) blur(1px);
   
   
 }

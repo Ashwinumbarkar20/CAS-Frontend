@@ -2,6 +2,7 @@
     {
       "Product_Name": "Almacam Cut",
       "page_url":"/Almacamcut",
+      "imgurl":"https://i.postimg.cc/brFvcgQg/almacam-cut-screenshot-plain.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/4NnMrwBt/logo-almacam-cut.png",
       "Technology":"2D",
       "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
@@ -39,6 +40,7 @@
     {
       "Product_Name": "Almacam Punch",
       "page_url":"/Almacampunch",
+      "imgurl":"https://i.postimg.cc/JnxnKM09/almacam-punch-screenshot.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/5tWRQJ1q/logo-almacam-punch.png",
       "Technology":"2D",
       "Heading": "An extremely effective CAD/CAM software for on-demand production of numerous parts requiring punching-nibbling.",
@@ -71,6 +73,7 @@
     {
       "Product_Name": "Almacam Routing",
       "page_url":"/Almacamrouting",
+      "imgurl":"https://i.postimg.cc/br6ZYpjQ/almacam-routing-screenshot-plain.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/KvVVFLHW/logo-almacam-routing.png",
       "Technology":"2D",
       "Heading": "The nesting software for routing and 2.5 axis machining of aluminum sheets and wood panels.",
@@ -102,6 +105,7 @@
       {
       "Product_Name": "Almacam Combi",
       "page_url":"/Almacamcombi",
+      "imgurl":"https://i.postimg.cc/RCG6LQnN/almacam-combi-screenshot-plain.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/0yw4Njgy/logo-almacam-combi.png",
       "Technology":"2D",
       "Heading": "The nesting software to program your combined laser/punching or plasma/drilling machines with maximum automation and flexibility.",
@@ -134,7 +138,7 @@
     {
       "Product_Name": "Almacam TUBE",
       "page_url":"/Almacamtube",
-      
+      "imgurl":"https://i.postimg.cc/J44XfdWN/almacam-tube-screenshot-plain.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/nLKwvWh8/logo-almacam-tube.png",
       "Technology":"3D",
       "Heading": "The automated solution to program your tubes and profiles cutting machines and robots.",
@@ -174,6 +178,7 @@
     {
       "Product_Name": "Almacam SPACECUT",
       "page_url":"/Almacamspacecut",
+      "imgurl":"https://i.postimg.cc/xjmpk8kx/almacam-spacecut-screenshot-plain.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/tTXvDzss/logo-almacam-Space-Cut.png",
       "Technology":"3D",
       "Heading": "A CAD/CAM programming software for all your 5-axis cutting machines and cutting robots",
@@ -205,7 +210,7 @@
     {
       "Product_Name": "AlmaQUOTE",
       "page_url":"/AlmaQuote",
-      
+      "imgurl":"https://i.postimg.cc/1XSGV9T2/Almaquote-2022.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/d3fWsP4C/logo-almaquote.png",
       "Technology":"Costing",
       "Heading": "Almaquote: make quotation for sheet metals parts easier and faster",
@@ -244,6 +249,7 @@
     {
       "Product_Name": "AlmaCAM WELD",
       "page_url":"/Almacamweld",
+      "imgurl":"https://i.postimg.cc/XNgFD6tN/almacam-weld-screenshot-plain.jpg",
       "Product_Hero_Image": "https://i.postimg.cc/Qt04zW70/logo-almacam-weld.png",
       "Technology":"3D",
       "Heading": "Offline programming software for arc-welding robots.",
@@ -292,6 +298,7 @@
     "Product_Name": "Nest&Cut",
     "Product_Hero_Image": "https://i.postimg.cc/zBgKKhHj/nestncut.png",
     "page_url":"/Nest&cut",
+    "imgurl":"https://i.postimg.cc/BvyNbfJf/nestandcut-screenshot-plain.jpg",
     "Technology": "Cloud Application",
     "Heading": "Optimized nesting layouts in a few clicks for all cutting machines and materials",
     "Product_Description": [
