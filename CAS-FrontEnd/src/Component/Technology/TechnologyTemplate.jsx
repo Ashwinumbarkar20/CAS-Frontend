@@ -131,4 +131,9 @@ margin:20px 100px ;
     text-align:justify;
     margin:20px 100px ;
   }
+  @media only screen and (max-width: 768px) {
+    .Tech-Heading,.Tech-list,.Tech-AdvName,.Tech-Process,.Tech-Desc,.Tech-subHeading,.Desc{
+        margin: 20px;
+    }
+}
 `;

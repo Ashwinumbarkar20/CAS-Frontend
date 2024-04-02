@@ -18,7 +18,7 @@ export default function Home() {
      </HeroSection>
 
 <Subheading className='contianer m-5'>
-<h3 className='text-center'>
+<h3 className='text-justify'>
 Right around the world, our CAD/CAM software products and automatic nesting applications are improving the productivity of cutting systems, sheet metal machines and welding robots, by meeting the demands of industry 4.0.
 </h3>
 </Subheading>
@@ -57,6 +57,7 @@ margin-top:90px;
 .container-fluid{
   position:relative;
 }
+
 .Hero-image{
   
   width:100%;
@@ -80,6 +81,11 @@ margin-top:90px;
     color: #fff;
  text-align:center;
 
+}
+@media only screen and (max-width: 900px) {
+  .Hero-heading {
+    font-size: 40px;
+  }
 }
 `
 const Subheading=styled.section`
@@ -105,7 +111,7 @@ h1 {
 .react-player {
   width: 100%;
   height: auto;
-  max-width: 800px; /* Set max-width to prevent video from becoming too large */
+  max-width: 800px; 
 }
 `
 const Expertise=styled.section`
@@ -120,9 +126,5 @@ align-items:center;
   align-items:center;
   
 }
-@media only screen and (max-width: 768px) {
-  .Hero-heading {
-    font-size: 40px;
-  }
-}
+
 `

@@ -110,14 +110,14 @@
    
       "Technology_Advantages": [
       {
-      "Advantage_Name": "Significant_material_savings",
+      "Advantage_Name": "Significant material savings",
       "Advantage_list": [
       "Significant reduction of loss rates thanks to automatic nesting performance, since there is a choice of several available strategies.",
       "Optimized use of remnant sheets or off-cuts of any shape."
       ]
       },
       {
-      "Advantage_Name": "Minimized_programming_times",
+      "Advantage_Name": "Minimized programming times",
       "Advantage_list": [
       "Possibility to operate in full automatic mode.",
       "Management of repetitive nesting and sub-nesting (kits) enabling future re-use of optimized programs.",
@@ -125,13 +125,13 @@
       ]
       },
       {
-      "Advantage_Name": "Savings_on_consumables",
+      "Advantage_Name": "Savings on consumables",
       "Advantage_list": [
       "Limited number of sheet drillings thanks to several cutting methods: continuous cutting (bridges), common cut, etc."
       ]
       },
       {
-      "Advantage_Name": "Optimized_time_cycles_and_complete_safety",
+      "Advantage_Name": "Optimized time cycles and complete safety",
       "Advantage_list": [
       "Optimized computation of the tool paths.",
       "Reduction of cycle times thanks to different methods making it possible to avoid drilling by profile: bridges between parts, common cut.",
@@ -140,7 +140,7 @@
       ]
       },
       {
-      "Advantage_Name": "Complete_mastering_of_the_technological_process_and_complex_machines",
+      "Advantage_Name": "Complete mastering of the technological process and complex machines",
       "Advantage_list": [
       "Ability to control programmable beveling heads while automatically preparing the program: pass sequence and offsets computation, automatic generation of the reconfiguration loops or lead-ins/outs, generation of an overall profile to take into account the maximum bulk of the part in the nesting, allocation of cutting conditions according to the angle.",
       "Support of all processes that can be combined with plasma cutting; drilling, sand-blasting, marking systems (alphanumeric marking by ink jet or plasma, etc.)",
@@ -149,7 +149,7 @@
       ]
       },
       {
-      "Advantage_Name": "An_approach_that_contributes_to_improving_the_quality_of_manufactured_parts",
+      "Advantage_Name": "An approach that contributes to improving the quality of manufactured parts",
       "Advantage_list": [
       "Heat deformation taken into account thanks to several automatic or semi-automatic functions: heat distribution over the sheet with specific cutting sequence, etc.",
       "Automatic lead-ins/outs (position, type, length and angle) according to the material and thickness, and automatic correction of false lead-ins/outs.",
@@ -159,7 +159,7 @@
       ]
       },
       {
-      "Advantage_Name": "Methods_to_facilitate_handling_in_the_workshop",
+      "Advantage_Name": "Methods to facilitate handling in the workshop",
       "Advantage_list": [
       "Hierarchical nesting using priority groups to easily sort the parts during evacuation.",
       "Skeleton cutting to facilitate evacuation of the remnant.",
@@ -225,7 +225,7 @@
   ],
   "Technology_Advantages": [
   {
-  "Advantage_Name": "Significant_material_savings",
+  "Advantage_Name": "Significant material savings",
   "Advantage_list": [
   "Significant reduction of loss rates thanks to automatic nesting performance, since there is a choice of several available strategies.",
   "Multi-torch nesting available either in automatic or interactive mode, with the calculation of the smallest gap between the torches, lower than the height of parts that can be embedded with themselves; possibility to combine multi- and mono-torch cutting in a single nesting.",
@@ -233,21 +233,21 @@
   ]
   },
   {
-  "Advantage_Name": "Minimized_programming_times",
+  "Advantage_Name": "Minimized programming times",
   "Advantage_list": [
   "Management of repetitive nesting and sub-nesting (kits) enabling future re-use of optimized programs.",
   "Possibility to modify the profile characteristics (lead-ins/outs, bevels, etc.); which avoids modifying the geometry."
   ]
   },
   {
-  "Advantage_Name": "Savings_on_consumables",
+  "Advantage_Name": "Savings on consumables",
   "Advantage_list": [
   "Limited quantity of sheet drilling thanks to several cutting methods: chain cutting and common cut between two parts, lead-in in the lead-out from the previous part.",
   "Use of the pre-lead-in method (can be performed with a used nozzle) when cutting thick sheet (pre-cutting of a rectangle to facilitate the lead-in)."
   ]
   },
   {
-  "Advantage_Name": "Optimized_time_cycles",
+  "Advantage_Name": "Optimized time cycles",
   "Advantage_list": [
   "Optimized computation of the tool paths.",
   "Multi-torch cutting minimizing the cut length (the automatic nesting computes the best compromise between the loss rate and the cycle time).",
@@ -256,7 +256,7 @@
   ]
   },
   {
-  "Advantage_Name": "Complete_mastering_of_the_technological_process_and_complex_machines",
+  "Advantage_Name": "Complete mastering of the technological process and complex machines",
   "Advantage_list": [
   "Operation of programmable torch machines, with automatic clamping or gap between torches.",
   "Ability to control programmable beveling heads while automatically preparing the program: automatic generation of the reconfiguration loops or lead-ins/outs, generation of an overall profile to take into account the maximum bulk of the part in the nesting, allocation of cutting conditions according to the angle.",
@@ -264,7 +264,7 @@
   ]
   },
   {
-  "Advantage_Name": "Approach_to_improving_quality_of_manufactured_parts",
+  "Advantage_Name": "Approach to improving quality of manufactured parts",
   "Advantage_list": [
   "Heat deformation taken into account thanks to several automatic or semi-automatic functions: parts cut out in several passes (split), heat distribution over the sheet with specific cutting sequence, etc.",
   "Automatic position of lead-ins/outs to terminate cutting of parts in the middle of the material (far from sheet edge).",
@@ -275,7 +275,7 @@
   ]
   },
   {
-  "Advantage_Name": "Methods_to_facilitate_handling_in_workshop",
+  "Advantage_Name": "Methods to facilitate handling in workshop",
   "Advantage_list": [
   "Hierarchical nesting using priority groups to easily sort the parts during evacuation."
   ]
@@ -318,7 +318,7 @@
     ],
     "Technology_Advantages": [
     {
-    "Advantage_Name": "Significant_material_savings",
+    "Advantage_Name": "Significant material savings",
     "Advantage_list": [
     "Significant reduction of loss rates thanks to automatic nesting performance, since there is a choice of several available strategies.",
     "Optimized use of remnant sheets or off-cuts of any shape.",
@@ -327,14 +327,14 @@
     ]
     },
     {
-    "Advantage_Name": "Minimized_programming_times",
+    "Advantage_Name": "Minimized programming times",
     "Advantage_list": [
     "Automatic configuration of cutting parameters and lead-ins/outs.",
     "Possibility to operate in full automatic mode (for nesting and tool path generation)."
     ]
     },
     {
-    "Advantage_Name": "An_approach_that_contributes_to_improving_the_quality_of_manufactured_parts",
+    "Advantage_Name": "An approach that contributes to improving the quality of manufactured parts",
     "Advantage_list": [
     "Optimal adjustment of cutting conditions (speed, abrasive dosage) taking into account the various parameters (material, thickness, surface, perimeter, part geometry) and the required quality",
     "Automatic speed decrease in corners or in advance of small radii to ensure the quality of the cutting results and avoid water jet diffraction.",
@@ -342,7 +342,7 @@
     ]
     },
     {
-    "Advantage_Name": "Optimized_time_cycles",
+    "Advantage_Name": "Optimized time cycles",
     "Advantage_list": [
     "Optimized computation of the tool paths.",
     "Automatic computation of tool paths with common cut.",
@@ -350,7 +350,7 @@
     ]
     },
     {
-    "Advantage_Name": "Savings_on_consumables",
+    "Advantage_Name": "Savings on consumables",
     "Advantage_list": [
     "Reduced drilling thanks to the addition of bridges between parts that enable continuous cutting.",
     "Automatic control of cutting parameters (abrasive dosage, water pressure) according to the material to cut.",
@@ -358,7 +358,7 @@
     ]
     },
     {
-    "Advantage_Name": "Ability_to_control_complex_or_special_machines",
+    "Advantage_Name": "Ability to control complex or special machines",
     "Advantage_list": [
     "Control of combined machines equipped with drilling heads.",
     "Management of marking and engraving.",
@@ -368,7 +368,7 @@
     ]
     },
     {
-    "Advantage_Name": "Methods_that_enhance_safety_around_the_machine_and_facilitate_handling_in_the_workshop",
+    "Advantage_Name": "Methods that enhance safety around the machine and facilitate handling in the workshop",
     "Advantage_list": [
     "Nesting of parts according to the support grid to prevent them falling under the table.",
     "Creation of micro-junctions to prevent small parts falling under the table."
@@ -437,7 +437,7 @@
 ]
 },
 {
-"Advantage_Name": "Optimized_time_cycles",
+"Advantage_Name": "Optimized time cycles",
 "Advantage_list": [
 "Optimized sequence respecting the part evacuation and tool order (possibility to configure the sequence type per tool).",
 "Possibility to perform common cuts between different tools.",
@@ -446,7 +446,7 @@
 ]
 },
 {
-"Advantage_Name": "Significant_material_savings",
+"Advantage_Name": "Significant material savings",
 "Advantage_list": [
 "Automatic part nesting under or around clamps",
 "Specific nesting algorithm for shearing.",
@@ -454,7 +454,7 @@
 ]
 },
 {
-"Advantage_Name": "Complete_mastering_of_the_technological_process",
+"Advantage_Name": "Complete mastering of the technological process",
 "Advantage_list": [
 "Management of mounting angles, clamping types, avoidance and accessibility areas according to the turret position.",
 "Multi-tool or additional turret management in order to increase the number of supported tools (Trumatool).",
@@ -465,7 +465,7 @@
 ]
 },
 {
-"Advantage_Name": "Full_integration_to_sheet_metal_CAD/CAM_to_automate_the_unfolding-cutting-folding_workflow",
+"Advantage_Name": "Full integration to sheet metal CAD/CAM to automate the unfolding-cutting-folding workflow",
 "Advantage_list": [
 "3D import of sheet metal folded parts.",
 "Plan of folding procedure generation for Almacam Bend.",
@@ -473,7 +473,7 @@
 ]
 },
 {
-"Advantage_Name": "Support_of_related_processes_and_special_peripheral_devices",
+"Advantage_Name": "Support of related processes and special peripheral devices",
 "Advantage_list": [
 "Automatic or manual control of standard evacuation systems (trapdoors, lifts) and manufacturers specific systems (Trumasort, Trumalift, Trumagrip, Amadalift, robotized evacuation etc.)",
 "Automatic paletting of parts according to configurable grouping criteria.",
@@ -481,7 +481,7 @@
 ]
 },
 {
-"Advantage_Name": "Programming_that_guarantees_enhanced_safety_around_the_machine_extended_tool_life_duration_and_improved_quality_of_manufactured_parts",
+"Advantage_Name": "Programming that guarantees enhanced safety around the machine extended tool life duration and improved quality of manufactured parts",
 "Advantage_list": [
 "Management of turret capacity at every step of programming.",
 "Parts nesting with anti-collision taking into account tool space requirements.",
@@ -499,7 +499,7 @@
 ]
 },
 {
-"Advantage_Name": "Methods_that_facilitate_preparation_and_handling_in_the_workshop",
+"Advantage_Name": "Methods that facilitate preparation and handling in the workshop",
 "Advantage_list": [
 "Part machining preparation based on a pre-defined turret model.",
 "Automatic or manual management of micro-junctions resulting in easier evacuation of complete sheets.",
