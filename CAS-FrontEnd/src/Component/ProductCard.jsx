@@ -15,7 +15,7 @@ export default function ProductCard({ Product_Name,Product_image,Product_Heading
         </div>
         <h2 className="Product-Heading">{Product_Name}</h2>
         <p className="Product-Desc text-center lh-5">{Product_Heading}</p>
-        <button className="btn bg-inherit"><Link to={page_url}><FaArrowRight style={{fontSize:"24px"}}/></Link></button>
+        <button className="btn bg-inherit"><Link to={page_url}>Read More  <FaArrowRight style={{fontSize:"24px",fontWeight:"500"}}/></Link></button>
       </div>
   
     </Productcard>
@@ -47,26 +47,21 @@ transition:all 0.4s ease;
 }
 .btn 
 {
- border:1px solid black;
-  background-color:var(--primary);
-  color:var(--accent);
-  height:60px;
-  width:60px;
-  border-radius:100%;
+border-radius:15px;
+  color:white;
+  background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
+ 
 a{
-  height:60px;
-  width:60px;
-  border-radius:100%;
-  background-color:inherit;
+  color:var(--Secondary);
    text-decoration:none;
-  
-   font-weight:800;
-    
-   color:var(--HoverOnDarkText);
+   font-size:14px;
+     font-weight:600;
+text-transform:uppercase;
+letter-spacing:1.3    
+   
 }
 &:hover{
-  background-color:var(--Dark-bg);
-  color:var(--HoverOnDarkText);
+  filter:brightness(1.1)
 
 }
 }

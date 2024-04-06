@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import ProductsData from '../Data/Products.json'
 import ProductCard from '../Component/ProductCard'
-console.log(ProductsData)
+
 export default function AllProducts() {
 
   return (
