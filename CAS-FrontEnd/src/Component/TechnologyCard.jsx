@@ -15,7 +15,7 @@ export default function TechnologyCard({ Technology_name,Heading,pageurl,imgurl 
         </div>
         <h2 className="Tech-Heading">{Technology_name}</h2>
         <p className="Tech-Desc text-center lh-5">{Heading}</p>
-        <button className="btn bg-inherit" title="Explore More"><Link to={pageurl}><FaArrowRight style={{fontSize:"24px"}}/></Link></button>
+        <button className="btn bg-inherit" title="Explore More"><Link to={pageurl}>Read More <FaArrowRight style={{fontSize:"24px"}}/></Link></button>
       </div>
   
     </TechnologyCards>
@@ -26,7 +26,6 @@ const TechnologyCards = styled.section`
 width:350px;
 margin:10px;
 padding:10px;
-background-color:var(--shade);
 border-radius:5px;
 box-shadow:2px 6px 10px rgba(0,0,0,0.8);
 transition:all 0.4s ease;
@@ -35,7 +34,7 @@ transition:all 0.4s ease;
 }
 .Tech-Heading{
     text-align:center;
-  color:var(--Dark-bg);
+  font-weight:700;
 }
 .Product-image
 {
@@ -51,23 +50,27 @@ transition:all 0.4s ease;
 }
 .btn 
 {
- border:1px solid black;
- height:60px;;width:60px;
- border-radius:100%;
- 
- background-color:var(--primary);
- color:#FFF;
+  border-radius: 15px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(
+      to right,
+      #006072,
+      #1e7682,
+      #378d92,
+      #50a4a0,
+      #6bbbae
+    );
 a{
-  height:60px;;width:60px;
-  background-color:inherit;
-   text-decoration:none;
-    
-   font-weight:800;
-   color:#FFF;
+  color: var(--Secondary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.3;
 }
 &:hover{
-  background-color:var(--accent);
-  color:var(--accent);
+ filter:brightness(1.1)
 }
 }
 &:hover{

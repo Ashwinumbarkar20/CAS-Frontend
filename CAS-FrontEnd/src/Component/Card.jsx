@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import styled from 'styled-components'
-import Heroimg from '../assets/Hero.png'
-import Cardimg from '../assets/Cardimg.png'
+
 import { Link } from 'react-router-dom'
 
 export default function Card({data}) {
@@ -20,6 +19,7 @@ export default function Card({data}) {
   )
 }
 const ExpertiseCard=styled.div`
+padding:20px;
 background-color:var(--Secondary);
 width:300px;
 height:400px;
@@ -29,8 +29,8 @@ a{
   text-decoration:none
 }
 .image{
-    
-    object-fit: cover;
+  object-fit: cover;
+  border-radius:15px;
    
 }
 .card-title{
@@ -47,7 +47,7 @@ text-align:justify;
 }
 .card{
   text-decoration:none;
-    /* border:2px solid black; */
+  
 
 border:none;
 background-color:transparent;

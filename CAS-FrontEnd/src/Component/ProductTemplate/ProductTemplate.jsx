@@ -87,9 +87,10 @@ export default function ProductTemplate({ product }) {
                     return (
                       <li key={i}>
                         <a
-                          href={`../../PDF/${doc}.pdf`}
+                          href={""}
                           download
-                        >{`${doc}.pdf`}</a>
+                          style={{textDecoration:"none",color:"inherit",fontSize:"15px"}}
+                        >{`${doc}`}</a>
                       </li>
                     );
                   })}
@@ -165,16 +166,16 @@ const ProductSection = styled.section`
       justify-content: center;
       align-items: center;
       .brand {
-        padding: 10px;
+        padding: 8px;
         text-align: center;
         height: auto;
-        background-color: var(--primary);
+        background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
         color: white;
-        border: 2px double var(--primary);
         margin: 10px;
         border-radius: 10px;
         letter-spacing: 1px;
         font-weight: bolder;
+        border:none;
         cursor: pointer;
       }
     }
@@ -224,11 +225,17 @@ const ProductSection = styled.section`
     text-align:justify;
     margin: 20px 100px;
      padding: 0px;
+     list-style-type: square; 
     li {
       font-weight: 500;
       text-align: justify;
       line-height: 30px;
     }
+    li::marker{
+      color:#6BBBAE;
+      font-size:25px;
+    }
+    
   }
  
   .Heading-Desc {
@@ -251,8 +258,13 @@ const ProductSection = styled.section`
  
     .List-Charcterstic{
     margin:20px 100px;
+    list-style-type:square;
     li{
       line-height:35px;
+    }
+    li::marker{
+      color:#6BBBAE;
+      font-size:25px;
     }
     }
 

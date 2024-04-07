@@ -28,7 +28,7 @@ export default function TechnologyTemplate({ Technology }) {
                   <h3 className="Tech-AdvName">{Adv.Advantage_Name}</h3>
                   <ul className="Tech-list">
                     {Adv.Advantage_list.map((list, i) => (
-                      <li className="Adv-Desc"key={i}>{list}</li>
+                      <li className="Adv-Desc" key={i}>{list}</li>
                     ))}
                   </ul>
                 </div>
@@ -96,9 +96,9 @@ font-weight:900;
       align-items:center;
       .brand {
         padding: 10px;
-        background-color: var(--primary);
+        background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #1e7682, #1e7682);
         color: white;
-        border: 2px solid var(--primary);
+        border: none;
         margin: 10px;
         border-radius: 10px;
         text-align:center;
@@ -130,6 +130,13 @@ margin:20px 100px ;
   .Tech-list{
     text-align:justify;
     margin:20px 100px ;
+    list-style-type: square;
+    .Adv-Desc::marker{
+      
+      color:#6BBBAE;
+      font-size:25px;
+      
+    }
   }
   @media only screen and (max-width: 768px) {
     .Tech-Heading,.Tech-list,.Tech-AdvName,.Tech-Process,.Tech-Desc,.Tech-subHeading,.Desc{
