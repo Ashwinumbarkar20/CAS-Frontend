@@ -9,7 +9,7 @@ export default function Footer() {
       <Footerdiv className="container-fluid">
     
         <div className="companyName">
-          <h3 className="footer-header">About Cadcamsys</h3>
+          <h3 className="footer-header">About CADCAMSYS</h3>
           
           <p>
             Your premier provider of sheet metal manufacturing software
@@ -19,41 +19,34 @@ export default function Footer() {
         </div>
 
         <div className="Products">
-          <h3 className="footer-header">Products</h3>
+          <h3 className="footer-header">Popular Links</h3>
         
           <div>
             <Link to="/Almacamcut" className="product-item">
-              Almacam cut
+              Application Softwares
             </Link>
 
             <Link to="/AlmaQuote" className="product-item">
-              AlmaQuote
+             Process Technologies
             </Link>
 
             <Link to="/Almacamtube" className="product-item">
-              Almacam Tube
+              Service
             </Link>
 
             <Link to="/Almacamspacecut" className="product-item">
-              Almacam Space cut
+              Support
             </Link>
 
-            <Link to="/Almacamweld" className="product-item">
-              Almacam weld
-            </Link>
-
-            <Link to="/" className="product-item">
-              Almacam for industry 4.0
-            </Link>
-            <Link to="/Nestncut" className="product-item">
-              Nest&Cut
+            <Link to="/Almacamspacecut" className="product-item">
+              Contact Us
             </Link>
             
           </div>
         </div>
 
         <div className="ContactInfo">
-          <h3 className="footer-header">Contact Us</h3>
+          <h3 className="footer-header">Wanna Connect?</h3>
           
           <p>
             Email:- abhilash.nasre@cadcamsys.com
@@ -125,10 +118,11 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
       text-align: left;
       margin: 5px;
       padding: 10px;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 20px;
       text-align: justify;
       flex-wrap:nowrap;
+      
     }
   }
   .product-item {
@@ -137,11 +131,14 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
     display: block;
     margin: 5px;
     padding: 5px;
-    font-weight: 500;
-      font-size: 16px;
+    font-weight: 600;
+      font-size: 20px;
       &:hover{
 font-weight:800;
-
+color:white;
+background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
+      -webkit-background-clip: text;
+      color: transparent;
 
       }
   }
