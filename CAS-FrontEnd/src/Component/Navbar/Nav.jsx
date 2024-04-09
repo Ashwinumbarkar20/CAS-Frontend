@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/Support" 
+                <NavLink className="nav-link" aria-current="page" to="/Productsupport" 
                 >
                   Support
                 </NavLink>

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import logo from "../assets/Logo.png";
+
 export default function Footer() {
   return (
     <>
@@ -44,6 +45,10 @@ export default function Footer() {
             <Link to="/" className="product-item">
               Almacam for industry 4.0
             </Link>
+            <Link to="/" className="product-item">
+              Nest&Cut
+            </Link>
+            
           </div>
         </div>
 
@@ -51,10 +56,14 @@ export default function Footer() {
           <h3 className="footer-header">Contact Us</h3>
           
           <p>
-            Email:- Abhilashnasre@gamil.com
+            Email:- abhilash.nasre@cadcamsys.com
+            <br />
+            sales@cadcamsys.com
             <br />
             Contact: +91-9156739830
           </p>
+          <br />
+          <button className="freedemo">Free Demo</button>
         </div>
       </Footerdiv>
 
@@ -92,8 +101,25 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
       background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
       -webkit-background-clip: text;
       color: transparent;
-     
-      
+           
+    }
+    .freedemo{
+      margin:10px;
+      padding: 10px;
+      border-radius:31px;
+      font-weight:bold;
+      background:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
+      color:white;
+      border:2px solid #006072;
+            width:300px;
+            letter-spacing:1px;
+            transition:all 0.4s ease-in-out;
+      &:hover{
+        color:white;
+        background:linear-gradient(to left, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
+        box-shadow:0px 0px 15px rgba(107, 187, 174,0.9);
+        
+      }
     }
     p {
       text-align: left;
@@ -112,10 +138,10 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
     margin: 5px;
     padding: 5px;
     font-weight: 500;
-      font-size: 20px;
+      font-size: 16px;
       &:hover{
 font-weight:800;
-background-image:
+
 
       }
   }
