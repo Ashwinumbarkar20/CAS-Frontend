@@ -2,11 +2,18 @@
 
 import styled from "styled-components";
 import React from "react";
-
+import { IoMdArrowRoundBack } from "react-icons/io";
+import {useNavigate} from "react-router-dom"
 export default function TechnologyTemplate({ Technology }) {
+  const navigate = useNavigate();
+  const GoBack=()=>{
   
+    navigate(-1);
+
+  }
   return (
     <Technology_Template>
+    <button className="goback"onClick={GoBack}><IoMdArrowRoundBack/>Go Back</button>
       {Technology ? (
         <>
         <div className="Tech-img"><img src={Technology.imgurl} alt="Tech img" /></div>
@@ -72,6 +79,19 @@ margin-top:90px;
 margin:10px 100px ;
 color:var(--primary);
 font-weight:900;
+
+}
+.goback{
+  border:None;
+  position:fixed;
+  z-index:1000;
+  padding:5px 10px;
+  border-radius:5px;
+  top:100px;
+  left:20px;
+  background-color:#006072;
+ color:white;
+ font-weight:bold;
 
 }
 .Machine-Brand {

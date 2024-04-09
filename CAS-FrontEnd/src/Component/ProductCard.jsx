@@ -3,16 +3,19 @@ import React from "react";
 import styled from "styled-components";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 export default function ProductCard({
   Product_Name,
   Product_image,
   Product_Heading,
   page_url,
-}) {
-  return (
+}) 
+{
+  
+    return (
     <Productcard className="d-flex align-items-center jsutify-content-center">
+    
       <div className="Product-Card d-flex gap-3 p-3 flex-column align-items-center jsutify-content-center">
         <div className="Product-image">
           <img src={Product_image} alt="Almacam img" />

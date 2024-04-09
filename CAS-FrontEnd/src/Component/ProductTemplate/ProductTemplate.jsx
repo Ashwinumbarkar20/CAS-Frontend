@@ -5,9 +5,18 @@ import styled from "styled-components";
 import { IoMdDownload } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import ReactPlayer from "react-player";
+import { IoMdArrowRoundBack } from "react-icons/io";
+import {useNavigate} from "react-router-dom"
 export default function ProductTemplate({ product }) {
+  const navigate = useNavigate();
+  const GoBack=()=>{
+  
+    navigate(-1);
+
+  }
   return (
     <ProductSection>
+    <button className="goback"onClick={GoBack}><IoMdArrowRoundBack/>Go Back</button>
       <div className="Hero-img">
         <img className="heroimg" src={product.imgurl} alt="Hero-Almacam" />
       </div>
@@ -123,6 +132,19 @@ const ProductSection = styled.section`
   margin-top: 95px;
   width: 100vw;
 
+.goback{
+  border:None;
+  position:fixed;
+  z-index:1000;
+  padding:5px 10px;
+  border-radius:5px;
+  top:100px;
+  left:20px;
+  background-color:#006072;
+ color:white;
+ font-weight:bold;
+
+}
   .Document-Media {
     margin: 20px;
     display: flex;
