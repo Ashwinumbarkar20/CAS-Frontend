@@ -2,7 +2,7 @@
 import'./App.css'
 import { Routes,Route } from 'react-router-dom'
 import { lazy } from 'react'
-
+import ScrollToTop from './Component/Scrolltop'
 import Nav from './Component/Navbar/Nav'
 import Home from './Pages/Home'
 import AllProducts from './Pages/AllProducts'
@@ -64,6 +64,7 @@ function App() {
       <Route path='/Nestncut' element={<Almanestncut/>}></Route>
     </Routes>
      <Footer/>
+      <ScrollToTop />
     </>
   )
 }

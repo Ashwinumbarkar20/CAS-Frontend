@@ -97,7 +97,7 @@ const Productcard = styled.section`
     }
   }
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
     box-shadow:2px 4px 4px rgba(0,0,0,0.8);
   }
 `;
