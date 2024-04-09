@@ -6,7 +6,7 @@ import TechnologyCard from '../Component/TechnologyCard'
 export default function Technology() {
   return (
    <AllTechnologies>
-    <h1 className='Technology-Heading m-5'>Techologies for Sheet Metal Cutting </h1>
+    <h1 className='Technology-Heading m-5'>Technologies for Sheet Metal Cutting </h1>
 <div className='container'>
   <div className='row'>
 {

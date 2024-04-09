@@ -115,7 +115,7 @@ export default function Services() {
 const Maindiv = styled.section`
   margin-top: 90px;
   .Mainheading {
-    width: 90%;
+   margin:20px;
 
     text-align: center;
 

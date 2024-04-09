@@ -45,7 +45,7 @@ export default function Footer() {
             <Link to="/" className="product-item">
               Almacam for industry 4.0
             </Link>
-            <Link to="/" className="product-item">
+            <Link to="/Nestncut" className="product-item">
               Nest&Cut
             </Link>
             
