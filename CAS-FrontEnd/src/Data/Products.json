@@ -1,329 +1,461 @@
 [
-    {
-      "Product_Name": "Almacam Cut",
-      "page_url":"/Almacamcut",
-      "imgurl":"https://i.postimg.cc/brFvcgQg/almacam-cut-screenshot-plain.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/4NnMrwBt/logo-almacam-cut.png",
-      "Technology":"2D",
-      
-      "Heading": "The nesting software to program your 2D cutting machines with maximum responsiveness.",
-      "Product_Description": [
-        "Providing unique nesting algorithms that fit any type of cutting needs, Almacam Cut significantly reduces material loss rates. The software works automatically but lets users manage specific situations while guiding them in order to guarantee optimum execution of the programming.",
-        "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machine."
-      ],
-      "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
-      "About_Product": [
-        "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma, oxygen cutting, water jet etc.)",
-        "Powerful nesting algorithms and optimized tool path research.",
-        "Automatic user assistance at any stage of the programming and ability to work in full automatic mode.",
-        "Easy to use, secure management of the programming process and complete data traceability.",
-        "Software openability (interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions)",
-        "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies for quotes or manufacturing, libraries of shapes developed for boiler-making, cutting of letters and drawings, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
-      ],
-
-      "machine_brands": [
-        "Laser Machine",
-        "Plasma machine",
-        "Waterjet machine",
-        "Oxycutting machine"
-      ],
-      "get":"Almacam Cut provides completely secure and traceable data management in a collaborative environment. Adopting the “Industry 4.0” approach, Almacam interfaces seamlessly with the company’s information system and can easily be connected to Production Management and ERP software amongst others. Almacam provides workshop management tools, and a production statistics module, for complete integration into the “ERP/Production Management/Workshop” digital sequence.",
-      
-      "Documents":["Download Almacam Cut’s product flyer for laser cutting","Download Almacam Cut’s product flyer for oxy-cutting and plasma cutting","Download Almacam Cut’s product flyer for waterjet cutting"], 
-      
-      "Video_links": [
-         {"title":"Almacam nesting optimization", "url":"https://www.youtube.com/watch?v=xRMTBYFR1LU"},
-          {"title":"Importing a multi-DXF file with Almacam","url": "https://www.youtube.com/watch?v=yK39kbotYnU"},
-          {"title":"Chamfer/Bevel programming with Almacam","url": "https://www.youtube.com/watch?v=rbsrwTjXLMA"}
-      ]
-    },
-  
-    {
-      "Product_Name": "Almacam Punch",
-      "page_url":"/Almacampunch",
-      "imgurl":"https://i.postimg.cc/JnxnKM09/almacam-punch-screenshot.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/5tWRQJ1q/logo-almacam-punch.png",
-      "Technology":"2D",
-      "Heading": "An extremely effective CAD/CAM software for on-demand production of numerous parts requiring punching-nibbling.",
-      "Product_Description": [
-        "Almacam Punch’s added value lies above all in the software’s powerful automation features at every stage of programming: tool allocation, machining sequence, nesting, part evacuation, etc.",
-        "The built-in nesting module reduces material consumption while adapting perfectly to punching constraints (tools, work areas, clamps, etc.) Almacam Punch manages all the loading/unloading peripherals. The software combines perfectly with the other products in the Almacam range to control combined laser/punching machines and cutting machines that follow profiles.",
-        "Supporting a wide range of machine and technology requirements at every step of programming – from part preparation to the NC code generation, including nesting and tool path definition – the CAD/CAM cutting software Almacam Cut can pilot any type of cutting machinThe Almacam environment provides completely secure and traceable management of manufacturing data. Adopting the “Industry 4.0” approach, Almacam interfaces seamlessly with the company’s information system and can be easily connected to Production Management and ERP software amongst others. Almacam provides workshop management tools, and a production statistics module."
-      ],
-      "VideoUrl": "https://www.youtube.com/watch?v=qbZ1_U4x03o",
-      "About_Product": [
-        "Automatic machining: tool allocation, nesting, optimization of machining sequences by managing part evacuation and generation of the NC program.",
-        "Common cutting of identical or non-identical parts, using different tools.",
-        "Preparation of the part in automatic “micro-junction” mode.",
-        "Automatic part nesting under or around clamps.",
-        "Management of multi-tools, special and deformation tools.",
-        "Automatic or manual management of any type of evacuation system.",
-        "Part machining preparation based on a pre-defined turret model."
-      ],
-      "machine_brands": [
-        "Amada","Baykal","Behrens","Boschert","Dalcos","Danobat Sheet Metal","Dimeco","Durma",
-"Ermaksan","Euromac","Finn Power","FPL","Goiti","Jin Fang Yuan","Jinan Kaifeng Cnc Machinery Co. Ltd",
-"Lag Rainer","LVD Strippit","Murata","Prima-Power","Produtech","Pullmax","Rainer",
-"Raskin","Strippit","Trumpf","Wiedemann"
-      ],
-      "Documents":["Download Almacam Punch’s product flyer"],
-      "Video_links":[{"title":"Overview of Almacam Punch", "url":"https://www.youtube.com/watch?v=qbZ1_U4x03o"}]
-
-    },
-  
-    {
-      "Product_Name": "Almacam Routing",
-      "page_url":"/Almacamrouting",
-      "imgurl":"https://i.postimg.cc/br6ZYpjQ/almacam-routing-screenshot-plain.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/KvVVFLHW/logo-almacam-routing.png",
-      "Technology":"2D",
-      "Heading": "The nesting software for routing and 2.5 axis machining of aluminum sheets and wood panels.",
-      "Product_Description": [
-        "Alma has acquired specific expertise in developing software for routing and 2.5 axis machining of wood, aluminum and soft materials. The Almacam Routing CAD/CAM software is a high added value specific solution for industrial companies who have substantial parts nesting needs and therefore work in small and medium series."
-      ],
-      "About_Product": [
-        "Geometry recognition and automatic machining assignment directly on 3D CAD/CAM “wood” parts resulting in time savings during preparation (Wood module).",
-        "A single mouse click to nest the parts, optimize the machining sequence and generate the NC program.",
-        "Combined management of nested part production and complementary machining on individual parts (wood).",
-        "Supports any type of machining (drilling, grooving, etc.) and all the routing machine technological functions.",
-        "Integrates the technological capacities of machines as soon as a machining operation is assigned.",
-        "Management of multi-layer nesting to minimize machining time (aluminum).",
-        "Automatic management of screwing and riveting operations on parts and skeleton, and of riveting removal (aluminum).",
-        "Micro-junction function to avoid screwing and riveting operations and allow safe removal of parts from the skeleton (aluminum).",
-        "Easy configuration and customization capabilities to define automatic machining strategies (wood).",
-        "Suction constraints are integrated into the automatic nesting algorithms to secure the parts in complete safety during machining (wood).",
-        "2.5 axis machining of wood panels :Almacam Routing is used in particular for interior design work in yachts, caravans, recreational vehicles, kitchens, offices, etc.",
-        "Almacam Routing manages routing of “top side” and down side” parts followed by machining if necessary (“top side”, “down side” and on edges) for individual parts.",
-        "Thanks to a specific wood module which combines geometry recognition and automatic machining functions, Almacam Routing enables you to import and automatically prepare any CAD-designed 3D part.",
-        "Routing of aluminum sheets For more than 25 years, Alma has specialized in this technology specific to the aeronautics industry. With high nesting performance and the ability to meet all the technological requirements and constraints of the routing process (multi-layer machining, screwing, riveting, micro-junctions, etc.) Almacam Routing is the ideal system to program your aluminum routing machines." 
+  {
+    "Product_Name": "Almacam Cut",
+    "page_url": "/Almacamcut",
+    "imgurl": "https://i.postimg.cc/brFvcgQg/almacam-cut-screenshot-plain.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/4NnMrwBt/logo-almacam-cut.png",
+    "Technology": "2D",
+    "Heading": "Empower Your 2D Cutting Machines with Intelligent Nesting Software",
+    "Product_Description": [
+      "Almacam Cut offers cutting-edge nesting algorithms to minimize material waste. It operates automatically but allows user intervention for precise programming. Supporting various machine types, it handles everything from part preparation to NC code generation with ease, making it the ultimate CAD/CAM solution for efficient cutting."
     ],
-          "machine_brands": [
-          "Biesse", "CMS", "Creno", "Holz-Her", "Homag", "Kimla", "Maka", "Mecanumeric",
-          "Multicam", "OSAI", "Protek", "Reichenbacher", "Stako", "Techtronix"
-        ]
-      },
-  
+    "VideoUrl": "https://www.youtube.com/watch?v=99BwD1vw1VI&embeds_referring_euri=https%3A%2F%2Falmacam.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo",
+    "About_Product": [
+      "Universal Machine Compatibility: Seamlessly integrates with any machine type or brand, catering to diverse cutting technologies such as laser, plasma, oxygen cutting, and water jet.",
+      "Advanced Nesting Algorithms: Employs powerful algorithms to optimize nesting, minimizing material waste, and ensuring efficient tool path planning.",
+      "Intelligent Automation: Offers automatic user assistance throughout the programming process, facilitating ease of use. Can also operate in full automatic mode for streamlined efficiency.",
+      "Secure Data Management: Provides secure management of the programming process with complete traceability of data, ensuring confidentiality and integrity.",
+      "Interoperability: Enables seamless interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions, ensuring compatibility and interoperability within existing workflows.",
+      "Comprehensive Feature Set: Includes numerous associated modules such as 3D import and unfolding of sheet metal parts, automatic assembly import for quotes or manufacturing, libraries of shapes for various applications like boiler-making and cutting of letters and drawings. Additionally, it offers functionalities for quote calculation, inventory management, manufacturing orders, workshop station management, and scheduling, among others."
+    ],
+    "machine_brands": [
+      "Laser Machine",
+      "Plasma machine",
+      "Waterjet machine",
+      "Oxycutting machine"
+    ],
+    "get": "Almacam Cut offers robust and secure data management, ensuring traceability in a collaborative setting. Embracing the principles of Industry 4.0, Almacam seamlessly integrates with the company's information system, facilitating effortless connections with Production Management and ERP software. With Almacam, access workshop management tools and a comprehensive production statistics module, fostering seamless integration within the digital sequence of ERP, Production Management, and Workshop operations.",
+    "Documents": [
+      "Download Almacam Cut’s product flyer for laser cutting",
+      "Download Almacam Cut’s product flyer for oxy-cutting and plasma cutting",
+      "Download Almacam Cut’s product flyer for waterjet cutting"
+    ],
+    "Video_links": [
       {
-      "Product_Name": "Almacam Combi",
-      "page_url":"/Almacamcombi",
-      "imgurl":"https://i.postimg.cc/RCG6LQnN/almacam-combi-screenshot-plain.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/0yw4Njgy/logo-almacam-combi.png",
-      "Technology":"2D",
-      "Heading": "The nesting software to program your combined laser/punching or plasma/drilling machines with maximum automation and flexibility.",
-      "Product_Description": [
-        "The Almacam Combi CAD/CAM software supports all brands of combined laser/punching and plasma/drilling machines. The specificities of each technology are taken into account at every stage of programming: part preparation, nesting, machining sequence, tool trajectories and generation of the NC code.",
-        "The software powerful automation features (tool allocation, machining sequence, nesting, part evacuation, management of loading/unloading peripherals, etc.) make Almacam Combi a highly productive solution for on-demand production of numerous and varied parts. Thanks to its exclusive nesting algorithms that fit any type of cutting need, Almacam Combi significantly reduces material loss rates.",
-        "Almacam Combi provides completely secure and traceable data management in a collaborative environment. Adopting the “Industry 4.0” approach, Almacam interfaces seamlessly with the company’s information system and can easily be connected to Production Management and ERP software amongst others."
-      ],
-      "About_Product": [
-        "Supports any type and brand of machine. Supports all the cutting technology requirements (laser, plasma) for punching and drilling:",
-        "Tool allocation and management of cutting conditions",
-        "Prevention of collisions between the head and cut parts",
-        "Common cutting of identical or non-identical parts",
-        "Nesting under or around clamps",
-        "Management of special or deformation tools",
-        "Management of any type of evacuation system",
-        "Powerful nesting and optimized tool trajectory algorithms.",
-        "Automatic user assistance at any stage of the programming and ability to work in full automatic mode when preparing parts for generation of the NC program, making use of nesting and optimization of machining sequences.",
-        "Secure management of the programming process and complete data traceability.",
-        "Software openability: interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions.",
-        "Numerous associated modules, 3D import and unfolding of sheet metal parts, automatic import of assemblies, quote calculation, management of inventory and manufacturing orders, workshop station, scheduling, etc."
-      ],
-      "machine_brands": [
-        "Cori", "Finn Power", "Rainer", "Voortman", "Dimeco", "Kaltenbach", "Trumpf", "Whitney",
-        "Ficep", "Peddinghaus", "Vernet Behringer"
-      ]
-      
-    },
-  
-    {
-      "Product_Name": "Almacam TUBE",
-      "page_url":"/Almacamtube",
-      "imgurl":"https://i.postimg.cc/J44XfdWN/almacam-tube-screenshot-plain.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/nLKwvWh8/logo-almacam-tube.png",
-      "Technology":"3D",
-      "Heading": "The automated solution to program your tubes and profiles cutting machines and robots.",
-      "Product_Description": [
-        "The Almacam Tube CAD/CAM software is able to interact with any kind of tubes and profiles cutting system (3, 4 or 5 axis machines with one or more rotative axes, robotized cells for cutting tubes).",
-        "It integrates all the steps in the programming process: CAD import or modeling of the tubes and profiles, management of manufacturing orders, automatic nesting of the tubes and profiles to cut, creation and automatic scheduling of trajectories, generation of ISO codes. The software works automatically but lets the user manage specific situations in order to guarantee optimum execution of the programming.",
-        "Almacam Tube benefits from Alma’s considerable expertise in programming 3D/Tubes machines and cutting robots, acquired thanks to the many installations it has carried out and its partnerships with several manufacturers."
-      ],
-      "About_Product": [
-        "CAD import of single parts or assemblies, with retrieval of the quantities.",
-        "Automatic recognition of the sectional areas of tubes and profiles.",
-        "Possibility to add connections (e.g. pins, hooks) between tubes and profiles of an assembly.",
-        "Automatic unfolding and unbending of tubes and profiles.",
-        "Automatic generation of the trajectories and the program for cutting tubes and profiles.",
-        "Ability to interact with any type and any brand of tubes and profiles-cutting system, without any limitation on the number of machine or robot axes.",
-        "Management of specific functions or requirements related to tubes and profiles cutting machines (for example: automatic programming of loading/unloading peripheral units, coupling and tightening constraints for multiple-axis machines, etc.)",
-        "Management of machines combining laser cutting with mechanical units (drilling, countersinking, spot facing, counterboring, etc.)"
-      ],
-      "VideoUrl": "https://youtu.be/UTHAVYr7uSM",
-      "machine_brands": [
-        "Bodor", "Han’S Laser", "Sibonac", "Bystronic",
-        "Huagong", "Silber Do Brasil", "Trumpf", "TTM",
-        "Cutlite Penta", "Mazak", "SLTL", "Wardjet",
-        "Cy Laser", "Müller Opladen", "Soitaab", "Yawei",
-        "Daihen Varstroj", "Nukon", "Tamari Industry",
-        "Debao", "OMP", "Tecnopampa", "Farley", "Oxyser",
-        "Tecoi"
-      ],
-      "Documents":["Download Almacam Tube’s product flyer"],
-      "Video_links":[ 
-      {"title":"Overview of Almacam Tube", "url":"https://www.youtube.com/watch?v=7XE9SttF43A"},
-      {"title":"Unfolding/Unbending a solid with Almacam Tube","url": "https://www.youtube.com/watch?v=6jrXK-2iNew"},
-      {"title":"Adding a connection between two tubes of an assembly with Almacam Tube","url": "https://www.youtube.com/watch?v=9IN4sHOrGvM"}
-  ]
-    },
-  
-    {
-      "Product_Name": "Almacam SPACECUT",
-      "page_url":"/Almacamspacecut",
-      "imgurl":"https://i.postimg.cc/xjmpk8kx/almacam-spacecut-screenshot-plain.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/tTXvDzss/logo-almacam-Space-Cut.png",
-      "Technology":"3D",
-      "Heading": "A CAD/CAM programming software for all your 5-axis cutting machines and cutting robots",
-      "Product_Description": [
-        "With its simple and intuitive user interface, the Almacam Space Cut CAD/CAM software is dedicated to the programming of any type of 3D-cutting machine (laser, plasma, water jet) regardless of the number of axes. Almacam Space Cut combines automation and simplicity of use. Providing support for advanced manufacturing functions, Almacam Space Cut adapts to every kind of situation, enabling you to cut complex parts."
-      ],
-      "About_Product": [
-        "Comprehensive modeling of the machine and its environment.",
-        "Optimized programming thanks to powerful functions automating the creation of cutting trajectories, the definition of lead-ins/lead-outs and the sequencing of cutting profiles.",
-        "Automatic search for collision-free trajectories during cutting and rapid movements.",
-        "Realistic simulation of the cutting sequence and visualization of possible anomalies (speed, collisions, accessibility, job tolerance).",
-        "Automatic modeling of the tooling to support 3D parts, based on a 3D model of the part to cut.",
-        "User-friendly: display of objects in the cell set-up, cutting profiles, and the program in the form of tree structures. Object positioning function, capacity to easily modify cutting trajectories, etc.",
-        "Extension to other technological processes such as laser welding and polishing."
-      ],
-      "VideoUrl": "https://youtu.be/upOd-Qi0DJM",
-      "machine_brands": [
-        "Adige", "Cyberstep", "Koike", "LT-Free", "Lyonstek",
-        "Mazak", "Mecanumeric", "Microstep", "Nippei", "NTC",
-        "Penta-Chutian", "Prima", "Tamari Industry", "TCI",
-        "Trumpf", "Wardjet", "Weihong", "Yawei"
-      ],
-      "Documents":["Download Almacam Space Cut’s product flyer"],
-      "Video_links": [
-        {"title":"Overview of Almacam Space Cut", "url":"https://www.youtube.com/watch?v=upOd-Qi0DJM"}
-         ]
-    },
-  
-    {
-      "Product_Name": "AlmaQUOTE",
-      "page_url":"/AlmaQuote",
-      "imgurl":"https://i.postimg.cc/1XSGV9T2/Almaquote-2022.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/d3fWsP4C/logo-almaquote.png",
-      "Technology":"Costing",
-      "Heading": "Almaquote: make quotation for sheet metals parts easier and faster",
-      "Product_Description": [
-        "An outdated process for managing sheet metal and mechanical welding quotations is hurting your business. With a tool designed for the specifics of the industry, you’ll respond faster and make more accurate quotations. That’s what Almaquote is all about. Simple to use, Almaquote helps sheet metal subcontractors, sales managers and estimating professionals create reliable quotations without spending hours on it."
-      ],
-      "About_Product": [
-        "A solution that is perfect for basic quotes as well as more complicated price calculations.",
-        "Numerous possibilities for customization according to needs.",
-        "Added value deriving from Alma's expertise in sheet metal:",
-        "Precise automatic calculation of cutting times.",
-        "Calculation of material costs based on Alma nesting algorithms.",
-        "Calculation of times for other manufacturing operations (e.g. welding, bending, drilling).",
-        "Quote information visible at a glance.",
-        "Management of multi-level BOMs with the associated operations.",
-        "Possibility to reuse existing BOMs in the future.",
-        "Graphics tools to analyze key information relating to quotes.",
-        "Access to the Webquote service allowing to manage requests for quotes and facilitate communication between ordering parties and sub-contractors.",
-        "Direct connection to the Assembly2cam CAM assembly importing module.",
-        "Easy integration with CAM, CAD, Production Management and ERP systems.",
-        "Accurate estimates for 2D parts, tubes and sections:- Almaquote enables you to quickly create a quote using a few characteristics of the part to cut or to very precisely calculate the cost of the operations required to manufacture and deliver a part. In this case, for 2D parts, the geometry can be designed or defined by a DXF or DPR file or from a predefined shape. For tubes or sections the part can be imported from a 3D CAD/CAM file. It is possible to calculate the cost of single parts, sets of parts, or even 3D assemblies, using the Assembly2cam module.",
-        "Hyper configurable:- The application can be customized at different levels: to create new operations, define or modify parameters or formulas for the cost calculation, draw up quotes and output reports. almaQuote’s workflow can also be customized, by including for example an additional validation step. In addition the application can manage multiple user rights.",
-        "Integration with the CAD-CAM and ERP tools:- Following the quote preparation and edition, the list of manufacturing operations included in the quote can be reused to create the preliminary manufacturing specifications.",
-        "The capacity to link up with Production Management and ERP systems make it possible to export information required for production when accepting the quote.",
-        "For customers using the Almacam software, acceptance of a quote will make it possible to immediately start production.",
-        "In addition, Almaquote users benefit from access to Webquote, a new web service that automatically feeds data into Almaquote. Webquote centralizes and facilitates communication between ordering customers and subcontractors, while automating quote preparation and processing."  
+        "title": "Almacam nesting optimization",
+        "url": "https://www.youtube.com/watch?v=xRMTBYFR1LU"
+      },
+      {
+        "title": "Importing a multi-DXF file with Almacam",
+        "url": "https://www.youtube.com/watch?v=yK39kbotYnU"
+      },
+      {
+        "title": "Chamfer/Bevel programming with Almacam",
+        "url": "https://www.youtube.com/watch?v=rbsrwTjXLMA"
+      }
+    ]
+  },
+  {
+    "Product_Name": "Almacam Punch",
+    "page_url": "/Almacampunch",
+    "imgurl": "https://i.postimg.cc/JnxnKM09/almacam-punch-screenshot.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/5tWRQJ1q/logo-almacam-punch.png",
+    "Technology": "2D",
+    "Heading": "A highly efficient CAD/CAM software tailored for the dynamic production of a multitude of parts, necessitating punching and nibbling processes on demand.",
+    "Product_Description": [
+      "Almacam Punch excels with its powerful automation features, covering tool allocation, machining sequence, nesting, part evacuation, and beyond.",
+      "Almacam Punch's nesting module optimizes material usage, adapting seamlessly to punching constraints. It efficiently manages loading/unloading peripherals and integrates seamlessly with other Almacam products for control over combined machines",
+      "Almacam Punch seamlessly supports diverse machine and technology needs from part preparation to NC code generation. It ensures secure data management, integrates with Industry 4.0 principles, connects with Production Management and ERP software, and offers workshop management tools with production statistics."
     ],
-      "VideoUrl": "https://youtu.be/LzDUBC6Wq_4",
-      "get":"Almaquote software is sold as a perpetual license installable on your computers, or as a no commitment subscription with Almacam Pass.",
-      "Documents":[{"name":"Download Almaquote’s product flyer","pdflink":"https://drive.google.com/file/d/1n5vtc-aKnsW89xeN3Z07VmiH2Vvb7s3a/view?usp=drive_link"}],  
-      "Video_links": [
-        {"title":"Importing a CAD assembly in a quote", "url":"https://www.youtube.com/watch?v=ycBkdZCqv4Q"}
-           ]
-    },
-  
-    {
-      "Product_Name": "AlmaCAM WELD",
-      "page_url":"/Almacamweld",
-      "imgurl":"https://i.postimg.cc/XNgFD6tN/almacam-weld-screenshot-plain.jpg",
-      "Product_Hero_Image": "https://i.postimg.cc/Qt04zW70/logo-almacam-weld.png",
-      "Technology":"3D",
-      "Heading": "Offline programming software for arc-welding robots.",
-      "Product_Description": [
-        "Almacam Weld, dedicated to the offline programming of arc-welding robots, allows you to optimize the utilization rate of your welding robots resulting in increased flexibility and improved productivity. A precursor over the past 20 years, Almacam Weld is now the leading solution in the field of arc-welding robot offline programming."
-      ],
-      "About_Product": [
-        "Much faster than programming by teaching.",
-        "Improved productivity thanks to offline programming (reduction of robot idle periods and reduction of programming costs).",
-        "Possibility to immediately start programming after creating the virtual models of assemblies to weld.",
-        "Automatic search for collision-free robot trajectories.",
-        "Full and realistic simulation with the complete cell which guarantees the reliability of both the cell design and cell production.",
-        "Improved welding quality thanks to the integration and repeatability of all the welding parameters (torch angles, stick out, etc.).",
-        "Reduction of programming cycle for similar parts thanks to the automatic transfer of welding programs.",
-        "Management of shifting of trajectories via sensing of wire and nozzle, joint follow-up, laser camera, etc.",
-        "Synchronization between several robots and positioners.",
-        "Improved working conditions and increased safety.",
-        "Management of a multi-brand set of robots using a single solution."
-      ],
-      "VideoUrl": "https://youtu.be/YmGKq02jiRo",
-
-      "Product overview": [
-        "Through a graphic interface, Almacam Weld allows you to program a robot from a virtual scene and simulate its movements. The assemblies to weld, together with the tooling, are imported from a 3D CAD system.",
-        "Almacam Weld combines welder know-how together with programming and simulation functionalities to provide a robust, reliable and user-friendly solution."
-      ],
-
-      "machine_brands": ["ABB",      "IGM",      "Panasonic",      "Cloos",      "Kawasaki",      "Reis",      "Fanuc",      "Kuka",      "Staubli",      "Hyundai",
-      "OTC Daihen",      "Yaskawa/Motoman"],
-
-      "Documents":[{"name":"Download Almacam Weld’s product flyer","pdflink":"https://drive.google.com/file/d/1bSe0O8r12aAAmsfUB7InU6oKuw3NofJh/view?usp=drive_link"}],
-      "Video_links": [
-        {"title":"Overview of Almacam Weld", "url":"https://www.youtube.com/watch?v=YmGKq02jiRo"},
-         {"title":"Automatic toolpath and robot programming with Almacam Weld","url": "https://www.youtube.com/watch?v=uYCwTHJjEXQ"},
-         {"title":"Intelligent program cloning with Almacam Weld","url": "https://www.youtube.com/watch?v=QujnhLl8maw"},
-         {"title":"Automatic program duplication","url": "https://www.youtube.com/watch?v=TKZEIY0me74"},
-         {"title":"Offline programming software for arc welding robots","url": "https://www.youtube.com/watch?v=CQlrHnOAuzs"},
-         {"title":"Why is off-line programming vital in a robotic welding project?","url": "https://almacam.com/why-is-offline-programming-vital-in-a-robotized-welding-project/"},
-         {"title":"How to successfully program your welding robots off-line","url": "https://almacam.com/how-to-successfully-program-your-welding-robots-off-line/"}
-     ]
-
-         },
-         
-  
-  
+    "VideoUrl": "https://www.youtube.com/watch?v=qbZ1_U4x03o",
+    "About_Product": [
+      "Automatic machining: tool allocation, nesting, optimized machining sequences, including part evacuation and NC program generation.",
+      "Common cutting of identical or non-identical parts with various tools",
+      "Automatic preparation of parts in \"micro-junction\" mode.",
+      "Automatic nesting around or under clamps.",
+      "Management of multi-tools, special, and deformation tools.",
+      "Automatic or manual handling of any evacuation system.",
+      "Part machining preparation based on pre-defined turret models."
+    ],
+    "machine_brands": [
+      "Amada",
+      "Baykal",
+      "Behrens",
+      "Boschert",
+      "Dalcos",
+      "Danobat Sheet Metal",
+      "Dimeco",
+      "Durma",
+      "Ermaksan",
+      "Euromac",
+      "Finn Power",
+      "FPL",
+      "Goiti",
+      "Jin Fang Yuan",
+      "Jinan Kaifeng Cnc Machinery Co. Ltd",
+      "Lag Rainer",
+      "LVD Strippit",
+      "Murata",
+      "Prima-Power",
+      "Produtech",
+      "Pullmax",
+      "Rainer",
+      "Raskin",
+      "Strippit",
+      "Trumpf",
+      "Wiedemann"
+    ],
+    "Documents": [
+      "Download Almacam Punch’s product flyer"
+    ],
+    "Video_links": [
+      {
+        "title": "Overview of Almacam Punch",
+        "url": "https://www.youtube.com/watch?v=qbZ1_U4x03o"
+      }
+    ]
+  },
+  {
+    "Product_Name": "Almacam Routing",
+    "page_url": "/Almacamrouting",
+    "imgurl": "https://i.postimg.cc/br6ZYpjQ/almacam-routing-screenshot-plain.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/KvVVFLHW/logo-almacam-routing.png",
+    "Technology": "2D",
+    "Heading": "Efficient Nesting Software for Routing and 2.5 Axis Machining of Aluminum Sheets and Wood Panels",
+    "Product_Description": [
+      "Alma has cultivated precise expertise in crafting software tailored for routing and 2.5 axis machining across wood, aluminum, and soft materials. The Almacam Routing CAD/CAM software stands as a premium, high-value solution ideal for industrial firms with significant nesting requirements, particularly those engaged in small to medium series production."
+    ],
+    "About_Product": [
+      "Streamlined Wood Part Preparation: Includes geometry recognition and automatic machining assignment directly on 3D CAD/CAM wood parts through the Wood module, saving time during preparation.",
+      "Enhanced Efficiency: Offers one-click nesting, machining sequence optimization, and NC program generation with a single mouse click.",
+      "Integrated Production Management: Enables combined management of nested part production and complementary machining on individual wood parts.",
+      "Versatile Machining Support: Supports various machining types (drilling, grooving, etc.) and all routing machine technological functions.",
+      "Seamless Integration: Integrates machine technological capacities once a machining operation is assigned, ensuring seamless operation.",
+      "Aluminum Machining Expertise: Manages multi-layer nesting to minimize machining time and automates screwing, riveting operations, and rivet removal on aluminum parts and skeleton.",
+      "Aluminum Machining Expertise: Manages multi-layer nesting and automates screwing and riveting operations.",
+      "Customizable Strategies: Provides easy configuration and customization capabilities to define automatic machining strategies for wood.",
+      "Safety Assurance: Integrates suction constraints into automatic nesting algorithms to secure parts during wood machining.",
+      "Versatile Wood Panel Machining: Used for 2.5 axis machining of wood panels, suitable for interior design in various sectors such as yachts, caravans, kitchens, etc.",
+      "Comprehensive Routing Management: Manages routing of \"top side\" and \"down side\" parts, followed by machining if necessary, for individual wood parts.",
+      "Specialized Wood Module: Combines geometry recognition and automatic machining functions, allowing import and automatic preparation of any CAD-designed 3D wood part.",
+      "Aluminum Sheet Routing Expertise: Offers high nesting performance and meets all technological requirements and constraints for aluminum routing processes, including multi-layer machining, screwing, riveting, and micro-junctions, with over 25 years of specialization in routing technology for the aeronautics industry."
+    ],
+    "machine_brands": [
+      "Biesse",
+      "CMS",
+      "Creno",
+      "Holz-Her",
+      "Homag",
+      "Kimla",
+      "Maka",
+      "Mecanumeric",
+      "Multicam",
+      "OSAI",
+      "Protek",
+      "Reichenbacher",
+      "Stako",
+      "Techtronix"
+    ]
+  },
+  {
+    "Product_Name": "Almacam Combi",
+    "page_url": "/Almacamcombi",
+    "imgurl": "https://i.postimg.cc/RCG6LQnN/almacam-combi-screenshot-plain.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/0yw4Njgy/logo-almacam-combi.png",
+    "Technology": "2D",
+    "Heading": "Revolutionize Your Combined Laser/Punching or Plasma/Drilling Machines with Advanced Nesting Software",
+    "Product_Description": [
+      "Almacam Combi CAD/CAM supports all combined laser/punching and plasma/drilling machines, accounting for each technology's specifics in programming.",
+      "Its powerful automation (tool allocation, machining sequence, nesting, etc.) boosts productivity for diverse part production needs.",
+      "Exclusive nesting algorithms minimize material waste, enhancing efficiency.",
+      "Offers secure, traceable data management, seamlessly integrating with Industry 4.0 principles and production management systems."
+    ],
+    "About_Product": [
+      "Supports all machine types and cutting technologies (laser, plasma) for punching and drilling, regardless of brand.",
+      "Efficient tool allocation and management ensure optimal cutting conditions.",
+      "Prevents collisions between the cutting head and parts, ensuring safe operation.",
+      "Facilitates common cutting of both identical and non-identical parts.",
+      "Enables nesting under or around clamps for maximum material usage.",
+      "Manages special or deformation tools effectively.",
+      "Handles any evacuation system seamlessly.",
+      "Employs powerful nesting and optimized tool trajectory algorithms.",
+      "Offers automatic user assistance throughout programming, with full automatic mode for NC program generation, nesting, and machining sequence optimization.",
+      "Provides secure programming management and complete data traceability.",
+      "Interacts seamlessly with various 2D/3D CAD systems and Production Management Systems or ERP solutions.",
+      "Includes numerous associated modules for 3D part import, assembly import, quote calculation, inventory and manufacturing order management, workshop station, scheduling, etc."
+    ],
+    "machine_brands": [
+      "Cori",
+      "Finn Power",
+      "Rainer",
+      "Voortman",
+      "Dimeco",
+      "Kaltenbach",
+      "Trumpf",
+      "Whitney",
+      "Ficep",
+      "Peddinghaus",
+      "Vernet Behringer"
+    ]
+  },
+  {
+    "Product_Name": "Almacam TUBE",
+    "page_url": "/Almacamtube",
+    "imgurl": "https://i.postimg.cc/J44XfdWN/almacam-tube-screenshot-plain.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/nLKwvWh8/logo-almacam-tube.png",
+    "Technology": "3D",
+    "Heading": "The Automated Solution for Programming Tubes and Profiles Cutting Machines and Robots",
+    "Product_Description": [
+      "Almacam Tube CAD/CAM interacts with various tube and profile cutting systems (3, 4, or 5 axis machines, robotic cells).",
+      "Integrates all programming steps: CAD import, manufacturing order management, automatic nesting, trajectory creation, ISO code generation.",
+      "Combines automation with user control for optimal programming execution.",
+      "Draws on Alma's extensive expertise in 3D/Tubes machine programming and cutting robots, gained through installations and partnerships."
+    ],
+    "About_Product": [
+      "CAD import with quantity retrieval.",
+      "Automatic sectional area recognition for tubes and profiles.",
+      "Option to add connections between parts.",
+      "Automatic unfolding and unbending.",
+      "Automated trajectory and program generation for cutting.",
+      "Compatible with any type and brand of cutting machine.",
+      "Handles specific machine functions and requirements.",
+      "Manages machines combining laser cutting with mechanical units. (drilling, countersinking, spot facing, counterboring, etc.)"
+    ],
+    "VideoUrl": "https://youtu.be/UTHAVYr7uSM",
+    "machine_brands": [
+      "Bodor",
+      "Han’S Laser",
+      "Sibonac",
+      "Bystronic",
+      "Huagong",
+      "Silber Do Brasil",
+      "Trumpf",
+      "TTM",
+      "Cutlite Penta",
+      "Mazak",
+      "SLTL",
+      "Wardjet",
+      "Cy Laser",
+      "Müller Opladen",
+      "Soitaab",
+      "Yawei",
+      "Daihen Varstroj",
+      "Nukon",
+      "Tamari Industry",
+      "Debao",
+      "OMP",
+      "Tecnopampa",
+      "Farley",
+      "Oxyser",
+      "Tecoi"
+    ],
+    "Documents": [
+      "Download Almacam Tube’s product flyer"
+    ],
+    "Video_links": [
+      {
+        "title": "Overview of Almacam Tube",
+        "url": "https://www.youtube.com/watch?v=7XE9SttF43A"
+      },
+      {
+        "title": "Unfolding/Unbending a solid with Almacam Tube",
+        "url": "https://www.youtube.com/watch?v=6jrXK-2iNew"
+      },
+      {
+        "title": "Adding a connection between two tubes of an assembly with Almacam Tube",
+        "url": "https://www.youtube.com/watch?v=9IN4sHOrGvM"
+      }
+    ]
+  },
+  {
+    "Product_Name": "Almacam SPACECUT",
+    "page_url": "/Almacamspacecut",
+    "imgurl": "https://i.postimg.cc/xjmpk8kx/almacam-spacecut-screenshot-plain.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/tTXvDzss/logo-almacam-Space-Cut.png",
+    "Technology": "3D",
+    "Heading": "Optimize Your 5-Axis Cutting Machines and Robots with CAD/CAM Programming Software",
+    "Product_Description": [
+      "Almacam Space Cut CAD/CAM software features an intuitive interface, tailored for programming all types of 3D-cutting machines (laser, plasma, water jet) regardless of axis count. It blends automation with user-friendly simplicity, supporting advanced manufacturing functions and accommodating diverse cutting needs for intricate part designs"
+    ],
+    "About_Product": [
+      "Thorough machine and environment modeling.",
+      "Streamlined programming with automated trajectory creation, lead-in/out definition, and profile sequencing.",
+      "Collision-free trajectory search and rapid movement automation.",
+      "Realistic cutting sequence simulation with anomaly visualization.",
+      "Automatic tooling modeling for 3D part support based on part model.",
+      "User-friendly interface with object display in tree structures, object positioning, and easy trajectory modification.",
+      "Expansion to additional processes like laser welding and polishing."
+    ],
+    "VideoUrl": "https://youtu.be/upOd-Qi0DJM",
+    "machine_brands": [
+      "Adige",
+      "Cyberstep",
+      "Koike",
+      "LT-Free",
+      "Lyonstek",
+      "Mazak",
+      "Mecanumeric",
+      "Microstep",
+      "Nippei",
+      "NTC",
+      "Penta-Chutian",
+      "Prima",
+      "Tamari Industry",
+      "TCI",
+      "Trumpf",
+      "Wardjet",
+      "Weihong",
+      "Yawei"
+    ],
+    "Documents": [
+      "Download Almacam Space Cut’s product flyer"
+    ],
+    "Video_links": [
+      {
+        "title": "Overview of Almacam Space Cut",
+        "url": "https://www.youtube.com/watch?v=upOd-Qi0DJM"
+      }
+    ]
+  },
+  {
+    "Product_Name": "AlmaQUOTE",
+    "page_url": "/AlmaQuote",
+    "imgurl": "https://i.postimg.cc/1XSGV9T2/Almaquote-2022.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/d3fWsP4C/logo-almaquote.png",
+    "Technology": "Costing",
+    "Heading": "Almaquote: Simplifying and Accelerating Sheet Metal Part Quotation",
+    "Product_Description": [
+      "Outdated methods of handling sheet metal and mechanical welding quotations are impeding your business growth. Almaquote offers a tailored solution, enabling faster responses and more precise quotations. Easy to navigate, Almaquote empowers sheet metal subcontractors, sales managers, and estimating professionals to generate dependable quotations efficiently, saving valuable time"
+    ],
+    "About_Product": [
+      "Almaquote caters to both basic and complex quoting needs.",
+      "Customizable according to specific requirements.",
+      "Utilizes Alma's expertise in sheet metal for precise calculations.",
+      "Automatic calculation of cutting times and material costs.",
+      "Calculation of material costs based on Alma nesting algorithms.",
+      "Estimates times for various manufacturing operations.",
+      "Offers clear visibility of quote information.",
+      "Manages multi-level BOMs and supports reuse of existing ones.",
+      "Provides graphical tools for analysis.",
+      "Access to Webquote service for streamlined communication.",
+      "Direct connection to Assembly2cam CAM assembly importing module.",
+      "Seamless integration with CAM, CAD, Production Management, and ERP systems.",
+      "Accurate estimates for 2D parts, tubes, and sections.",
+      "Highly configurable, allowing customization at various levels.",
+      "Integration with CAD-CAM and ERP tools for enhanced workflow.",
+      "Immediate production initiation for Almacam users upon quote acceptance.",
+      "Almacam software users can swiftly initiate production upon quote acceptance.",
+      "Additionally, Almaquote users gain access to Webquote, a new web service that streamlines communication between customers and subcontractors, automating quote preparation and processing."
+    ],
+    "VideoUrl": "https://youtu.be/LzDUBC6Wq_4",
+    "get": "The Almaquote software is available for purchase either as a perpetual license, installable on your computers, or through a flexible, commitment-free subscription with Almacam Pass.",
+    "Documents": [
+      {
+        "name": "Download Almaquote’s product flyer",
+        "pdflink": "https://drive.google.com/file/d/1n5vtc-aKnsW89xeN3Z07VmiH2Vvb7s3a/view?usp=drive_link"
+      }
+    ],
+    "Video_links": [
+      {
+        "title": "Importing a CAD assembly in a quote",
+        "url": "https://www.youtube.com/watch?v=ycBkdZCqv4Q"
+      }
+    ]
+  },
+  {
+    "Product_Name": "AlmaCAM WELD",
+    "page_url": "/Almacamweld",
+    "imgurl": "https://i.postimg.cc/XNgFD6tN/almacam-weld-screenshot-plain.jpg",
+    "Product_Hero_Image": "https://i.postimg.cc/Qt04zW70/logo-almacam-weld.png",
+    "Technology": "3D",
+    "Heading": "Transforming Welding Precision: Unleash the Power of Offline Programming for Arc-Welding Robots",
+    "Product_Description": [
+      "Almacam Weld specializes in offline programming for arc-welding robots, optimizing robot usage for enhanced flexibility and productivity. With two decades of innovation, it stands as the premier solution in arc-welding robot programming, revolutionizing efficiency and performance"
+    ],
+    "About_Product": [
+      "Almacam Weld surpasses manual teaching methods in programming speed.",
+      "Productivity sees a significant boost with reduced idle periods and programming costs.",
+      "Immediate programming initiation follows virtual assembly creation.",
+      "Collision-free robot trajectories are ensured through automatic detection.",
+      "Comprehensive cell simulation guarantees design and production reliability.",
+      "Welding quality improves with integrated and repeatable welding parameters.",
+      "Programming cycles for similar parts are shortened with automated program transfer.",
+      "Trajectory shifts are managed seamlessly via wire and nozzle sensing, joint tracking, and laser camera integration.",
+      "Synchronization between multiple robots and positioners is achieved effortlessly.",
+      "Enhanced safety and working conditions are realized through a single solution for managing multi-brand robot systems.",
+      "Efficiently control multiple robot brands with just one comprehensive solution."
+    ],
+    "VideoUrl": "https://youtu.be/YmGKq02jiRo",
+    "Product overview": [
+      "Utilizing a graphical interface, Almacam Weld empowers users to program robots within a virtual environment and simulate their actions. Assemblies and tooling required for welding tasks are seamlessly imported from a 3D CAD system.\n\n",
+      "Almacam Weld integrates welding expertise with advanced programming and simulation features, delivering a resilient, dependable, and intuitive solution tailored for users."
+    ],
+    "machine_brands": [
+      "ABB",
+      "IGM",
+      "Panasonic",
+      "Cloos",
+      "Kawasaki",
+      "Reis",
+      "Fanuc",
+      "Kuka",
+      "Staubli",
+      "Hyundai",
+      "OTC Daihen",
+      "Yaskawa/Motoman"
+    ],
+    "Documents": [
+      {
+        "name": "Download Almacam Weld’s product flyer",
+        "pdflink": "https://drive.google.com/file/d/1bSe0O8r12aAAmsfUB7InU6oKuw3NofJh/view?usp=drive_link"
+      }
+    ],
+    "Video_links": [
+      {
+        "title": "Overview of Almacam Weld",
+        "url": "https://www.youtube.com/watch?v=YmGKq02jiRo"
+      },
+      {
+        "title": "Automatic toolpath and robot programming with Almacam Weld",
+        "url": "https://www.youtube.com/watch?v=uYCwTHJjEXQ"
+      },
+      {
+        "title": "Intelligent program cloning with Almacam Weld",
+        "url": "https://www.youtube.com/watch?v=QujnhLl8maw"
+      },
+      {
+        "title": "Automatic program duplication",
+        "url": "https://www.youtube.com/watch?v=TKZEIY0me74"
+      },
+      {
+        "title": "Offline programming software for arc welding robots",
+        "url": "https://www.youtube.com/watch?v=CQlrHnOAuzs"
+      },
+      {
+        "title": "Why is off-line programming vital in a robotic welding project?",
+        "url": "https://almacam.com/why-is-offline-programming-vital-in-a-robotized-welding-project/"
+      },
+      {
+        "title": "How to successfully program your welding robots off-line",
+        "url": "https://almacam.com/how-to-successfully-program-your-welding-robots-off-line/"
+      }
+    ]
+  },
   {
     "Product_Name": "Nest&Cut",
     "Product_Hero_Image": "https://i.postimg.cc/zBgKKhHj/nestncut.png",
-    "page_url":"/Nest&cut",
-    "imgurl":"https://i.postimg.cc/BvyNbfJf/nestandcut-screenshot-plain.jpg",
+    "page_url": "/Nest&cut",
+    "imgurl": "https://i.postimg.cc/BvyNbfJf/nestandcut-screenshot-plain.jpg",
     "Technology": "Cloud Application",
-    "Heading": "Optimized nesting layouts in a few clicks for all cutting machines and materials",
+    "Heading": "Cloud-Driven Efficiency: Instantly Optimize Nesting Layouts for Any Cutting Machine and Material",
     "Product_Description": [
-      "With the Nest&Cut web application, any company involved in cutting flat materials, no matter where they are in the world, can access the best automatic nesting algorithms to reduce raw material costs without investing in a costly solution.",
-      "In just a few clicks you send the geometries in DXF format, prepare its data (part quantities, material formats) then start automatic nesting in the Cloud. A few seconds later, Nest&Cut produces the optimized cutting drawings in DXF format with the cutting order of the parts, ready for the cutting software or the machine’s numeric control."
+      "With the Nest&Cut web application, companies worldwide cutting flat materials can now harness advanced automatic nesting algorithms, slashing raw material costs without the need for hefty investments",
+      "Simply upload your geometries in DXF format, input relevant data (such as part quantities and material formats), and initiate automatic nesting in the Cloud with just a few clicks. Within moments, Nest&Cut generates optimized cutting drawings in DXF format, complete with part cutting order, seamlessly ready for your cutting software or machine’s numeric control."
     ],
     "About_Product": [
-      "High performance extremely fast automatic 2D nesting of complex shapes.",
-      "Many exclusive functions: automatic cleaning of DXF geometries, re-nesting of existing cutting plans, multi-format nesting, export of the part cutting order, etc.",
-      "Really fast import and cleaning of DXF geometries.",
-      "Adjustable computation time to find the best compromise between material yield and available time.",
-      "Very simple to use, no need for any training.",
-      "100% web application always benefiting from the latest functionalities.",
-      "Can be used for production (export of DXF nestings with part cutting order) or for estimating material costs.",
-      "Accessible via a simple monthly subscription: no investment required, no financial risk."
+      "Benefit from lightning-fast, high-performance automatic 2D nesting, even for the most complex shapes",
+      "Access exclusive functions like automatic cleaning of DXF geometries, re-nesting of existing cutting plans, multi-format nesting, and export of part cutting order.",
+      "Enjoy rapid import and cleaning of DXF geometries, with adjustable computation time for optimal material yield.",
+      "Experience simplicity at its finest - no training required for our user-friendly interface.",
+      "Always stay up-to-date with the latest functionalities as our solution is a 100% web application.",
+      "Utilize the tool for both production needs (exporting DXF nestings with part cutting order) and estimating material costs.",
+      "Accessible through a straightforward monthly subscription - no upfront investment or financial risk required."
     ],
     "VideoUrl": "https://www.youtube.com/watch?v=sTWCk_2xvGE&t=91s",
     "Product Overview": [
-      "Summery : Nest&Cut gives you web access to high performance automatic nesting functions for complex 2D parts, to cut any kind of flat material: sheet metal, wood, textiles, composite, stone, foam, etc.",
-      "Target_Customers : Nest&Cut is for cutting sub-contractors or manufacturers who do not own a high performance nesting software, but are looking to improve their material yield recurrently or occasionally, and do not want to invest in an “on premises” CAD/CAM software, due to excessive maintenance and acquisition costs, lack of human resources, and a lengthy training period, etc.",
-      "Usage : Nest&Cut can also be used to accurately estimate material consumption and associated costs, e.g. for an ordering party who wants to evaluate the quantity of formats required by a sub-contractor to produce their order."
-          ]
-        
+      "Summary:Nest&Cut offers web-based access to powerful automatic nesting functions tailored for intricate 2D parts, enabling efficient cutting across a wide array of flat materials such as sheet metal, wood, textiles, composite, stone, foam, and more.",
+      "Target Customers:Ideal for cutting sub-contractors or manufacturers seeking to enhance material yield without the burden of investing in high-performance nesting software. Nest&Cut caters to those looking to optimize material usage on a recurring or occasional basis. It's particularly suited for businesses hesitant to invest in on-premises CAD/CAM software due to factors like high maintenance and acquisition costs, scarcity of human resources, and lengthy training requirements.",
+      "Usage:Nest&Cut serves as a valuable tool for accurately estimating material consumption and associated costs. For instance, it can be utilized by ordering parties to assess the quantity of formats required by sub-contractors to fulfill their orders efficiently."
+    ]
   }
-    
-  ]
-  
+]

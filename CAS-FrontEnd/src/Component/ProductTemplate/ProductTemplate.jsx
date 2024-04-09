@@ -162,7 +162,7 @@ const ProductSection = styled.section`
         font-weight: bolder;
       margin: 20px;
       text-align:center;
-      background-image: linear-gradient(to right, #ff8672, #752162, #ff8672, #d85d6f, #ff8672);
+      background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
       -webkit-background-clip:text;
       color:transparent;
       }
@@ -279,14 +279,17 @@ const ProductSection = styled.section`
      font-weight: 500;
   }
   .Hero-img {
+    
     margin: 10px auto;
     width: 100%;
-    height: 400px;
+    height: 550px;
+    /* filter:blur(1px); */
     .heroimg {
+      
       margin: 2px auto;
       height: 100%;
       width: 100%;
-      object-fit: cover;
+      
       filter: brightness(0.9);
     }
   }
@@ -327,11 +330,15 @@ margin-top:25px;
     .Desc,.Heading-Name,.Heading-Desc,.Product_Description,.Product-img,.Product-Details,.List-Charcterstic,.Machine-Brand,.Get-Product {
      
         margin: 20px;
+        text-align:justify;
+    }
+    .Hero-img {
+      height: 225px;
     }
     }
 
     .heading{
-      background-image: linear-gradient(to right, #ff8672, #752162, #aa3a6a, #d85d6f, #ff8672);
+      background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
       -webkit-background-clip: text;
       color: transparent;
      font-weight:900;

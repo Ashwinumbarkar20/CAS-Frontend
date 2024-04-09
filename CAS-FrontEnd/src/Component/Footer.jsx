@@ -21,23 +21,23 @@ export default function Footer() {
           <h3 className="footer-header">Products</h3>
         
           <div>
-            <Link to="/almacam" className="product-item">
-              Almacam
+            <Link to="/Almacamcut" className="product-item">
+              Almacam cut
             </Link>
 
-            <Link to="/" className="product-item">
+            <Link to="/AlmaQuote" className="product-item">
               AlmaQuote
             </Link>
 
-            <Link to="/" className="product-item">
+            <Link to="/Almacamtube" className="product-item">
               Almacam Tube
             </Link>
 
-            <Link to="/" className="product-item">
+            <Link to="/Almacamspacecut" className="product-item">
               Almacam Space cut
             </Link>
 
-            <Link to="/" className="product-item">
+            <Link to="/Almacamweld" className="product-item">
               Almacam weld
             </Link>
 
@@ -115,6 +115,7 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
       font-size: 20px;
       &:hover{
 font-weight:800;
+background-image:
 
       }
   }
