@@ -8,7 +8,7 @@ export default function Contactus() {
       <div className='row justify-content-center'>
       <div className='Img-div bg-primary d-none d-sm-none d-md-block col-md-6 col-lg-6 '></div>
       <div className='Contact-Form d-flex flex-column justify-content-center align-items-center gap-2 col-xs-12 col-sm-12 col-md-6 col-lg-6'>
-      <h1 className='text-center'>Contact Us!</h1>
+      <h1 className='text-center heading'>Contact Us!</h1>
       
         <form className="Contact d-flex flex-column justify-content-center align-items-center gap-2">
         <div> <label htmlFor="">Name</label> <input type="text" required/></div>
@@ -26,8 +26,10 @@ export default function Contactus() {
   )
 }
 const Contactusdiv=styled.section`
+margin-top:95px;
+
 .Img-div{
-  
+  margin-top:45px;
   background:url(${contactimg});
   background-repeat: no-repeat;
   background-size: 100% 100%  ;
@@ -59,19 +61,27 @@ label{
 button{
 padding:10px 15px;
 border-radius: 10px;
-background-color:var(--Dark-bg);
-color:var(--text-color);
+background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #1e7682, #1e7682);
+color:white;
 font-weight:bold;
+border:none;
 box-shadow:2px 2px 6px rgba(0,0,0,0.4);
-border: none;
 transition:all 0.3s ease;
 &:hover{
-  color:var(--Dark-bg);
-  background-color:var(--text-color);
-  border:2px solid var(--Dark-bg);
+    background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
+      -webkit-background-clip: text;
+      color: transparent;
+     
+  
 }
 }
   }
 
+}
+.heading{
+  background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #006072);
+      -webkit-background-clip: text;
+      color: transparent;
+     font-weight:900;
 }
 `

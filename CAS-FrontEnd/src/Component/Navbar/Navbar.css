@@ -49,16 +49,17 @@ letter-spacing: 0.3px;
 
 margin: 2px;
 
-transition: all 0.3s ease-in;
+transition: all 0.2s ease-in;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
   color: var(--Secondary);
-  background-color: var(--primary);
+  background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #50a4b6);
 border-bottom:2px solid var(--accent) ;
 }
 .active{ 
  background-color: var(--accent);
  color: var(--accent);
+ 
  border-bottom:4px solid var(--accent);
   }
 

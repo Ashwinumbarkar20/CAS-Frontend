@@ -2,7 +2,8 @@
 import React from "react";
 
 import styled from "styled-components";
-
+import { IoMdDownload } from "react-icons/io";
+import { FaYoutube } from "react-icons/fa";
 import ReactPlayer from "react-player";
 export default function ProductTemplate({ product }) {
   return (
@@ -11,7 +12,7 @@ export default function ProductTemplate({ product }) {
         <img className="heroimg" src={product.imgurl} alt="Hero-Almacam" />
       </div>
       <h1 className="Heading-Name">{product.Product_Name}</h1>
-      <h3 className="Heading-Desc">{product.Heading}</h3>
+      <h3 className="Heading-Desc heading">{product.Heading}</h3>
 
       <ul className="Product_Description">
         {product.Product_Description &&
@@ -45,7 +46,7 @@ export default function ProductTemplate({ product }) {
 
       {product.machine_brands && (
         <div className="Machine-Brand">
-          <h2>Machine brands we drive</h2>
+          <h2 className="heading">Machine brands we drive</h2>
           <div className="listofbrands">
             {product.machine_brands
               ? product.machine_brands.map((Tech, i) => {
@@ -62,8 +63,8 @@ export default function ProductTemplate({ product }) {
 
       {product.get && (
         <div className="Get-Product">
-          <h2>{`Get ${product.Product_Name}`}</h2>
-          <p>{product.get}</p>
+          <h2 className="heading">{`Get ${product.Product_Name}`}</h2>
+          <p className="get">{product.get}</p>
           <p className="get">
             <a
               href="https://almacam.com/software/almacam-pass/"
@@ -77,7 +78,7 @@ export default function ProductTemplate({ product }) {
 
       {product.Documents && (
         <div className="Document-Media">
-          <h2>Documents & Media</h2>
+          <h2 className="heading" >Documents & Media</h2>
           <div className="Docs">
             <div className="Document">
               <h3>Documents</h3>
@@ -90,7 +91,7 @@ export default function ProductTemplate({ product }) {
                           href={""}
                           download
                           style={{textDecoration:"none",color:"inherit",fontSize:"15px"}}
-                        >{`${doc}`}</a>
+                        ><IoMdDownload style={{fontSize:"24px"}}/>{`  ${doc}`}  </a>
                       </li>
                     );
                   })}
@@ -98,14 +99,14 @@ export default function ProductTemplate({ product }) {
             </div>
 
             <div className="media">
-              <h3>Explore More</h3>
+              <h3 >Explore More</h3>
               <ul>
                 {product.Video_links &&
                   product.Video_links.map((doc) => {
                     return (
-                      <li key={doc.title}>
+                      <li key={doc.title}><FaYoutube style={{fontSize:"24px", color:"red"}}/>
                         <a href={doc.url} target="_blank">
-                          {doc.title}
+                          {` ${doc.title}`}
                         </a>
                       </li>
                     );
@@ -133,15 +134,30 @@ const ProductSection = styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap:wrap;
       flex-direction: row;
       h3 {
-        margin: 20px;
+        font-weight: bolder;
+      margin: 20px;
+      text-align:center;
+      background-image: linear-gradient(to right, #ff8672, #752162, #ff8672, #d85d6f, #ff8672);
+      -webkit-background-clip:text;
+      color:transparent;
       }
       ul {
         list-style: none;
         li {
+        
           padding: 0px;
-          margin: 10px;
+        margin:20px;
+        font-weight:bold;
+          color:#00896F;
+        a{
+          text-decoration:none;
+          color:inherit;
+          font-weight:bold;
+          color:#00896F;
+        }
         }
       }
     }
@@ -154,8 +170,7 @@ const ProductSection = styled.section`
     flex-wrap: wrap;
     flex-direction: column;
     h2 {
-      text-align: center;
-      font-weight: bolder;
+     font-weight: bolder;
       margin: 20px;
     }
     .listofbrands {
@@ -183,13 +198,12 @@ const ProductSection = styled.section`
   .Get-Product {
     margin: 20px 100px;
     h2 {
-      text-align: center;
       font-weight: bolder;
-     
-    }
+      margin: 20px;
+      text-align:center;
+         }
     p {
-      
-      text-align: justify;
+            
       font-weight: 500;
     }
     .get {
@@ -198,7 +212,7 @@ const ProductSection = styled.section`
 
       a {
         border: 1px solid var(--primary);
-        background-color: var(--primary);
+         background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #50a4b6);
         padding: 10px;
         border-radius: 10px;
         font-weight: bolder;
@@ -240,8 +254,7 @@ const ProductSection = styled.section`
  
   .Heading-Desc {
     margin: 10px 100px;
-    text-align: justify;
-    font-weight: 500;
+     font-weight: 500;
   }
   .Hero-img {
     margin: 10px auto;
@@ -278,11 +291,14 @@ margin-top:25px;
   
   .Heading-Name {
     margin: 10px 100px;
-    color: var(--primary);
+      background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #50a4b6);
+      -webkit-background-clip: text;
+      color: transparent;
+     font-weight:900;
   }
   .Product-Charcterstic {
     margin: 10px 100px;
-    text-align: justify;
+   
   }
 
   @media only screen and (max-width: 768px) {
@@ -291,4 +307,12 @@ margin-top:25px;
         margin: 20px;
     }
     }
+
+    .heading{
+      background-image: linear-gradient(to right, #ff8672, #752162, #aa3a6a, #d85d6f, #ff8672);
+      -webkit-background-clip: text;
+      color: transparent;
+     font-weight:900;
+     
+}
 `;

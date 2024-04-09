@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import Heroimg from '../assets/Hero.png'
+
 import ReactPlayer from 'react-player'
 import ExpertiseData from '../Data/Expertise.json'
 import Card from '../Component/Card'
@@ -13,7 +13,7 @@ export default function Home() {
     <HeroSection>
       <div className='container-fluid justify-content-center'>
 <img src="https://i.postimg.cc/xCB068Yp/Hero-Image.jpg" className='Hero-image img-fluid' alt="Heroimage"/>
-<h1 className="Hero-heading">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
+<h1 className="Hero-heading ">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
       </div>
      </HeroSection>
 
@@ -25,7 +25,7 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 
 <AlmacamVideo className='m-5'>
 <div className="contianer d-flex flex-column justify-content-center align-items-center">
-  <h1>Discover Almacam in video</h1>
+  <h1 className='heading'>Discover Almacam in video</h1>
   <div className='m-3'>
     <ReactPlayer controls  url="https://www.youtube.com/watch?v=3A40GtWEMEA"></ReactPlayer>
   </div>
@@ -35,7 +35,7 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 
 <Expertise className='container-fluid'>
 <div className='container m-3 d-flex flex-column justify-content-center align-items-center'>
-  <h2 className='mb-5 position-sticky'>Our Expertise</h2>
+  <h2 className='mb-5 position-sticky heading'>Our Expertise</h2>
   <div className='contianer Expertise-cards'>
   <div className='row d-flex justify-content-center align-items-center gap-5'>
   {
@@ -80,6 +80,7 @@ margin-top:90px;
     background-color:transparent;
     color: #fff;
  text-align:center;
+ 
 
 }
 @media only screen and (max-width: 900px) {
@@ -106,6 +107,10 @@ align-items:center;
 
 h1 {
   margin-bottom: 1rem;
+  background-image:linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
+      -webkit-background-clip: text;
+      color: transparent;
+     font-weight:900;
 }
 
 .react-player {
@@ -118,7 +123,12 @@ const Expertise=styled.section`
 display:flex;
 justify-content:center;
 align-items:center;
-
+.heading{
+  background-image:linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
+      -webkit-background-clip: text;
+      color: transparent;
+     font-weight:900;
+}
 .Expertise-cards{
   display:flex;
   

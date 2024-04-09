@@ -6,7 +6,7 @@ import TechnologyCard from '../Component/TechnologyCard'
 export default function Technology() {
   return (
    <AllTechnologies>
-    <h1 className='Technology-Heading m-5'>Technlogies </h1>
+    <h1 className='Technology-Heading m-5'>Techologies for Sheet Metal Cutting </h1>
 <div className='container'>
   <div className='row'>
 {
@@ -22,14 +22,20 @@ export default function Technology() {
   )
 }
 const AllTechnologies=styled.main`
-margin-top:90px;
+margin-top:120px;
 .Technology-Heading{
   text-align:center;
+  background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #50a4b6);
+      -webkit-background-clip: text;
+      color: transparent;
+     font-weight:900;
+    
+}
   .row{
 display:flex;
 justify-content:center;
 align-items:center;
 } 
   
-}
+
 `

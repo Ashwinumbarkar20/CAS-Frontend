@@ -8,7 +8,7 @@ export default function Footer() {
       <Footerdiv className="container-fluid">
     
         <div className="companyName">
-          <h3 className="footer-header">About CADCAMSYS</h3>
+          <h3 className="footer-header">About Cadcamsys</h3>
           
           <p>
             Your premier provider of sheet metal manufacturing software
@@ -51,9 +51,9 @@ export default function Footer() {
           <h3 className="footer-header">Contact Us</h3>
           
           <p>
-            Email:- email@email.com
+            Email:- Abhilashnasre@gamil.com
             <br />
-            Contact: +91 123456789
+            Contact: +91-9156739830
           </p>
         </div>
       </Footerdiv>
@@ -67,9 +67,10 @@ export default function Footer() {
   );
 }
 const Footerdiv = styled.section`
+margin-top:95px;
 background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00003a, #000040);
   display: flex;
-  margin: auto;
+  
   justify-content: space-evenly;
   align-items: start;
   gap: 20px;
@@ -91,7 +92,7 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
       background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
       -webkit-background-clip: text;
       color: transparent;
-      color:transparent;
+     
       
     }
     p {

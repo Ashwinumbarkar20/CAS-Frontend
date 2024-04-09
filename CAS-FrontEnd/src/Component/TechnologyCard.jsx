@@ -27,14 +27,24 @@ width:350px;
 margin:10px;
 padding:10px;
 border-radius:5px;
-box-shadow:2px 6px 10px rgba(0,0,0,0.8);
+box-shadow:0px 0px 2px rgba(0,0,0,0.8);
 transition:all 0.4s ease;
 .Product-Card,.Product-Heading,.Product-Desc,.Product-image{
   background-color:transparent;
 }
 .Tech-Heading{
-    text-align:center;
-  font-weight:700;
+  background-image: linear-gradient(
+      to right,
+      #006072,
+      #1e7682,
+      #378d92,
+      #50a4a0,
+      #6bbbae
+    );
+      -webkit-background-clip: text;
+      color: transparent;
+      font-weight:900;
+      text-align:center;
 }
 .Product-image
 {
@@ -46,7 +56,7 @@ transition:all 0.4s ease;
   }
 }
 .Tech-Desc{
-  font-weight:700;
+  font-weight:500;
 }
 .btn 
 {
@@ -75,5 +85,6 @@ a{
 }
 &:hover{
   transform: scale(1.025);
+  box-shadow:2px 4px 4px rgba(0,0,0,0.8);
 }
 `;
