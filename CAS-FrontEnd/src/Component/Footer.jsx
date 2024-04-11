@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import logo from "../assets/Logo.png";
-
+import { IoCallOutline } from "react-icons/io5";
+import { MdMailOutline } from "react-icons/md";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 export default function Footer() {
   return (
     <>
@@ -22,40 +23,38 @@ export default function Footer() {
           <h3 className="footer-header">Popular Links</h3>
         
           <div>
-            <Link to="/Almacamcut" className="product-item">
+            <Link to="/Products" className="product-item">
               Application Softwares
             </Link>
 
-            <Link to="/AlmaQuote" className="product-item">
+            <Link to="/Technology" className="product-item">
              Process Technologies
             </Link>
 
-            <Link to="/Almacamtube" className="product-item">
+            <Link to="/Services" className="product-item">
               Service
             </Link>
 
-            <Link to="/Almacamspacecut" className="product-item">
+            <Link to="/Productsupport" className="product-item">
               Support
             </Link>
 
-            <Link to="/Almacamspacecut" className="product-item">
+            <Link to="/Contactus" className="product-item">
               Contact Us
             </Link>
             
           </div>
         </div>
 
-        <div className="ContactInfo">
+        <div className="ContactInfo" >
           <h3 className="footer-header">Wanna Connect?</h3>
+            <p style={{fontFamily:"sans-serif",margin:"0px", fontSize:"18px",textWrap:"nowrap"}}><MdMailOutline style={{fontSize:"24px",color:"yellow"}}/> <a style={{color:"inherit",textDecoration:"none"}} href="mailto:sales@cadcamsys.com">sales@cadcamsys.com</a></p>
+            <p style={{fontFamily:"sans-serif",margin:"0px", fontSize:"18px",textWrap:"nowrap"}}><MdMailOutline style={{fontSize:"24px",color:"yellow"}}/> <a style={{color:"inherit",textDecoration:"none"}} href="mailto:sales@cadcamsys.com">abhilash.nasre@cadcamsys.com</a></p>
+            <p style={{fontFamily:"sans-serif",margin:"0px", fontSize:"18px",textWrap:"nowrap"}}><IoCallOutline style={{fontSize:"24px",color:"yellow"}}/> +91-9156739830</p>
+          <p style={{fontFamily:"sans-serif",margin:"0px", fontSize:"18px",textWrap:"nowrap"}}><TbDeviceLandlinePhone style={{fontSize:"24px",color:"yellow"}}/> 020-41016097</p>
+            
           
-          <p>
-            Email:- abhilash.nasre@cadcamsys.com
-            <br />
-            sales@cadcamsys.com
-            <br />
-            Contact: +91-9156739830
-          </p>
-          <br />
+         
           <button className="freedemo">Free Demo</button>
         </div>
       </Footerdiv>
