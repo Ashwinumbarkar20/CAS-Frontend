@@ -23,10 +23,12 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 </h3>
 </Subheading>
 
-<AlmacamVideo className=' VideoWrapper m-5'>
-<h1 className='heading'>Discover Almacam in video</h1>
-<ReactPlayer className="React-player" controls url="https://www.youtube.com/watch?v=3A40GtWEMEA"></ReactPlayer>
-</AlmacamVideo>
+<AlmacamVideo className="VideoWrapper">
+    <h1 className="heading">Discover Almacam in video</h1>
+    <div className="React-player-wrapper">
+      <ReactPlayer className="React-player" controls url="https://www.youtube.com/watch?v=3A40GtWEMEA" />
+    </div>
+  </AlmacamVideo>
 
 <Expertise className='container-fluid'>
 <div className='container m-3 d-flex flex-column justify-content-center align-items-center'>
@@ -88,7 +90,7 @@ const Subheading=styled.section`
 
 `
 const AlmacamVideo=styled.div`
-display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -104,15 +106,22 @@ display: flex;
   }
 
   .React-player-wrapper {
-    width: 780px;
-    height: 500px;
-    max-width: 780px;
-    max-height: 500px;
+    width: 760px;
+    height: 520px;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .React-player {
-    width: 780px !important;
-    height: 500px!important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  @media (max-width: 1024px) {
+    .React-player-wrapper {
+      width: 80%;
+      height: auto;
+    }
   }
 
   @media (max-width: 768px) {
@@ -125,7 +134,7 @@ display: flex;
     .React-player-wrapper {
       width: 100%;
       height: auto;
-      aspect-ratio: 1.28; /* Maintain the aspect ratio */
+      aspect-ratio: 1.46; /* Maintain the aspect ratio */
     }
   }
 
@@ -139,10 +148,9 @@ display: flex;
     .React-player-wrapper {
       width: 100%;
       height: auto;
-      aspect-ratio: 1.28; /* Maintain the aspect ratio */
+      aspect-ratio: 1.46; /* Maintain the aspect ratio */
     }
   }
- 
 `
 const Expertise=styled.section`
 display:flex;
