@@ -23,14 +23,9 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 </h3>
 </Subheading>
 
-<AlmacamVideo className='m-5'>
-<div className="contianer d-flex flex-column justify-content-center align-items-center">
-  <h1 className='heading'>Discover Almacam in video</h1>
-  <div className='m-3'>
-    <ReactPlayer controls  url="https://www.youtube.com/watch?v=3A40GtWEMEA"></ReactPlayer>
-  </div>
-</div>
-
+<AlmacamVideo className=' VideoWrapper m-5'>
+<h1 className='heading'>Discover Almacam in video</h1>
+<ReactPlayer className="React-player" controls url="https://www.youtube.com/watch?v=3A40GtWEMEA"></ReactPlayer>
 </AlmacamVideo>
 
 <Expertise className='container-fluid'>
@@ -92,51 +87,62 @@ margin-top:90px;
 const Subheading=styled.section`
 
 `
-const AlmacamVideo=styled.section`
-display:flex;
-justify-content:center;
-align-items:center;
-.container {
-  display: flex;
-  flex-direction: column;
+const AlmacamVideo=styled.div`
+display: flex;
   justify-content: center;
   align-items: center;
-}
+  flex-direction: column;
+  gap: 18px;
+  margin: 5rem;
 
-h1 {
-  margin-bottom: 1rem;
-  background-image:linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
-      -webkit-background-clip: text;
-      color: transparent;
-     font-weight:900;
-}
+  h1 {
+    margin-bottom: 1rem;
+    background-image: linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+  }
 
-.react-player {
-  width: 100%;
-  height: auto;
-  max-width: 800px; 
-}
-@media only screen and (max-width: 600px) {
-    .react-player {
-      width: 90%;
+  .React-player-wrapper {
+    width: 780px;
+    height: 500px;
+    max-width: 780px;
+    max-height: 500px;
+  }
+
+  .React-player {
+    width: 780px !important;
+    height: 500px!important;
+  }
+
+  @media (max-width: 768px) {
+    margin: 2rem;
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .React-player-wrapper {
+      width: 100%;
       height: auto;
-      max-width: 100%;
+      aspect-ratio: 1.28; /* Maintain the aspect ratio */
     }
   }
-  @media only screen and (max-width: 500px) {
-    .react-player {
-      width: 300px;
+
+  @media (max-width: 480px) {
+    margin: 1rem;
+    
+    h1 {
+      font-size: 1.2rem;
+    }
+
+    .React-player-wrapper {
+      width: 100%;
       height: auto;
-      max-width: 100%;
+      aspect-ratio: 1.28; /* Maintain the aspect ratio */
     }
   }
-  @media only screen and (max-width: 400px) {
-    .react-player {
-      width: 300px;
-      height: auto;
-      max-width: 100%;
-    }
-  }
+ 
 `
 const Expertise=styled.section`
 display:flex;
