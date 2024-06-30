@@ -5,7 +5,12 @@ import { IoCallOutline } from "react-icons/io5";
 import { MdMailOutline } from "react-icons/md";
 import { TbDeviceLandlinePhone } from "react-icons/tb";
 export default function Footer() {
+  const handleClick = () => {
+    const url = `https://wa.me/919156739830`;
+    window.open(url, '_blank');
+  };
   return (
+    
     <>
       <Footerdiv className="container-fluid">
     
@@ -55,7 +60,7 @@ export default function Footer() {
             
           
          
-          <button className="freedemo">Free Demo</button>
+          <button className="freedemo" onClick={handleClick}>Free Demo</button>
         </div>
       </Footerdiv>
 

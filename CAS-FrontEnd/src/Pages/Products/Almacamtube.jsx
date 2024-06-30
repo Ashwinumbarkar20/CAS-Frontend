@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import styled from "styled-components";
 import ProductsData from "../../Data/Products.json";
 import ProductTemplate from "../../Component/ProductTemplate/ProductTemplate";
-
+import AlmaTube from "../../assets/logo-almacam-tube.png"
 export default function Almacamtube() {
   const [product, setProduct] = useState([]);
 
@@ -19,7 +19,7 @@ export default function Almacamtube() {
   
   return (
     <Almacam_Tube>
-    <ProductTemplate product={product}/>
+    <ProductTemplate product={product} logo={AlmaTube}/>
      
     </Almacam_Tube>
   );

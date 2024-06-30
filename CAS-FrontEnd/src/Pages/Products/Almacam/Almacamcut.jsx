@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import ProductsData from "../../../Data/Products.json";
 import ProductTemplate from "../../../Component/ProductTemplate/ProductTemplate";
-
+import AlmacamCut from "../../../assets/logo-almacam-cut.png"
 export default function Almacamcut() {
   const [product, setProduct] = useState([]);
 
@@ -19,7 +19,7 @@ export default function Almacamcut() {
   
   return (
     <Almacam_Cut>
-    <ProductTemplate product={product}/>
+    <ProductTemplate product={product} logo={AlmacamCut}/>
      
     </Almacam_Cut>
   );

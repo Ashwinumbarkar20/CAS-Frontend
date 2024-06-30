@@ -14,7 +14,6 @@ export default function AllProducts() {
     ProductsData.map((Product)=> 
     <div  key={Product.Product_Name} className='d-flex justify-content-center align-items-center col-12 col-sm-6 col-md-6 col-lg-4' > 
     <ProductCard 
-     
     Product_Name={Product.Product_Name} 
     Product_image={Product.Product_Hero_Image}
     Product_Heading={Product.Heading} 

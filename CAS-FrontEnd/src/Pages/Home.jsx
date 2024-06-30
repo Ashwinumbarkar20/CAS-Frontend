@@ -93,8 +93,6 @@ const Subheading=styled.section`
 
 `
 const AlmacamVideo=styled.section`
-
-
 display:flex;
 justify-content:center;
 align-items:center;
@@ -118,6 +116,27 @@ h1 {
   height: auto;
   max-width: 800px; 
 }
+@media only screen and (max-width: 600px) {
+    .react-player {
+      width: 90%;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .react-player {
+      width: 300px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .react-player {
+      width: 300px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
 `
 const Expertise=styled.section`
 display:flex;

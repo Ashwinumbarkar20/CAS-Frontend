@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import styled from 'styled-components';
 import ProductsData from "../../Data/Products.json";
 import ProductTemplate from "../../Component/ProductTemplate/ProductTemplate";
+import spacecut from "../../assets/logo-almacam-SpaceCut.png"
 export default function Almacamspacecut() {
   
   const [product, setProduct] = useState([]);
@@ -19,7 +20,7 @@ export default function Almacamspacecut() {
   
   return (
     <Almacam_SpaceCut>
-    <ProductTemplate product={product}/>
+    <ProductTemplate product={product} logo={spacecut}/>
      
     </Almacam_SpaceCut>
   );

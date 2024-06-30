@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import styled from "styled-components";
 import ProductsData from "../../../Data/Products.json";
 import ProductTemplate from "../../../Component/ProductTemplate/ProductTemplate";
+import AlmacamCombi from "../../../assets/logo-almacam-combi.png"
 
 export default function Almacamcombi() {
   const [product, setProduct] = useState([]);
@@ -19,8 +20,7 @@ export default function Almacamcombi() {
   
   return (
     <Almacam_Combi>
-    <ProductTemplate product={product}/>
-     
+    <ProductTemplate product={product} logo={AlmacamCombi}/>
     </Almacam_Combi>
   );
 }

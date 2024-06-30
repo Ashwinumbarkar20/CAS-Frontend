@@ -7,7 +7,8 @@ import { FaYoutube } from "react-icons/fa";
 import ReactPlayer from "react-player";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import {useNavigate} from "react-router-dom"
-export default function ProductTemplate({ product }) {
+
+export default function ProductTemplate({ product,logo }) {
   const navigate = useNavigate();
   const GoBack=()=>{
   
@@ -31,7 +32,7 @@ export default function ProductTemplate({ product }) {
       </ul>
 
       <div className="Product-img">
-        <img src={product.Product_Hero_Image} alt="Product-img" />
+        <img src={logo} alt="Product-img" />
       </div>
      
           <ul className="List-Charcterstic">

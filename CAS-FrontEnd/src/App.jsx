@@ -62,6 +62,7 @@ function App() {
       <Route path='/Threecutting' element={<Threecutting/>}></Route>
       <Route path='/Robotic' element={<Robotic/>}></Route>
       <Route path='/Nestncut' element={<Almanestncut/>}></Route>
+      <Route path='*' element={<Home/>}></Route>
     </Routes>
      <Footer/>
       <ScrollToTop />

@@ -3,7 +3,7 @@
     "Product_Name": "Almacam Cut",
     "page_url": "/Almacamcut",
     "imgurl": "https://i.postimg.cc/brFvcgQg/almacam-cut-screenshot-plain.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/4NnMrwBt/logo-almacam-cut.png",
+    "Product_Hero_Image": "/Images/logo-almacam-cut.png",
     "Technology": "2D",
     "Heading": "Empower Your 2D Cutting Machines with Intelligent Nesting Software",
     "Product_Description": [
@@ -49,7 +49,7 @@
     "Product_Name": "Almacam Punch",
     "page_url": "/Almacampunch",
     "imgurl": "https://i.postimg.cc/JnxnKM09/almacam-punch-screenshot.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/5tWRQJ1q/logo-almacam-punch.png",
+    "Product_Hero_Image": "/Images/logo-almacam-punch.png",
     "Technology": "2D",
     "Heading": "A highly efficient CAD/CAM software tailored for the dynamic production of a multitude of parts, necessitating punching and nibbling processes on demand.",
     "Product_Description": [
@@ -109,7 +109,7 @@
     "Product_Name": "Almacam Routing",
     "page_url": "/Almacamrouting",
     "imgurl": "https://i.postimg.cc/br6ZYpjQ/almacam-routing-screenshot-plain.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/KvVVFLHW/logo-almacam-routing.png",
+    "Product_Hero_Image": "/Images/logo-almacam-routing.png",
     "Technology": "2D",
     "Heading": "Efficient Nesting Software for Routing and 2.5 Axis Machining of Aluminum Sheets and Wood Panels",
     "Product_Description": [
@@ -151,7 +151,7 @@
     "Product_Name": "Almacam Combi",
     "page_url": "/Almacamcombi",
     "imgurl": "https://i.postimg.cc/RCG6LQnN/almacam-combi-screenshot-plain.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/0yw4Njgy/logo-almacam-combi.png",
+    "Product_Hero_Image": "/Images/logo-almacam-combi.png",
     "Technology": "2D",
     "Heading": "Revolutionize Your Combined Laser/Punching or Plasma/Drilling Machines with Advanced Nesting Software",
     "Product_Description": [
@@ -192,7 +192,7 @@
     "Product_Name": "Almacam TUBE",
     "page_url": "/Almacamtube",
     "imgurl": "https://i.postimg.cc/J44XfdWN/almacam-tube-screenshot-plain.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/nLKwvWh8/logo-almacam-tube.png",
+    "Product_Hero_Image": "/Images/logo-almacam-tube.png",
     "Technology": "3D",
     "Heading": "The Automated Solution for Programming Tubes and Profiles Cutting Machines and Robots",
     "Product_Description": [
@@ -261,7 +261,7 @@
     "Product_Name": "Almacam SPACECUT",
     "page_url": "/Almacamspacecut",
     "imgurl": "https://i.postimg.cc/xjmpk8kx/almacam-spacecut-screenshot-plain.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/tTXvDzss/logo-almacam-Space-Cut.png",
+    "Product_Hero_Image": "/Images/logo-almacam-Space-Cut.png",
     "Technology": "3D",
     "Heading": "Optimize Your 5-Axis Cutting Machines and Robots with CAD/CAM Programming Software",
     "Product_Description": [
@@ -311,7 +311,7 @@
     "Product_Name": "AlmaQUOTE",
     "page_url": "/AlmaQuote",
     "imgurl": "https://i.postimg.cc/1XSGV9T2/Almaquote-2022.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/d3fWsP4C/logo-almaquote.png",
+    "Product_Hero_Image": "/Images/logo-almaquote.png",
     "Technology": "Costing",
     "Heading": "Almaquote: Simplifying and Accelerating Sheet Metal Part Quotation",
     "Product_Description": [
@@ -356,7 +356,7 @@
     "Product_Name": "AlmaCAM WELD",
     "page_url": "/Almacamweld",
     "imgurl": "https://i.postimg.cc/XNgFD6tN/almacam-weld-screenshot-plain.jpg",
-    "Product_Hero_Image": "https://i.postimg.cc/Qt04zW70/logo-almacam-weld.png",
+    "Product_Hero_Image": "/Images/logo-almacam-weld.png",
     "Technology": "3D",
     "Heading": "Transforming Welding Precision: Unleash the Power of Offline Programming for Arc-Welding Robots",
     "Product_Description": [
@@ -433,7 +433,7 @@
   },
   {
     "Product_Name": "Nest&Cut",
-    "Product_Hero_Image": "https://i.postimg.cc/zBgKKhHj/nestncut.png",
+    "Product_Hero_Image": "/Images/nestcut.png",
     "page_url": "/Nest&cut",
     "imgurl": "https://i.postimg.cc/BvyNbfJf/nestandcut-screenshot-plain.jpg",
     "Technology": "Cloud Application",

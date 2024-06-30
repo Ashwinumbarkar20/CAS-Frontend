@@ -2,6 +2,8 @@ import React,{useState,useEffect} from 'react'
 import styled from 'styled-components';
 import ProductsData from "../../Data/Products.json";
 import ProductTemplate from "../../Component/ProductTemplate/ProductTemplate";
+import AlmaWeld from "../../assets/logo-almacam-weld.png" 
+
 export default function Almacamweld() {
   const [product, setProduct] = useState([]);
 
@@ -18,7 +20,7 @@ export default function Almacamweld() {
   
   return (
     <Almacam_Weld>
-    <ProductTemplate product={product}/>
+    <ProductTemplate product={product} logo={AlmaWeld}/>
      
     </Almacam_Weld>
   );

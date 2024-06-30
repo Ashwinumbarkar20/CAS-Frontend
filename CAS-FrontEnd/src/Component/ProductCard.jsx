@@ -3,8 +3,8 @@ import React from "react";
 import styled from "styled-components";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-// eslint-disable-next-line react/prop-types
+
+
 export default function ProductCard({
   Product_Name,
   Product_image,
