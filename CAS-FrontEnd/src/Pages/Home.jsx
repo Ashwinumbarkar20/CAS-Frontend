@@ -5,14 +5,13 @@ import ReactPlayer from 'react-player'
 import ExpertiseData from '../Data/Expertise.json'
 import Card from '../Component/Card'
 
-
 export default function Home() {
 
   return (
     <>
     <HeroSection>
       <div className='container-fluid justify-content-center'>
-<img src="https://i.postimg.cc/xCB068Yp/Hero-Image.jpg" className='Hero-image img-fluid' alt="Heroimage"/>
+<img src="/Images/Hero Image.webp" className='Hero-image img-fluid' alt="Heroimage"/>
 <h1 className="Hero-heading ">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
       </div>
      </HeroSection>

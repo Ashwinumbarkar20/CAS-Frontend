@@ -18,7 +18,7 @@
       "Interoperability: Enables seamless interaction with various 2D/3D CAD systems and Production Management Systems or ERP solutions, ensuring compatibility and interoperability within existing workflows.",
       "Comprehensive Feature Set: Includes numerous associated modules such as 3D import and unfolding of sheet metal parts, automatic assembly import for quotes or manufacturing, libraries of shapes for various applications like boiler-making and cutting of letters and drawings. Additionally, it offers functionalities for quote calculation, inventory management, manufacturing orders, workshop station management, and scheduling, among others."
     ],
-    "machine_brands": [
+    "Machine_Brands": [
       "Laser Machine",
       "Plasma machine",
       "Waterjet machine",
@@ -26,9 +26,9 @@
     ],
     "get": "Almacam Cut offers robust and secure data management, ensuring traceability in a collaborative setting. Embracing the principles of Industry 4.0, Almacam seamlessly integrates with the company's information system, facilitating effortless connections with Production Management and ERP software. With Almacam, access workshop management tools and a comprehensive production statistics module, fostering seamless integration within the digital sequence of ERP, Production Management, and Workshop operations.",
     "Documents": [
-      "Download Almacam Cut’s product flyer for laser cutting",
-      "Download Almacam Cut’s product flyer for oxy-cutting and plasma cutting",
-      "Download Almacam Cut’s product flyer for waterjet cutting"
+      {"name":"Download Almacam Cut’s product flyer for laser cutting","url":"https://drive.google.com/file/d/1_JAuzd1dCf57xgPPunFQ-rhNzmD1-4eT/view?usp=drive_link"},
+      {"name":"Download Almacam Cut’s product flyer for oxy-cutting and plasma cutting","url":"https://drive.google.com/file/d/1S0dKe2a5AMR56TLqx1yw-xTZt37b24rO/view?usp=drive_link"},
+      {"name":"Download Almacam Cut’s product flyer for waterjet cutting","url":"https://drive.google.com/file/d/1KgYGYvThcoJ1Q5n0aj0i7mbTulR3myr-/view?usp=drive_link"}
     ],
     "Video_links": [
       {
@@ -67,7 +67,7 @@
       "Automatic or manual handling of any evacuation system.",
       "Part machining preparation based on pre-defined turret models."
     ],
-    "machine_brands": [
+    "Machine_Brands": [
       "Amada",
       "Baykal",
       "Behrens",
@@ -96,7 +96,7 @@
       "Wiedemann"
     ],
     "Documents": [
-      "Download Almacam Punch’s product flyer"
+      {"name":"Download Almacam Punch’s product flyer","url":"https://drive.google.com/file/d/18w8Eo2RInVtczyW4QkPjxr9eWLB6RCRz/view?usp=drive_link"}
     ],
     "Video_links": [
       {
@@ -130,7 +130,7 @@
       "Specialized Wood Module: Combines geometry recognition and automatic machining functions, allowing import and automatic preparation of any CAD-designed 3D wood part.",
       "Aluminum Sheet Routing Expertise: Offers high nesting performance and meets all technological requirements and constraints for aluminum routing processes, including multi-layer machining, screwing, riveting, and micro-junctions, with over 25 years of specialization in routing technology for the aeronautics industry."
     ],
-    "machine_brands": [
+    "Machine_Brands": [
       "Biesse",
       "CMS",
       "Creno",
@@ -174,7 +174,7 @@
       "Interacts seamlessly with various 2D/3D CAD systems and Production Management Systems or ERP solutions.",
       "Includes numerous associated modules for 3D part import, assembly import, quote calculation, inventory and manufacturing order management, workshop station, scheduling, etc."
     ],
-    "machine_brands": [
+    "Machine_Brands": [
       "Cori",
       "Finn Power",
       "Rainer",
@@ -212,7 +212,7 @@
       "Manages machines combining laser cutting with mechanical units. (drilling, countersinking, spot facing, counterboring, etc.)"
     ],
     "VideoUrl": "https://youtu.be/UTHAVYr7uSM",
-    "machine_brands": [
+    "Machine_Brands": [
       "Bodor",
       "Han’S Laser",
       "Sibonac",
@@ -240,7 +240,7 @@
       "Tecoi"
     ],
     "Documents": [
-      "Download Almacam Tube’s product flyer"
+      {"name":"Download Almacam Tube’s product flyer","url":"https://drive.google.com/file/d/1J5diLrAu3nYhzwWSnqQcrOEobFGXV4oY/view?usp=drive_link"}
     ],
     "Video_links": [
       {
@@ -261,7 +261,7 @@
     "Product_Name": "Almacam SPACECUT",
     "page_url": "/Almacamspacecut",
     "imgurl": "https://i.postimg.cc/xjmpk8kx/almacam-spacecut-screenshot-plain.jpg",
-    "Product_Hero_Image": "/Images/logo-almacam-Space-Cut.png",
+    "Product_Hero_Image": "/Images/logo-almacam-SpaceCut.png",
     "Technology": "3D",
     "Heading": "Optimize Your 5-Axis Cutting Machines and Robots with CAD/CAM Programming Software",
     "Product_Description": [
@@ -277,7 +277,7 @@
       "Expansion to additional processes like laser welding and polishing."
     ],
     "VideoUrl": "https://youtu.be/upOd-Qi0DJM",
-    "machine_brands": [
+    "Machine_Brands": [
       "Adige",
       "Cyberstep",
       "Koike",
@@ -298,12 +298,13 @@
       "Yawei"
     ],
     "Documents": [
-      "Download Almacam Space Cut’s product flyer"
+      {
+        "name": "Download Almacam Space Cut’s product flyer", "url": "https://drive.google.com/file/d/1SYOr_3d4lF0sDl-T7s3tI3GSYrOYvrEu/view?usp=drive_link"
+      }
     ],
     "Video_links": [
       {
-        "title": "Overview of Almacam Space Cut",
-        "url": "https://www.youtube.com/watch?v=upOd-Qi0DJM"
+        "title": "Overview of Almacam Space Cut","url": "https://www.youtube.com/watch?v=upOd-Qi0DJM"
       }
     ]
   },
@@ -340,10 +341,8 @@
     "VideoUrl": "https://youtu.be/LzDUBC6Wq_4",
     "get": "The Almaquote software is available for purchase either as a perpetual license, installable on your computers, or through a flexible, commitment-free subscription with Almacam Pass.",
     "Documents": [
-      {
-        "name": "Download Almaquote’s product flyer",
-        "pdflink": "https://drive.google.com/file/d/1n5vtc-aKnsW89xeN3Z07VmiH2Vvb7s3a/view?usp=drive_link"
-      }
+       {"name":"Download Almaquote’s product flyer","url":"https://drive.google.com/file/d/1n5vtc-aKnsW89xeN3Z07VmiH2Vvb7s3a/view?usp=drive_link"}
+       
     ],
     "Video_links": [
       {
@@ -356,7 +355,7 @@
     "Product_Name": "AlmaCAM WELD",
     "page_url": "/Almacamweld",
     "imgurl": "https://i.postimg.cc/XNgFD6tN/almacam-weld-screenshot-plain.jpg",
-    "Product_Hero_Image": "/Images/logo-almacam-weld.png",
+    "Product_Hero_Image":"/Images/logo-almacam-weld.png",
     "Technology": "3D",
     "Heading": "Transforming Welding Precision: Unleash the Power of Offline Programming for Arc-Welding Robots",
     "Product_Description": [
@@ -377,10 +376,10 @@
     ],
     "VideoUrl": "https://youtu.be/YmGKq02jiRo",
     "Product overview": [
-      "Utilizing a graphical interface, Almacam Weld empowers users to program robots within a virtual environment and simulate their actions. Assemblies and tooling required for welding tasks are seamlessly imported from a 3D CAD system.\n\n",
+      "Utilizing a graphical interface, Almacam Weld empowers users to program robots within a virtual environment and simulate their actions. Assemblies and tooling required for welding tasks are seamlessly imported from a 3D CAD system.",
       "Almacam Weld integrates welding expertise with advanced programming and simulation features, delivering a resilient, dependable, and intuitive solution tailored for users."
     ],
-    "machine_brands": [
+    "Machine_Brands": [
       "ABB",
       "IGM",
       "Panasonic",
@@ -396,8 +395,7 @@
     ],
     "Documents": [
       {
-        "name": "Download Almacam Weld’s product flyer",
-        "pdflink": "https://drive.google.com/file/d/1bSe0O8r12aAAmsfUB7InU6oKuw3NofJh/view?usp=drive_link"
+        "name":"Download Almacam Weld’s product flyer","url":"https://drive.google.com/file/d/1bSe0O8r12aAAmsfUB7InU6oKuw3NofJh/view?usp=drive_link"
       }
     ],
     "Video_links": [

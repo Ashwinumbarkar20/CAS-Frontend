@@ -1,12 +1,12 @@
 [
     {"Name":"Sheet Metal Cutting",
-    "imgurl":"https://i.postimg.cc/76KH09Q4/Sheet-Metal-Cutting.jpg",
+    "imgurl":"/Images/Sheet Metal Cutting.webp",
     "Desc":"Cutting by fluid jet, punching, routing, etc. Programming of sheet metal working machines is our core business when it comes to CAD/CAM software.",
     "url":"/Technology"
     },
     {
     "Name":"Costing And Estimation",
-    "imgurl":"https://i.postimg.cc/kGZ7h4mh/Costing-Estimation.jpg",
+    "imgurl":"/Images/Costing & Estimation.webp",
     "Desc":"Swiftly respond to quotation requests with our automated solution, generating accurate price calculations for basic to complex scenarios, optimizing efficiency",
     "url":"/AlmaQuote"
     },
@@ -20,21 +20,21 @@
     
     {
     "Name":"3D Tube Cutting",
-    "imgurl":"https://i.postimg.cc/25wrNTYW/3-D-Tube-Cutting.jpg",
+    "imgurl":"/Images/3D Tube Cutting.webp",
     "Desc":"5-Axis cutting, cutting of tubes and profiles, robotized cutting: our software control all the 3D cutting machines and all cutting robots, with no limit to the number of axes.",
     "url":"/Almacamtube"
     },
     
     {
     "Name":"3D 5-Axis Cutting",
-    "imgurl":"https://i.postimg.cc/Hs7ZyxVv/3-D-5-Axis-Cutting.jpg",
+    "imgurl":"/Images/3D 5 Axis Cutting.webp",
     "Desc":"A Powerful suite to design and program 3D-shaped parts for 5-axis Laser/Plasma cutting operation driving prominent machines across the globe .",
     "url":"/Almacamspacecut"
     },
     
     {
     "Name":"Welding Solution",
-    "imgurl":"https://i.postimg.cc/FFnFKPLg/Welding-Solution.jpg",
+    "imgurl":"/Images/Welding Solution.webp",
     "Desc":"We were pioneers in robotic CAD/CAM 25 years ago, and have accumulated unparalleled experience in developing off-line programming software for welding robots.",
     "url":"/Almacamweld"
     }

@@ -39,9 +39,9 @@ export default function ProductTemplate({ product,logo }) {
             {product.About_Product &&
               product.About_Product.map((desc, i) => {
                 return (
-                  <>
+                  <React.Fragment key={i}>
                     <li className key={i}>{desc}</li>
-                  </>
+                  </React.Fragment>
                 );
               })}
           </ul>
@@ -54,21 +54,21 @@ export default function ProductTemplate({ product,logo }) {
           </div>
         )}
 
-      {product.machine_brands && (
+      {(product.Machine_Brands) && (
         <div className="Machine-Brand">
           <h2 className="heading">Machine brands we drive</h2>
           <div className="listofbrands">
-            {product.machine_brands
-              ? product.machine_brands.map((Tech, i) => {
+            {product.Machine_Brands
+              && product.Machine_Brands.map((Tech, i) => {
                   return (
                     <span className="brand" key={i}>
                       {Tech}
                     </span>
                   );
-                })
-              : "None"}
+                })}
           </div>
         </div>
+       
       )}
 
       {product.get && (
@@ -88,20 +88,20 @@ export default function ProductTemplate({ product,logo }) {
 
       {product.Documents && (
         <div className="Document-Media">
-          <h2 className="heading" >Documents & Media</h2>
-          <div className="Docs">
+              <div className="Docs">
+
             <div className="Document">
               <h3>Documents</h3>
               <ul>
-                {product.Documents &&
+                {(product.Documents || product.Documents.length!==0) &&
                   product.Documents.map((doc, i) => {
                     return (
                       <li key={i}>
                         <a
-                          href={""}
+                          href={doc.url}
                           download
                           style={{textDecoration:"none",color:"inherit",fontSize:"15px"}}
-                        ><IoMdDownload style={{fontSize:"24px"}}/>{`  ${doc}`}  </a>
+                        ><IoMdDownload style={{fontSize:"24px"}}/>{doc.name}</a>
                       </li>
                     );
                   })}
@@ -109,7 +109,7 @@ export default function ProductTemplate({ product,logo }) {
             </div>
 
             <div className="media">
-              <h3 >Explore More</h3>
+              <h3>Explore More</h3>
               <ul>
                 {product.Video_links &&
                   product.Video_links.map((doc) => {
@@ -123,6 +123,7 @@ export default function ProductTemplate({ product,logo }) {
                   })}
               </ul>
             </div>
+
           </div>
         </div>
       )}
@@ -155,10 +156,9 @@ const ProductSection = styled.section`
     .Docs {
       margin: 20px;
       display: flex;
-      justify-content: center;
-      align-items: center;
+     
       flex-wrap:wrap;
-      flex-direction: row;
+      flex-direction: column;
       h3 {
         font-weight: bolder;
       margin: 20px;

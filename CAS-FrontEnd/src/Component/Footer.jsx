@@ -37,11 +37,11 @@ export default function Footer() {
             </Link>
 
             <Link to="/Services" className="product-item">
-              Service
+            Software Service
             </Link>
 
             <Link to="/Productsupport" className="product-item">
-              Support
+              Software Support
             </Link>
 
             <Link to="/Contactus" className="product-item">
@@ -84,7 +84,7 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
   .companyName,
   .Products,
   .ContactInfo {
-    width: 300px;
+    width: 350px;
     display: flex;
     align-items: start;
     justify-content: flex-start;
@@ -124,7 +124,7 @@ background-image: linear-gradient(to left bottom, #000028, #00002e, #010034, #00
       padding: 10px;
       font-weight: 600;
       font-size: 20px;
-      text-align: justify;
+      
       flex-wrap:nowrap;
       
     }
