@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <HeroSection>
       <div className='container-fluid justify-content-center'>
-<img src="/Images/Hero Image.webp" className='Hero-image img-fluid' alt="Heroimage"/>
+<img src="/Images/Hero Image.webp" className='Hero-image img-fluid' alt="Heroimage" loading='lazy'/>
 <h1 className="Hero-heading ">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
       </div>
      </HeroSection>

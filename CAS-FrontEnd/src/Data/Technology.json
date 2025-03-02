@@ -3,7 +3,7 @@
     "Technology_name": "Laser Cutting",
     "Technology_used": "2D",
     "imgurl": "/Images/Laser Cutting.webp",
-    "pageurl": "/Lasercutting",
+    "pageurl": "/Technology/Laser Cutting",
     "Heading": "Efficient Programming for Flat Laser Cutting Machines with Almacam Cut Software",
     "Technology_Description": "Throughout its history, Alma has been at the forefront of supporting the evolution of laser cutting technology. With advancements in increasingly powerful and versatile machines, laser cutting has become a cornerstone in the sheet metal sector. Today, over half of Alma's global customer base boasts ownership of at least one laser cutting machine, highlighting the widespread adoption and importance of this innovative technology",
     "Technology_Process": [
@@ -149,7 +149,7 @@
     "Technology_name": "Plasma cutting",
     "Technology_used": "2D",
     "imgurl": "/Images/Plasma Cutting.webp",
-    "pageurl": "/Plasmacuting",
+    "pageurl": "/Technology/Plasma cutting",
     "Heading": "Efficient Programming for Plasma Cutting Machines with Almacam Cut Software",
     "Technology_Description": "Drawing from extensive experience, Alma has been at the forefront of plasma cutting technology for many years. Widely adopted in industries dealing with half-thickness sheet metal, particularly in shipbuilding, plasma cutting has served as a catalyst for numerous innovations in programming methodologies developed by Alma. These include continuous cutting without lead-ins/outs and advanced bevel programming techniques. In addition to flat cutting, Alma's software for 3D and beveled cutting also incorporates plasma cutting processes, showcasing Alma's commitment to providing comprehensive solutions for diverse cutting needs",
     "Technology_Process": [
@@ -265,7 +265,7 @@
     "Technology_name": "Oxy cutting",
     "Technology_used": "2D",
     "imgurl": "/Images/Oxy Cutting.webp",
-    "pageurl": "/Oxycuting",
+    "pageurl": "/Technology/Oxy cutting",
     "Heading": "Efficient Programming for Oxy-Cutting Machines with Almacam Cut Software",
     "Technology_Description": "Similar to plasma cutting, oxy-cutting emerged as one of the initial technologies Alma software catered to back in the early 1980s. As a result, Alma has established a robust presence in industries dealing with thick sheet metal and subcontractors. Alma was quick to innovate, introducing optimized programming methods tailored specifically for oxy-cutting. These innovations include multi-torch programming with intelligent nesting, streamlined bevel programming, reduction of drilling on sheet metal, and comprehensive support for thermal requirements during cuttin",
     "Technology_Process": [

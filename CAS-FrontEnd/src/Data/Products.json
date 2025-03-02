@@ -1,7 +1,7 @@
 [
   {
     "Product_Name": "Almacam Cut",
-    "page_url": "/Almacamcut",
+    "page_url": "/Product/Almacam Cut",
     "imgurl": "https://i.postimg.cc/brFvcgQg/almacam-cut-screenshot-plain.jpg",
     "Product_Hero_Image": "/Images/logo-almacam-cut.png",
     "Technology": "2D",
@@ -47,7 +47,7 @@
   },
   {
     "Product_Name": "Almacam Punch",
-    "page_url": "/Almacampunch",
+    "page_url": "/Product/Almacam Punch",
     "imgurl": "https://i.postimg.cc/JnxnKM09/almacam-punch-screenshot.jpg",
     "Product_Hero_Image": "/Images/logo-almacam-punch.png",
     "Technology": "2D",
@@ -107,7 +107,7 @@
   },
   {
     "Product_Name": "Almacam Routing",
-    "page_url": "/Almacamrouting",
+    "page_url": "/Product/Almacam Routing",
     "imgurl": "https://i.postimg.cc/br6ZYpjQ/almacam-routing-screenshot-plain.jpg",
     "Product_Hero_Image": "/Images/logo-almacam-routing.png",
     "Technology": "2D",
@@ -149,8 +149,9 @@
   },
   {
     "Product_Name": "Almacam Combi",
-    "page_url": "/Almacamcombi",
+    "page_url": "/Product/Almacam Combi",
     "imgurl": "https://i.postimg.cc/RCG6LQnN/almacam-combi-screenshot-plain.jpg",
+    
     "Product_Hero_Image": "/Images/logo-almacam-combi.png",
     "Technology": "2D",
     "Heading": "Revolutionize Your Combined Laser/Punching or Plasma/Drilling Machines with Advanced Nesting Software",
@@ -190,7 +191,7 @@
   },
   {
     "Product_Name": "Almacam TUBE",
-    "page_url": "/Almacamtube",
+    "page_url": "/Product/Almacam TUBE",
     "imgurl": "https://i.postimg.cc/J44XfdWN/almacam-tube-screenshot-plain.jpg",
     "Product_Hero_Image": "/Images/logo-almacam-tube.png",
     "Technology": "3D",
@@ -259,7 +260,7 @@
   },
   {
     "Product_Name": "Almacam SPACECUT",
-    "page_url": "/Almacamspacecut",
+    "page_url": "/Product/Almacam SPACECUT",
     "imgurl": "https://i.postimg.cc/xjmpk8kx/almacam-spacecut-screenshot-plain.jpg",
     "Product_Hero_Image": "/Images/logo-almacam-SpaceCut.png",
     "Technology": "3D",
@@ -310,7 +311,7 @@
   },
   {
     "Product_Name": "AlmaQUOTE",
-    "page_url": "/AlmaQuote",
+    "page_url": "/Product/AlmaQUOTE",
     "imgurl": "https://i.postimg.cc/1XSGV9T2/Almaquote-2022.jpg",
     "Product_Hero_Image": "/Images/logo-almaquote.png",
     "Technology": "Costing",
@@ -353,7 +354,7 @@
   },
   {
     "Product_Name": "AlmaCAM WELD",
-    "page_url": "/Almacamweld",
+    "page_url": "/Product/AlmaCAM WELD",
     "imgurl": "https://i.postimg.cc/XNgFD6tN/almacam-weld-screenshot-plain.jpg",
     "Product_Hero_Image":"/Images/logo-almacam-weld.png",
     "Technology": "3D",
@@ -432,7 +433,7 @@
   {
     "Product_Name": "Nest&Cut",
     "Product_Hero_Image": "/Images/nestcut.png",
-    "page_url": "/Nest&cut",
+    "page_url": "/Product/Nest&Cut",
     "imgurl": "https://i.postimg.cc/BvyNbfJf/nestandcut-screenshot-plain.jpg",
     "Technology": "Cloud Application",
     "Heading": "Cloud-Driven Efficiency: Instantly Optimize Nesting Layouts for Any Cutting Machine and Material",

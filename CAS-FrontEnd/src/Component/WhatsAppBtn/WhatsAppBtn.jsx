@@ -2,8 +2,8 @@ import React from 'react'
 import './WhatsAppBtn.css'
 import { FaWhatsapp } from "react-icons/fa";
 export default function WhatsAppBtn() {
-    const whatsappNumber = "+1234567890";  // Replace with your WhatsApp number
-    const message = "Hello! I need assistance."; // Optional initial message
+    const whatsappNumber = "+919156739830";  
+    const message = "Hello! I need assistance."; 
     
     const handleClick = () => {
       const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
