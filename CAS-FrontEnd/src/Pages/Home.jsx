@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-
+import { motion } from 'framer-motion'
 import ReactPlayer from 'react-player'
 import ExpertiseData from '../Data/Expertise.json'
 import Card from '../Component/Card'
@@ -9,12 +9,19 @@ export default function Home() {
 
   return (
     <>
+    <MotionSection
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
     <HeroSection>
       <div className='container-fluid justify-content-center'>
 <img src="/Images/Hero Image.webp" className='Hero-image img-fluid' alt="Heroimage" loading='lazy'/>
 <h1 className="Hero-heading ">CAD-CAM Software Solutions for Sheet Metal Manufacturing  </h1>
       </div>
      </HeroSection>
+</MotionSection>
+
 
 <Subheading className='contianer m-5'>
 <h3 className='text-justify'>
@@ -22,13 +29,22 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 </h3>
 </Subheading>
 
+<MotionSection
+       initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+      >
 <AlmacamVideo className="VideoWrapper">
     <h1 className="heading">Discover Almacam in video</h1>
     <div className="React-player-wrapper">
       <ReactPlayer className="React-player" controls url="https://www.youtube.com/watch?v=3A40GtWEMEA" />
     </div>
   </AlmacamVideo>
-
+</MotionSection>
+<MotionSection
+initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}>
 <Expertise className='container-fluid'>
 <div className='container m-3 d-flex flex-column justify-content-center align-items-center'>
   <h2 className='mb-5 position-sticky heading'>Our Expertise</h2>
@@ -45,6 +61,7 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
 
 
 </Expertise>
+</MotionSection>
 </>
   )
 }
@@ -170,3 +187,6 @@ align-items:center;
 }
 
 `
+const MotionSection = motion(styled.section`
+  margin: 5rem 0;
+`)
