@@ -30,6 +30,7 @@ import Tubesprofiles from './Pages/TechnologyPages/Tubesprofiles'
 import Threecutting from './Pages/TechnologyPages/ThreeDcutting'
 import Robotic from './Pages/TechnologyPages/Robotic'
 import Almanestncut from './Pages/Products/Almanestncut'
+import WhatsAppBtn from './Component/WhatsAppBtn/WhatsAppBtn'
 
 function App() {
   return (
@@ -64,8 +65,9 @@ function App() {
       <Route path='/Nestncut' element={<Almanestncut/>}></Route>
       <Route path='*' element={<Home/>}></Route>
     </Routes>
-     <Footer/>
-      <ScrollToTop />
+    <Footer/>
+    <ScrollToTop />
+    <WhatsAppBtn/>
     </>
   )
 }
