@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Productsupport() {
   return (
     <Maindiv className="container-fluid">
-    <div className="Heroimg"><img className="hero-img" src={supportimg} alt="Support Hero image" loading='lazy'/></div>
+    <div className="Heroimg"><img className="hero-img" src={supportimg} alt="Support Hero image" /></div>
      <div className="container">
      <h1 className="Mainheading"> Welcome to AlmaCAM Support!</h1>
       <p className="content">
