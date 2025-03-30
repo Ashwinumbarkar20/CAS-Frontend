@@ -1,5 +1,5 @@
 :root{
-    --primary:#0D4469 ;
+    --primary:#2A5CAA ;
     --Secondary:#f7f7f7;
     --accent:#00BBB9;
     
@@ -7,8 +7,11 @@
   *{
     padding: 0px;
     margin:0px;
-    font-family: 'Raleway';
- 
+    font-family: "Open Sans", sans-serif;
  
     
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto";
+     
   }

@@ -19,7 +19,7 @@ export default function Services() {
           to address specific manufacturing challenges, we're here to help.
         </p>
 
-        <h3 className="heading">CAD/CAM Customization Services:</h3>
+        <h4 style={{color:"var(--primary)"}}>CAD/CAM Customization Services:</h4>
         <ul className="list" style={{ margin: "10px" }}>
           <li className="list-item" style={{ margin: "10px" }}>
             <span style={{ fontWeight: "bold" }}>Tailored Configurations:</span>
@@ -45,7 +45,7 @@ export default function Services() {
           </li>
         </ul>
 
-        <h3 className="heading">Digital Solution Development:</h3>
+        <h4 style={{color:"var(--primary)"}}>Digital Solution Development:</h4>
         <ul className="list" style={{ margin: "10px" }}>
           <li className="list-item" style={{ margin: "10px" }}>
             <span style={{ fontWeight: "bold" }}>
@@ -71,7 +71,7 @@ export default function Services() {
           </li>
         </ul>
 
-        <h3 className="heading">Why Choose Us?</h3>
+        <h4 style={{color:"var(--primary)"}}>Why Choose Us?</h4>
         <ul className="list" style={{ margin: "10px" }}>
           <li className="list-item" style={{ margin: "10px" }}>
             <span style={{ fontWeight: "bold" }}>Expertise: </span> Benefit from
@@ -95,7 +95,7 @@ export default function Services() {
           </li>
         </ul>
 
-        <h3 className="heading">Get Started Today!</h3>
+        <h4 style={{color:"var(--primary)"}}>Get Started Today!</h4>
 
         <p>
           Ready to unlock the full potential of your manufacturing operations?
@@ -116,19 +116,8 @@ const Maindiv = styled.section`
   margin-top: 90px;
   .Mainheading {
    margin:20px;
-
     text-align: center;
-
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #008b74,
-      #006072,
-      #008b74
-    );
-    -webkit-background-clip: text;
-    color: transparent;
+    color: var(--primary);
     font-weight: 900;
     text-align: center;
   }
@@ -137,25 +126,12 @@ const Maindiv = styled.section`
     font-weight: 500;
     text-align: justify;
   }
-  .heading {
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #008b74,
-      #50a4a0,
-      #008b74
-    );
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: 900;
-    text-align: left;
-  }
+  
   .list {
     list-style-type: square;
     li {
       &::marker {
-        color: #50a4a0;
+        color: var(--primary);
         font-size: 24px;
       }
     }

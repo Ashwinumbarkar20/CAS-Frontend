@@ -209,14 +209,12 @@ export default function Contactus() {
 }
 
 const ContactusContainer = styled.section`
-  margin-top: 95px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 95px);
-  background: linear-gradient(145deg, #6bbae0, #006072);
-  margin-bottom: 95px;
-
+ width:100%;
   .MandetoryFeild {
     color: red;
     font-size: 20px;
@@ -226,21 +224,13 @@ const ContactusContainer = styled.section`
     width: 100%;
     max-width: 800px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+ 
+
     border-radius: 10px;
 
     .heading {
-      background-image: linear-gradient(
-        to right,
-        #006072,
-        #1e7682,
-        #378d92,
-        #50a4a0,
-        #006072
-      );
-      -webkit-background-clip: text;
-      color: transparent;
+      
+      color: var(--primary);
       font-weight: 900;
     }
 
@@ -272,38 +262,31 @@ const ContactusContainer = styled.section`
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
+        outline:var(--primary);
+        transition: border 0.3s ease, outline 0.3s ease;
       }
-
+      input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary);
+  outline: 2px solid var(--primary);
+}
       button {
         margin-top: 10px;
         padding: 10px 15px;
-        border-radius: 10px;
-        background-image: linear-gradient(
-          to right,
-          #006072,
-          #1e7682,
-          #378d92,
-          #1e7682,
-          #1e7682
-        );
+        border-radius: 5px;
+       background-color:var(--primary);
         color: white;
         font-weight: bold;
         border: none;
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
         transition: all 0.3s ease;
         &:hover {
-          background-image: linear-gradient(
-            to right,
-            #006072,
-            #1e7682,
-            #378d92,
-            #50a4a0,
-            #6bbbae
-          );
-          -webkit-background-clip: text;
-          color: transparent;
+         background-color:white;
+          color: var(--primary);
+          border:2px solid var(--primary)
         }
       }
     }
   }
 `;
+

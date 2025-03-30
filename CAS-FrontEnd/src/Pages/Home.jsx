@@ -4,7 +4,8 @@ import { motion } from 'framer-motion'
 import ReactPlayer from 'react-player'
 import ExpertiseData from '../Data/Expertise.json'
 import Card from '../Component/Card'
-
+import ProductCarousal from '../Component/ProductCarousal/ProductCarousal'
+import Expertise from '../Component/Expertise/Expertise'
 export default function Home() {
 
   return (
@@ -24,10 +25,20 @@ export default function Home() {
 
 
 <Subheading className='contianer m-5'>
-<h3 className='text-justify'>
+<h3 style={{textAlign:'justify'}}>
 Right around the world, our CAD/CAM software products and automatic nesting applications are improving the productivity of cutting systems, sheet metal machines and welding robots, by meeting the demands of industry 4.0.
 </h3>
 </Subheading>
+
+{/* Product Carousal */}
+<MotionSection
+
+initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}>
+<ProductCarousal/>
+
+</MotionSection>
 
 <MotionSection
        initial={{ opacity: 0, scale: 0.9 }}
@@ -35,17 +46,18 @@ Right around the world, our CAD/CAM software products and automatic nesting appl
         transition={{ duration: 1 }}
       >
 <AlmacamVideo className="VideoWrapper">
-    <h1 className="heading">Discover Almacam in video</h1>
+    <h2 style={{color:"var(--primary)",textAlign:"center"}}>Discover Almacam in video</h2>
     <div className="React-player-wrapper">
       <ReactPlayer className="React-player" controls url="https://www.youtube.com/watch?v=3A40GtWEMEA" />
     </div>
   </AlmacamVideo>
 </MotionSection>
+{/* Expertise Section */}
 <MotionSection
 initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}>
-<Expertise className='container-fluid'>
+{/* <Expertise className='container-fluid'>
 <div className='container m-3 d-flex flex-column justify-content-center align-items-center'>
   <h2 className='mb-5 position-sticky heading'>Our Expertise</h2>
   <div className='contianer Expertise-cards'>
@@ -60,7 +72,8 @@ initial={{ opacity: 0, y: 50 }}
 </div>
 
 
-</Expertise>
+</Expertise> */}
+<Expertise/>
 </MotionSection>
 </>
   )
@@ -113,13 +126,7 @@ const AlmacamVideo=styled.div`
   gap: 18px;
   margin: 5rem;
 
-  h1 {
-    margin-bottom: 1rem;
-    background-image: linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: 900;
-  }
+
 
   .React-player-wrapper {
     width: 760px;
@@ -143,7 +150,7 @@ const AlmacamVideo=styled.div`
   @media (max-width: 768px) {
     margin: 2rem;
     
-    h1 {
+    h2 {
       font-size: 1.5rem;
     }
 
@@ -157,7 +164,7 @@ const AlmacamVideo=styled.div`
   @media (max-width: 480px) {
     margin: 1rem;
     
-    h1 {
+    h2 {
       font-size: 1.2rem;
     }
 
@@ -168,25 +175,25 @@ const AlmacamVideo=styled.div`
     }
   }
 `
-const Expertise=styled.section`
-display:flex;
-justify-content:center;
-align-items:center;
-.heading{
-  background-image:linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
-      -webkit-background-clip: text;
-      color: transparent;
-     font-weight:900;
-}
-.Expertise-cards{
-  display:flex;
+// const Expertise=styled.section`
+// display:flex;
+// justify-content:center;
+// align-items:center;
+// .heading{
+//   background-image:linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
+//       -webkit-background-clip: text;
+//       color: transparent;
+//      font-weight:900;
+// }
+// .Expertise-cards{
+//   display:flex;
   
-  justify-content:center;
-  align-items:center;
+//   justify-content:center;
+//   align-items:center;
   
-}
+// }
 
-`
+// `
 const MotionSection = motion(styled.section`
   margin: 5rem 0;
 `)

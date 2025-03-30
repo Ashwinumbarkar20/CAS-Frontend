@@ -23,8 +23,8 @@ padding:20px;
 background-color:var(--Secondary);
 width:300px;
 height:400px;
-box-shadow:0 0 10px rgba(0,0,0,0.8);
-
+border-radius:5px;
+border: 1px solid #4d72ad ;
 a{
   text-decoration:none
 }
@@ -36,7 +36,8 @@ a{
 .card-title{
 color:var(--primary);
 font-size:20px;
-border-bottom:2px solid var(--accent);
+
+border-bottom: 2px solid #2A5CAA ;
 }
 .card-text{
 background-color:transparent;
@@ -55,6 +56,6 @@ background-color:transparent;
 }
 transition:all 0.3s ease-in-out;
 &:hover{
-transform:scale(1.1);
+transform:scale(1.01);
 }
 `

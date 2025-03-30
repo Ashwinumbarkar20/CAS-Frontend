@@ -16,7 +16,7 @@ export default function Productsupport() {
         concerns you may have.
       </p>
 
-      <h3 className="heading">Customer Support</h3>
+      <h4 style={{color:"var(--primary)"}}>Customer Support</h4>
       <ul className="list" style={{ margin: "10px" }}>
         <span>
           For any assistance, questions, or feedback related to AlmaCAM&#39;s
@@ -29,7 +29,7 @@ export default function Productsupport() {
           <a
             style={{
               textDecoration: "none",
-              color: "#1e7682",
+              color: "var(--primary)",
               fontWeight: "600",
             }}
             href="mailto:support@cadcamsys.com"
@@ -42,7 +42,7 @@ export default function Productsupport() {
         </li>
       </ul>
 
-      <h3 className="heading">Resources for Our Customers</h3>
+      <h4 style={{color:"var(--primary)"}}>Resources for Our Customers</h4>
       <ul className="list" style={{ margin: "10px" }}>
         <span>
           We understand the importance of providing you with the necessary
@@ -76,7 +76,7 @@ export default function Productsupport() {
         </li>
       </ul>
 
-      <h3 className="heading">Technical Support for Our Customers:</h3>
+      <h4 style={{color:"var(--primary)"}}>Technical Support for Our Customers:</h4>
       <ul className="list" style={{ margin: "10px" }}>
         <span>
           If you encounter any technical challenges or require assistance with
@@ -99,7 +99,7 @@ export default function Productsupport() {
           encounter{" "}
         </li>
       </ul>
-      <h3 className="heading">Feedback and Suggestions</h3>
+      <h4 style={{color:"var(--primary)"}}>Feedback and Suggestions</h4>
      
       <p>
         Your feedback is invaluable to us as we strive to enhance our support
@@ -121,16 +121,8 @@ export default function Productsupport() {
 const Maindiv = styled.section`
   margin-top: 90px;
   .Mainheading {
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #008b74,
-      #50a4a0,
-      #008b74
-    );
-    -webkit-background-clip: text;
-    color: transparent;
+    
+    color: var(--primary);
     font-weight: 900;
     text-align: center;
     margin-top:20px;
@@ -140,25 +132,12 @@ const Maindiv = styled.section`
     font-weight: 500;
     text-align: justify;
   }
-  .heading {
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #008b74,
-      #50a4a0,
-      #008b74
-    );
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: 900;
-    text-align: left;
-  }
+
   .list{
     list-style-type: square; 
     li{
       &::marker{
-        color:#50a4a0;
+        color:var(--primary);
         font-size:24px;
       }
     }

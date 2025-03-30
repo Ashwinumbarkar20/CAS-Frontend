@@ -51,9 +51,7 @@ justify-content:center;
 align-items:center;
 }
 .Productpage-heading{
-  background-image:linear-gradient(to right, #006072, #1e7682, #008B74, #50a4a0, #008B74);
-      -webkit-background-clip: text;
-      color: transparent;
+    color:#2A5CAA ;
      font-weight:900;
      
 }

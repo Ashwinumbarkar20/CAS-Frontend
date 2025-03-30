@@ -18,11 +18,22 @@ export default function ProductTemplate({ product,logo }) {
   return (
     <ProductSection>
     <button className="goback"onClick={GoBack}><IoMdArrowRoundBack/>Go Back</button>
-      <div className="Hero-img">
+    <h3 className="Heading-Desc heading">{product.Heading}</h3>
+
+    <div style={{display:"flex",justifyContent:"center",alignContent:"start"}}>
+    <div className="Hero-img">
         <img className="heroimg" src={product.imgurl} alt="Hero-Almacam" />
       </div>
+      <div>
       <h1 className="Heading-Name">{product.Product_Name}</h1>
-      <h3 className="Heading-Desc heading">{product.Heading}</h3>
+      </div>
+
+    </div>
+      {/* <div className="Hero-img">
+        <img className="heroimg" src={product.imgurl} alt="Hero-Almacam" />
+      </div> */}
+      {/* <h1 className="Heading-Name">{product.Product_Name}</h1> */}
+    
 
       <ul className="Product_Description">
         {product.Product_Description &&
@@ -203,18 +214,24 @@ const ProductSection = styled.section`
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+      
       .brand {
+        
         padding: 8px;
         text-align: center;
         height: auto;
-        background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #6bbbae);
-        color: white;
+        color: var(--primary);
         margin: 10px;
-        border-radius: 10px;
+        border-bottom:2px solid var(--primary);
+        
         letter-spacing: 1px;
-        font-weight: bolder;
-        border:none;
+        font-weight:600;
+      
         cursor: pointer;
+        transition: all 0.3s ease-in
+      }
+      .brand:hover{
+        color:#6bbbae
       }
     }
   }

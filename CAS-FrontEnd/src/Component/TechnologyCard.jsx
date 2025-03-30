@@ -26,24 +26,16 @@ const TechnologyCards = styled.section`
 width:350px;
 margin:10px;
 padding:10px;
+border:1px solid var(--primary);
 border-radius:5px;
-box-shadow:0px 0px 2px rgba(0,0,0,0.8);
 transition:all 0.4s ease;
 .Product-Card,.Product-Heading,.Product-Desc,.Product-image{
   background-color:transparent;
 }
 .Tech-Heading{
-  background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #378d92,
-      #50a4a0,
-      #6bbbae
-    );
-      -webkit-background-clip: text;
-      color: transparent;
-      font-weight:900;
+  
+      color: var(--primary);
+      font-weight:600;
       text-align:center;
 }
 .Product-image
@@ -60,17 +52,13 @@ transition:all 0.4s ease;
 }
 .btn 
 {
-  border-radius: 15px;
-    border: none;
+  
+  border-radius: 5px;
+    
+    width:100%;
     color: white;
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #378d92,
-      #50a4a0,
-      #6bbbae
-    );
+    background-color:var(--primary);
+   
 a{
   color: var(--Secondary);
       text-decoration: none;
@@ -84,7 +72,7 @@ a{
 }
 }
 &:hover{
-  transform: scale(1.025);
-  box-shadow:2px 4px 4px rgba(0,0,0,0.8);
+  transform: scale(1.01);
+ 
 }
 `;

@@ -1,0 +1,34 @@
+/* Make arrows green */
+.slick-prev:before,
+.slick-next:before {
+  color: #2A5CAA !important;
+}
+
+/* Adjust slider container */
+.slider-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+ 
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+ 
+  
+  slick-list, .slick-slider, .slick-track {
+    position: relative;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .heading{
+    
+   color: #2A5CAA ;
+   font-weight:900;
+   text-align: center;
+   font-size: 39px;
+   
+  }

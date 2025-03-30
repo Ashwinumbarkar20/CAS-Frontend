@@ -46,9 +46,8 @@ const AllTechnologies=styled.main`
 margin-top:120px;
 .Technology-Heading{
   text-align:center;
-  background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #50a4b6);
-      -webkit-background-clip: text;
-      color: transparent;
+ 
+      color: var(--primary);
      font-weight:900;
     
 }

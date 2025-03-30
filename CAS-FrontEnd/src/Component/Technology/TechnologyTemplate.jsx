@@ -115,17 +115,21 @@ font-weight:900;
       justify-content:center;
       align-items:center;
       .brand {
-        padding: 10px;
-        background-image: linear-gradient(to right, #006072, #1e7682, #378d92, #1e7682, #1e7682);
-        color: white;
-        border: none;
+        padding: 8px;
+        text-align: center;
+        height: auto;
+        color: var(--primary);
         margin: 10px;
-        border-radius: 10px;
-        text-align:center;
-        height:auto;
+        border-bottom:2px solid var(--primary);
+        
         letter-spacing: 1px;
-        font-weight: bold;
+        font-weight:600;
+      
         cursor: pointer;
+        transition: all 0.3s ease-in
+      }
+      .brand:hover{
+        color:#6bbbae
       }
     }
   }

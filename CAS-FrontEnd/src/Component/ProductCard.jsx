@@ -21,7 +21,7 @@ export default function ProductCard({
           <img src={Product_image} alt="Almacam img" />
         </div>
         <h2 className="Product-Heading">{Product_Name}</h2>
-        <p className="Product-Desc text-center lh-5">{Product_Heading}</p>
+        <p className="Product-Desc text-left lh-5">{Product_Heading}</p>
         <button className="btn bg-inherit">
           <Link to={page_url}>
             Read More{"  "}
@@ -34,11 +34,12 @@ export default function ProductCard({
 }
 
 const Productcard = styled.section`
-  width: 350px;
+  width: 300px;
+  height:400px;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow:0px 0px 2px rgba(0,0,0,0.8);
+  border: 1px solid #4d72ad ;
   transition: all 0.4s ease;
   .Product-Card,
   .Product-Heading,
@@ -48,19 +49,11 @@ const Productcard = styled.section`
   }
   .Product-Heading {
     
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #378d92,
-      #50a4a0,
-      #6bbbae
-    );
-      -webkit-background-clip: text;
-      color: transparent;
-      font-weight:900;
+ 
+      color: #2A5CAA;
+      font-weight:600;
       text-align:center;
-     
+   
   }
   .Product-image {
     width: 100%;
@@ -70,19 +63,16 @@ const Productcard = styled.section`
   }
   .Product-Desc {
     font-weight: 500;
+    height:120px;
+    text-align:center
   }
   .btn {
-    border-radius: 15px;
+    border-radius: 5px;
+background-color:#2A5CAA;
+  width:100%;
     border: none;
     color: white;
-    background-image: linear-gradient(
-      to right,
-      #006072,
-      #1e7682,
-      #378d92,
-      #50a4a0,
-      #6bbbae
-    );
+   
 
     a {
       color: var(--Secondary);
@@ -97,7 +87,7 @@ const Productcard = styled.section`
     }
   }
   &:hover {
-    transform: scale(1.04);
-    box-shadow:2px 4px 4px rgba(0,0,0,0.8);
+    transform: scale(1.01);
+    
   }
 `;
