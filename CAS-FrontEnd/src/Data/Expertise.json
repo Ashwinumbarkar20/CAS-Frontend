@@ -8,35 +8,35 @@
     "Name":"Costing And Estimation",
     "imgurl":"/Images/Costing & Estimation.webp",
     "Desc":"Swiftly respond to quotation requests with our automated solution, generating accurate price calculations for basic to complex scenarios, optimizing efficiency",
-    "url":"/AlmaQuote"
+    "url":"/Product/AlmaQUOTE"
     },
     
     {
     "Name":"Nesting Solution on Cloud",
     "imgurl":"https://i.postimg.cc/d178B8cf/Nesting-on-Cloud.png",
     "Desc":"We are fully invested in Cloud based solutions such as our optimization software components for software vendors and our on-line applications for industry.",
-    "url":"/Nestncut"
+    "url":"/Product/Nest&Cut"
     },
     
     {
     "Name":"3D Tube Cutting",
     "imgurl":"/Images/3D Tube Cutting.webp",
     "Desc":"5-Axis cutting, cutting of tubes and profiles, robotized cutting: our software control all the 3D cutting machines and all cutting robots, with no limit to the number of axes.",
-    "url":"/Almacamtube"
+    "url":"/Product/Almacam TUBE"
     },
     
     {
     "Name":"3D 5-Axis Cutting",
     "imgurl":"/Images/3D 5 Axis Cutting.webp",
     "Desc":"A Powerful suite to design and program 3D-shaped parts for 5-axis Laser/Plasma cutting operation driving prominent machines across the globe .",
-    "url":"/Almacamspacecut"
+    "url":"Product/Almacam SPACECUT"
     },
     
     {
     "Name":"Welding Solution",
     "imgurl":"/Images/Welding Solution.webp",
     "Desc":"We were pioneers in robotic CAD/CAM 25 years ago, and have accumulated unparalleled experience in developing off-line programming software for welding robots.",
-    "url":"/Almacamweld"
+    "url":"/Product/AlmaCAM WELD"
     }
 
     

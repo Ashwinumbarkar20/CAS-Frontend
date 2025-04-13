@@ -140,6 +140,8 @@ font-weight:600;
     .footer-section {
       text-align: left;
     }
-    
+    .logo-section{
+      text-align: left;
+    }
   }
 `;
