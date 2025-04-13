@@ -1,72 +1,4 @@
-/* 
 
-.internal,.navbar-nav,.nav-item{
-  background-color: var(--Secondary);
-  
-}
-.navbar-brand{
-  height: 90px;
-  width: 150px;
-  
-}
-.brand{
-  height: 90px;
-  width: 150px;
-}
-.logoimg{
-  height: 90px;
-  width: 150px; 
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
-.hamburger{
-background-color: var(--primary);
-color: var(--Secondary);
-  
-}
-.navbar-toggler{
-  border: 2px solid var(--HoverOnDarkText);
-}
-.navbar-collapse{
-  margin:2px;
-  background-color: var(--Secondary);
-  margin-bottom: 2px;
-}
-.navbar.navbar-expand-lg {
-  padding: 0px;
-  background-color: var(--Secondary);
-  height: 90px;
- border-bottom: 3px solid black;
- box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-}
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{ 
-color:var(--primary);
-font-weight: 600;
-align-items: center;
-background-color: inherit;
-letter-spacing: 0.3px;
-
-margin: 2px;
-
-transition: all 0.2s ease-in;
-}
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
-  color: var(--Secondary);
-  background-image:linear-gradient(to right, #006072, #1e7682, #378d92, #50a4a0, #50a4b6);
-border-bottom:2px solid var(--accent) ;
-}
-.active{ 
- background-color: var(--accent);
- color: var(--accent);
- 
- border-bottom:4px solid var(--accent);
-  }
-
-
-
-
-  */
 /* Navbar Base Styles */
 .internal, .navbar-nav, .nav-item {
   background-color: var(--Secondary);
@@ -161,6 +93,37 @@ border-bottom:2px solid var(--accent) ;
 
   
 
+  .book-demo-btn {
+    padding: 8px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(to right, var(--accent) 50%, var(--primary) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid var(--accent);
+  }
+
+  .book-demo-btn:hover {
+    background-position: left bottom;
+    color: white;
+    border: 1px solid var(--primary);
+  }
+}
+
+@media (max-width: 375px) { /* Bootstrap breakpoint for mobile view */
+  .mobile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 8px;
+    display: none;
+  }
   .book-demo-btn {
     padding: 8px 15px;
   font-size: 14px;

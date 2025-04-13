@@ -21,7 +21,7 @@ export default function AllProducts() {
         {ProductsData.map((Product, index) => (
           <motion.div 
             key={Product.Product_Name} 
-            className='d-flex justify-content-center align-items-center col-12 col-sm-6 col-md-6 col-lg-4'
+            className='product-col'
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: index * 0.1 }}
@@ -49,12 +49,33 @@ transition: opacity 0.5s ease-in-out;
 display:flex;
 justify-content:center;
 align-items:center;
+gap:10px;
 }
 .Productpage-heading{
     color:#2A5CAA ;
      font-weight:900;
      
-}
+} 
+.product-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+    @media (min-width: 576px) {
+      width: 48%;
+      gap:10px;
+    }
+
+    @media (min-width: 992px) {
+      width: 31%;
+      gap:10px;
+    }
+  
+    
+  }
+
 .LinktoProduct {
   text-decoration:none;
   color: inherit; 

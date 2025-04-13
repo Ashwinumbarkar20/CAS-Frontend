@@ -28,6 +28,14 @@ export default function ProductCarousal() {
       {
         breakpoint: 600,
         settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2
