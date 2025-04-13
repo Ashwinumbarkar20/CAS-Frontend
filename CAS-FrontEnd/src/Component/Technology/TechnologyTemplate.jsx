@@ -18,9 +18,9 @@ export default function TechnologyTemplate({ Technology }) {
         <>
         <div className="Tech-img"><img src={Technology.imgurl} alt="Tech img" /></div>
           <h1 className="Tech-Heading">{Technology.Technology_name}</h1>
-          <h2 className="Tech-subHeading">{Technology.Heading}</h2>
+          <h3 className="Tech-subHeading">{Technology.Heading}</h3>
           <p className="Tech-Desc">{Technology.Technology_Description}</p>
-<h2 className="Tech-subHeading">The Technological Process</h2>
+<h3 className="Tech-subHeading">The Technological Process</h3>
           {Technology.Technology_Process &&
             Technology.Technology_Process.map((process, i) => (
               <p className="Tech-Process" key={i}>{process}</p>
@@ -44,7 +44,7 @@ export default function TechnologyTemplate({ Technology }) {
           )}
 {Technology.Machine_brands&&(
   <div className="Machine-Brand"> 
-  <h2>Machine brands we drive</h2>
+  <h3>Machine brands we drive</h3>
   <div className="listofbrands">
  { Technology.Machine_brands.map((brand,i)=><span className="brand" key={i}>{brand}</span>)}
  </div>
@@ -78,7 +78,7 @@ margin-top:90px;
 .Tech-Heading{
 margin:10px 100px ;
 color:var(--primary);
-font-weight:900;
+
 
 }
 .goback{
@@ -89,7 +89,7 @@ font-weight:900;
   border-radius:5px;
   top:100px;
   left:20px;
-  background-color:#006072;
+  background-color:var(--primary);
  color:white;
  font-weight:bold;
 
@@ -100,12 +100,12 @@ font-weight:900;
     align-items: center;
     flex-wrap:wrap;
     flex-direction: column;
-    h2 {
+    h3 {
       text-align: center;
-      font-weight: bolder;
+      
       margin: 20px;
       color:var(--primary);
-      font-weight:900;
+      
     }
     .listofbrands {
       margin: 20px;
@@ -134,8 +134,9 @@ font-weight:900;
     }
   }
   .Tech-subHeading{
-    text-align:justify;
+
 margin:20px 100px ;
+color:var(--primary)
   }
   .Tech-Desc{
     text-align:justify;
@@ -157,7 +158,7 @@ margin:20px 100px ;
     list-style-type: square;
     .Adv-Desc::marker{
       
-      color:#6BBBAE;
+      color:var(--primary);
       font-size:25px;
       
     }

@@ -54,8 +54,8 @@
     "Heading": "A highly efficient CAD/CAM software tailored for the dynamic production of a multitude of parts, necessitating punching and nibbling processes on demand.",
     "Product_Description": [
       "Almacam Punch excels with its powerful automation features, covering tool allocation, machining sequence, nesting, part evacuation, and beyond.",
-      "Almacam Punch's nesting module optimizes material usage, adapting seamlessly to punching constraints. It efficiently manages loading/unloading peripherals and integrates seamlessly with other Almacam products for control over combined machines",
-      "Almacam Punch seamlessly supports diverse machine and technology needs from part preparation to NC code generation. It ensures secure data management, integrates with Industry 4.0 principles, connects with Production Management and ERP software, and offers workshop management tools with production statistics."
+      "Almacam Punch's nesting module optimizes material usage, adapting seamlessly to punching constraints. It efficiently manages loading/unloading peripherals and integrates seamlessly with other Almacam products for control over combined machines"
+     
     ],
     "VideoUrl": "https://www.youtube.com/watch?v=qbZ1_U4x03o",
     "About_Product": [
@@ -65,7 +65,8 @@
       "Automatic nesting around or under clamps.",
       "Management of multi-tools, special, and deformation tools.",
       "Automatic or manual handling of any evacuation system.",
-      "Part machining preparation based on pre-defined turret models."
+      "Part machining preparation based on pre-defined turret models.",
+       "Almacam Punch seamlessly supports diverse machine and technology needs from part preparation to NC code generation. It ensures secure data management, integrates with Industry 4.0 principles, connects with Production Management and ERP software, and offers workshop management tools with production statistics."
     ],
     "Machine_Brands": [
       "Amada",
@@ -157,9 +158,8 @@
     "Heading": "Revolutionize Your Combined Laser/Punching or Plasma/Drilling Machines with Advanced Nesting Software",
     "Product_Description": [
       "Almacam Combi CAD/CAM supports all combined laser/punching and plasma/drilling machines, accounting for each technology's specifics in programming.",
-      "Its powerful automation (tool allocation, machining sequence, nesting, etc.) boosts productivity for diverse part production needs.",
-      "Exclusive nesting algorithms minimize material waste, enhancing efficiency.",
-      "Offers secure, traceable data management, seamlessly integrating with Industry 4.0 principles and production management systems."
+      "Its powerful automation (tool allocation, machining sequence, nesting, etc.) boosts productivity for diverse part production needs."
+      
     ],
     "About_Product": [
       "Supports all machine types and cutting technologies (laser, plasma) for punching and drilling, regardless of brand.",
@@ -173,7 +173,9 @@
       "Offers automatic user assistance throughout programming, with full automatic mode for NC program generation, nesting, and machining sequence optimization.",
       "Provides secure programming management and complete data traceability.",
       "Interacts seamlessly with various 2D/3D CAD systems and Production Management Systems or ERP solutions.",
-      "Includes numerous associated modules for 3D part import, assembly import, quote calculation, inventory and manufacturing order management, workshop station, scheduling, etc."
+      "Includes numerous associated modules for 3D part import, assembly import, quote calculation, inventory and manufacturing order management, workshop station, scheduling, etc.",
+    "Exclusive nesting algorithms minimize material waste, enhancing efficiency.",
+      "Offers secure, traceable data management, seamlessly integrating with Industry 4.0 principles and production management systems."
     ],
     "Machine_Brands": [
       "Cori",
@@ -198,10 +200,8 @@
     "Heading": "The Automated Solution for Programming Tubes and Profiles Cutting Machines and Robots",
     "Product_Description": [
       "Almacam Tube CAD/CAM interacts with various tube and profile cutting systems (3, 4, or 5 axis machines, robotic cells).",
-      "Integrates all programming steps: CAD import, manufacturing order management, automatic nesting, trajectory creation, ISO code generation.",
-      "Combines automation with user control for optimal programming execution.",
-      "Draws on Alma's extensive expertise in 3D/Tubes machine programming and cutting robots, gained through installations and partnerships."
-    ],
+      "Integrates all programming steps: CAD import, manufacturing order management, automatic nesting, trajectory creation, ISO code generation."
+         ],
     "About_Product": [
       "CAD import with quantity retrieval.",
       "Automatic sectional area recognition for tubes and profiles.",
@@ -210,7 +210,10 @@
       "Automated trajectory and program generation for cutting.",
       "Compatible with any type and brand of cutting machine.",
       "Handles specific machine functions and requirements.",
-      "Manages machines combining laser cutting with mechanical units. (drilling, countersinking, spot facing, counterboring, etc.)"
+      "Manages machines combining laser cutting with mechanical units. (drilling, countersinking, spot facing, counterboring, etc.)",
+      "Combines automation with user control for optimal programming execution.",
+      "Draws on Alma's extensive expertise in 3D/Tubes machine programming and cutting robots, gained through installations and partnerships."
+
     ],
     "VideoUrl": "https://youtu.be/UTHAVYr7uSM",
     "Machine_Brands": [
