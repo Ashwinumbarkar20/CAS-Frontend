@@ -2,18 +2,13 @@
 
 import styled from "styled-components";
 import React from "react";
-import { IoMdArrowRoundBack } from "react-icons/io";
-import {useNavigate} from "react-router-dom"
-export default function TechnologyTemplate({ Technology }) {
-  const navigate = useNavigate();
-  const GoBack=()=>{
-  
-    navigate(-1);
 
-  }
+export default function TechnologyTemplate({ Technology }) {
+  
+  
   return (
     <Technology_Template>
-    <button className="goback"onClick={GoBack}><IoMdArrowRoundBack/>Go Back</button>
+   
       {Technology ? (
         <>
         <div className="Tech-img"><img src={Technology.imgurl} alt="Tech img" /></div>
